@@ -1959,5 +1959,103 @@
     "lat": 40.7189329,
     "lon": -73.961364,
     "link": "https://www.instagram.com/koibabrooklyn/?hl=en"
+  },
+  {
+    "name": "Bridges",
+    "vibe": "Modern, Stylish, Eclectic, Chill, Urban",
+    "lat": 40.7140307,
+    "lon": -73.9980719,
+    "link": "https://www.instagram.com/bridges.nyc/?hl=en"
+  },
+  {
+    "name": "Hildur",
+    "vibe": "Intimate, Cozy, Chic, Sophisticated",
+    "lat": 40.7026903,
+    "lon": -73.9931263,
+    "link": "https://www.instagram.com/hildur.brooklyn/?hl=en"
+  },
+  {
+    "name": "Knockdown Center",
+    "vibe": "Industrial, Artsy, Experimental, Creative",
+    "lat": 40.7152788,
+    "lon": -73.9136706,
+    "link": "https://www.instagram.com/knockdowncenter/?hl=en"
+  },
+  {
+    "name": "Winona's",
+    "vibe": "Casual, Laid-back, Neighborhood, Inviting",
+    "lat": 40.7000476,
+    "lon": -73.9457873,
+    "link": "https://www.instagram.com/winonasbk/?hl=en"
+  },
+  {
+    "name": "Market Hotel",
+    "vibe": "Lively, Vibrant, Music-focused, Community-oriented",
+    "lat": 40.6969323,
+    "lon": -73.934588,
+    "link": "https://www.instagram.com/market.hotel/?hl=en"
+  },
+  {
+    "name": "Le Boudoir",
+    "vibe": "Sexy, Intimate, Elegant, Lounge",
+    "lat": 40.6907472,
+    "lon": -73.9955872,
+    "link": "https://www.instagram.com/leboudoirbrooklyn/?hl=en"
+  },
+  {
+    "name": "Father Knows Best",
+    "vibe": "Dive, Eclectic, Funky, Local",
+    "lat": 40.6902212,
+    "lon": -73.9070274,
+    "link": "https://www.instagram.com/fathersbk/?hl=en"
+  },
+  {
+    "name": "Umbra",
+    "vibe": "Dark, Moody, Trendy, Hidden",
+    "lat": 40.01113,
+    "lon": -73.9238807,
+    "link": "https://www.instagram.com/umbrabrooklyn/?hl=en"
+  },
+  {
+    "name": "Jupiter Disco",
+    "vibe": "Underground, Funky, Party, Electronic",
+    "lat": 40.7081511,
+    "lon": -73.9235714,
+    "link": "https://www.instagram.com/jupiter_disco/?hl=en"
+  },
+  {
+    "name": "Roberta's",
+    "vibe": "Hip, Casual, Cozy, Local Favorite",
+    "lat": 40.7050062,
+    "lon": -73.9335894,
+    "link": "https://www.instagram.com/robertaspizza/?hl=en"
+  },
+  {
+    "name": "Mood Ring",
+    "vibe": "Colorful, Whimsical, Experimental, Quirky",
+    "lat": 40.6977941,
+    "lon": -73.9269769,
+    "link": "https://www.instagram.com/moodringnyc/?hl=en"
+  },
+  {
+    "name": "Goldie's Bar",
+    "vibe": "Intimate, Fun, Craft Cocktails, Chill",
+    "lat": 40.7256573,
+    "lon": -73.9451403,
+    "link": "https://www.instagram.com/goldiesbrooklyn/?hl=en"
+  },
+  {
+    "name": "Razor-N-Tape",
+    "vibe": "Vintage, Laid-back, Vinyl, Retro",
+    "lat": 40.72707645,
+    "lon": -73.95230534,
+    "link": "https://www.instagram.com/razorntape/?hl=en"
+  },
+  {
+    "name": "Elsa",
+    "vibe": "Modern, Sleek, Casual, Chic",
+    "lat": 40.6902868,
+    "lon": -73.99534426,
+    "link": "https://www.instagram.com/elsabarnyc/?hl=en"
   }
 ]
