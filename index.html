@@ -22,20 +22,22 @@
       display: block; margin-top: 5px; background: #ccc;
       border: none; padding: 5px; cursor: pointer;
     }
-    #vibeFilter, #map-search, #clearRoute, #removeLastPoint {
+    #vibeFilter, #map-search, #clearRoute, #removeLastPoint, #neighborhood-input, #generateRoute {
       position: absolute; z-index: 1000; font-size: 14px; padding: 5px;
     }
-    #map-search { top: 10px; left: 50px; width: 250px; }
-    #vibeFilter { top: 10px; left: 330px; }
+    #map-search { top: 10px; left: 50px; width: 200px; }
+    #vibeFilter { top: 10px; left: 270px; }
     #removeLastPoint { top: 10px; right: 450px; }
     #clearRoute { top: 10px; right: 350px; }
+    #neighborhood-input { top: 50px; left: 50px; }
+    #generateRoute { top: 50px; left: 220px; }
   </style>
 </head>
 <body>
 
-<input id="map-search" type="text" placeholder="Search by name or vibe..." />
+<input id="map-search" type="text" placeholder="What's the vibe..." />
 <select id="vibeFilter">
-  <option value="">Show All</option>
+  <option value="">General Vibes</option>
   <option value="rooftop">Rooftop</option>
   <option value="jazz">Jazz</option>
   <option value="artsy">Artsy</option>
@@ -46,6 +48,31 @@
   <option value="hidden gem">Hidden Gem</option>
   <option value="wine">Wine</option>
 </select>
+<select id="neighborhood-input">
+  <option value="">Select Neighborhood</option>
+  <option>Alphabet City</option>
+  <option>BedStuy</option>
+  <option>Bushwick</option>
+  <option>Chelsea</option>
+  <option>Chinatown</option>
+  <option>Clinton Hill</option>
+  <option>Downtown Brooklyn</option>
+  <option>Dumbo</option>
+  <option>East Village</option>
+  <option>Gramercy</option>
+  <option>Greenpoint</option>
+  <option>Greenwich Village</option>
+  <option>Lower East Side</option>
+  <option>Long Island City</option>
+  <option>Midtown</option>
+  <option>SoHo</option>
+  <option>Tribeca</option>
+  <option>Upper East Side</option>
+  <option>Upper West Side</option>
+  <option>West Village</option>
+  <option>Williamsburg</option>
+</select>
+<button id="generateRoute">Generate Mini Crawl</button>
 <button id="removeLastPoint">Remove Last Point</button>
 <button id="clearRoute">Clear Route</button>
 
@@ -58,7 +85,6 @@
 
 <script>
 const map = L.map('map').setView([40.72, -73.98], 12);
-
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
@@ -75,7 +101,38 @@ map.addLayer(markerCluster);
 const allMarkers = [];
 let selectedPoints = [];
 let currentRoute = null;
+let enlargedMarkers = new Set();
 
+const defaultIcon = L.icon({
+  iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/RedDot.svg',
+  iconSize: [30, 30],
+  iconAnchor: [15, 30]
+});
+
+const enlargedIcon = L.icon({
+  iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/RedDot.svg',
+  iconSize: [50, 50],
+  iconAnchor: [25, 50]
+});
+
+fetch('events.json')
+  .then(res => res.json())
+  .then(events => {
+    events.forEach(ev => {
+      const marker = L.marker([ev.lat, ev.lon], { icon: defaultIcon });
+      marker.vibe = ev.vibe.toLowerCase();
+      marker.name = ev.name.toLowerCase();
+
+      marker.on('click', () => {
+        resetAllEnlargedMarkers();
+        enlargeMarker(marker);
+        showDetails(ev, marker.getLatLng());
+      });
+
+      allMarkers.push(marker);
+      markerCluster.addLayer(marker);
+    });
+  });
 const vibeMap = {
   jazz: ["jazz"],
   artsy: ["art", "artsy", "gallery", "museum"],
@@ -88,48 +145,52 @@ const vibeMap = {
   rooftop: ["rooftop", "scenic", "views", "skyline"]
 };
 
-fetch('events.json')
-  .then(res => res.json())
-  .then(events => {
-    events.forEach(ev => {
-      const marker = L.marker([ev.lat, ev.lon], {
-        icon: L.divIcon({
-          className: '',
-          html: '📍',
-          iconSize: [50, 50],
-          iconAnchor: [5, 5]
-        })
-      });
+document.getElementById('vibeFilter').addEventListener('change', applyFilters);
 
-      marker.vibe = ev.vibe.toLowerCase();
-      marker.name = ev.name.toLowerCase();
+function applyFilters() {
+  const vibe = document.getElementById('vibeFilter').value.toLowerCase();
+  const query = document.getElementById('map-search').value.toLowerCase();
+  markerCluster.clearLayers();
 
-      marker.on('click', () => {
-        showDetails(ev, marker.getLatLng());
-      });
-
-      allMarkers.push(marker);
+  allMarkers.forEach(marker => {
+    let vibeMatch = !vibe;
+    if (vibe && vibeMap[vibe]) {
+      vibeMatch = vibeMap[vibe].some(keyword => marker.vibe.includes(keyword));
+    }
+    const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
+    if (vibeMatch && searchMatch) {
       markerCluster.addLayer(marker);
-    });
+    }
   });
+}
+
+function enlargeMarker(marker) {
+  marker.setIcon(enlargedIcon);
+  enlargedMarkers.add(marker);
+}
+
+function resetMarker(marker) {
+  marker.setIcon(defaultIcon);
+  enlargedMarkers.delete(marker);
+}
+
+function resetAllEnlargedMarkers() {
+  enlargedMarkers.forEach(m => resetMarker(m));
+}
 
 function showDetails(ev, latlng) {
   const details = document.getElementById('details');
   const suggestions = findNearbySimilar(latlng, ev.vibe.toLowerCase(), 350);
-
-  let suggestionHtml = '';
-  if (suggestions.length > 0) {
-    suggestionHtml = `<strong>Also could be the move:</strong><ul>` +
-      suggestions.map(s => `<li>${s.name}</li>`).join('') + `</ul>`;
-  } else {
-    suggestionHtml = '<em>No similar spots nearby</em>';
-  }
+  let suggestionHtml = suggestions.length > 0
+    ? `<strong>Also could be the move:</strong><ul>${suggestions.map(s => `<li>${s.name}</li>`).join('')}</ul>`
+    : '<em>No similar spots nearby</em>';
 
   details.innerHTML = `
     <strong>${ev.name}</strong><br>
     Vibe: ${ev.vibe}<br>
     <a href="${ev.link}" target="_blank">View More</a><br>
     <button id="addToRoute">Add to Route</button>
+    <button id="exportGooglePopup">Export Route to Google Maps</button>
     <button id="closeDetails">Close</button>
     ${suggestionHtml}
   `;
@@ -137,6 +198,16 @@ function showDetails(ev, latlng) {
 
   document.getElementById('addToRoute').addEventListener('click', () => {
     addPointToRoute(latlng);
+  });
+
+  document.getElementById('exportGooglePopup').addEventListener('click', () => {
+    if (selectedPoints.length < 2) {
+      alert('Select at least 2 points to export a route.');
+      return;
+    }
+    const base = "https://www.google.com/maps/dir/";
+    const path = selectedPoints.map(p => `${p.lat},${p.lng}`).join('/');
+    window.open(base + path, '_blank');
   });
 
   document.getElementById('closeDetails').addEventListener('click', () => {
@@ -148,57 +219,159 @@ function findNearbySimilar(latlng, vibeText, radius = 350) {
   const vibeTags = vibeText.split(',').map(v => v.trim());
   return allMarkers.filter(marker => {
     const distance = latlng.distanceTo(marker.getLatLng());
-    const markerVibe = marker.vibe;
-    const vibeMatch = vibeTags.some(tag => markerVibe.includes(tag));
+    const vibeMatch = vibeTags.some(tag => marker.vibe.includes(tag));
     return distance <= radius && vibeMatch && !latlng.equals(marker.getLatLng());
   }).slice(0, 3);
 }
+
+const neighborhoodCenters = {
+  "alphabet city": L.latLng(40.7265, -73.9815),
+  "bedstuy": L.latLng(40.6850, -73.9419),
+  "bushwick": L.latLng(40.6943, -73.9213),
+  "chelsea": L.latLng(40.7465, -74.0014),
+  "chinatown": L.latLng(40.7158, -73.9970),
+  "clinton hill": L.latLng(40.6896, -73.9606),
+  "downtown brooklyn": L.latLng(40.6928, -73.9903),
+  "dumbo": L.latLng(40.7033, -73.9881),
+  "east village": L.latLng(40.7260, -73.9816),
+  "gramercy": L.latLng(40.7376, -73.9857),
+  "greenpoint": L.latLng(40.7301, -73.9546),
+  "greenwich village": L.latLng(40.7336, -74.0027),
+  "lower east side": L.latLng(40.7150, -73.9843),
+  "long island city": L.latLng(40.7440, -73.9488),
+  "midtown": L.latLng(40.7549, -73.9840),
+  "soho": L.latLng(40.7233, -74.0030),
+  "tribeca": L.latLng(40.7163, -74.0086),
+  "upper east side": L.latLng(40.7736, -73.9566),
+  "upper west side": L.latLng(40.7870, -73.9754),
+  "west village": L.latLng(40.7359, -74.0036),
+  "williamsburg": L.latLng(40.7081, -73.9571)
+};
+
+document.getElementById('generateRoute').addEventListener('click', () => {
+  const neighborhood = document.getElementById('neighborhood-input').value.toLowerCase();
+  if (!neighborhood) {
+    alert('Please select a neighborhood.');
+    return;
+  }
+
+  const center = neighborhoodCenters[neighborhood];
+  if (!center) {
+    alert('Neighborhood center not found.');
+    return;
+  }
+
+  const candidates = allMarkers.filter(marker =>
+    center.distanceTo(marker.getLatLng()) < 1500 // 1.5 km neighborhood radius
+  );
+
+  if (candidates.length < 1) {
+    alert('No places found in this neighborhood.');
+    return;
+  }
+
+  const base = candidates[Math.floor(Math.random() * candidates.length)];
+  const baseVibes = base.vibe.split(',').map(v => v.trim());
+
+  const similar = candidates.filter(m => {
+    if (m.getLatLng().equals(base.getLatLng())) return false;
+    const dist = base.getLatLng().distanceTo(m.getLatLng());
+    if (dist > 700) return false;
+    return baseVibes.some(v => m.vibe.includes(v));
+  });
+
+  const different = candidates.filter(m => {
+    if (m.getLatLng().equals(base.getLatLng())) return false;
+    const dist = base.getLatLng().distanceTo(m.getLatLng());
+    if (dist > 305) return false;
+    return !baseVibes.some(v => m.vibe.includes(v));
+  });
+
+  if (similar.length < 1 || different.length < 1) {
+    alert('Not enough diverse nearby places found for a mini crawl.');
+    return;
+  }
+
+  const selectedSimilar = similar[Math.floor(Math.random() * similar.length)];
+  const selectedDifferent = different[Math.floor(Math.random() * different.length)];
+
+  selectedPoints = [];
+  resetAllEnlargedMarkers();
+
+  [base, selectedSimilar, selectedDifferent].forEach(m => {
+    selectedPoints.push(m.getLatLng());
+    enlargeMarker(m);
+  });
+
+  updateRoute();
+  map.fitBounds(L.featureGroup([base, selectedSimilar, selectedDifferent]).getBounds());
+
+  const details = document.getElementById('details');
+  details.innerHTML = `<strong>Mini Crawl Locations:</strong><ul>${
+    [base, selectedSimilar, selectedDifferent].map(m => `<li>${m.name}</li>`).join('')
+  }</ul><button id="exportGooglePopup">Export Route to Google Maps</button><button id="closeDetails">Close</button>`;
+  details.style.display = 'block';
+
+  document.getElementById('exportGooglePopup').addEventListener('click', () => {
+    const baseUrl = "https://www.google.com/maps/dir/";
+    const path = selectedPoints.map(p => `${p.lat},${p.lng}`).join('/');
+    window.open(baseUrl + path, '_blank');
+  });
+
+  document.getElementById('closeDetails').addEventListener('click', () => {
+    details.style.display = 'none';
+  });
+});
+
+
+
+
 
 function addPointToRoute(latlng) {
   if (selectedPoints.length >= 5) {
     alert('Maximum 5 points allowed. Clear or remove a point to add new.');
     return;
   }
-
   selectedPoints.push(latlng);
+  enlargeMarker(findMarkerByLatLng(latlng));
   updateRoute();
 }
 
 function updateRoute() {
-  if (currentRoute) {
-    map.removeControl(currentRoute);
-  }
-
+  if (currentRoute) map.removeControl(currentRoute);
   if (selectedPoints.length >= 2) {
     currentRoute = L.Routing.control({
       waypoints: selectedPoints,
-      routeWhileDragging: false
+      routeWhileDragging: false,
+      show: false,                
+      addWaypoints: false,        
+      createMarker: () => null    
     }).addTo(map);
   }
 }
+  
+function findMarkerByLatLng(latlng) {
+  return allMarkers.find(m => m.getLatLng().equals(latlng));
+}
+
+document.getElementById('vibeFilter').addEventListener('change', applyFilters);
+document.getElementById('map-search').addEventListener('input', applyFilters);
 
 function applyFilters() {
   const vibe = document.getElementById('vibeFilter').value.toLowerCase();
   const query = document.getElementById('map-search').value.toLowerCase();
-
   markerCluster.clearLayers();
-
   allMarkers.forEach(marker => {
     let vibeMatch = !vibe;
     if (vibe && vibeMap[vibe]) {
       vibeMatch = vibeMap[vibe].some(keyword => marker.vibe.includes(keyword));
     }
-
     const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
-
     if (vibeMatch && searchMatch) {
       markerCluster.addLayer(marker);
     }
   });
 }
-
-document.getElementById('vibeFilter').addEventListener('change', applyFilters);
-document.getElementById('map-search').addEventListener('input', applyFilters);
 
 document.getElementById('clearRoute').addEventListener('click', () => {
   if (currentRoute) {
@@ -206,6 +379,7 @@ document.getElementById('clearRoute').addEventListener('click', () => {
     currentRoute = null;
   }
   selectedPoints = [];
+  resetAllEnlargedMarkers();
 });
 
 document.getElementById('removeLastPoint').addEventListener('click', () => {
@@ -213,7 +387,8 @@ document.getElementById('removeLastPoint').addEventListener('click', () => {
     alert('No points to remove.');
     return;
   }
-  selectedPoints.pop();
+  const removed = selectedPoints.pop();
+  resetMarker(findMarkerByLatLng(removed));
   updateRoute();
 });
 </script>
