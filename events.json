@@ -1903,5 +1903,61 @@
     "lat": 40.7115944,
     "lon": -73.9673794,
     "link": "https://www.instagram.com/barmilagrobk/"
+  },
+  {
+    "name": "PIPS",
+    "vibe": "Cozy, Intimate, Speakeasy, Chill, Retro, Natural Wine",
+    "lat": 40.6908713,
+    "lon": -73.99573195,
+    "link": "https://www.instagram.com/pipsbrooklyn/?hl=en"
+  },
+  {
+    "name": "Grand Army",
+    "vibe": "Stylish, Sophisticated, Classic, Trendy, Cozy",
+    "lat": 40.6882685,
+    "lon": -73.9865349,
+    "link": "https://www.instagram.com/grandarmybar/?hl=en"
+  },
+  {
+    "name": "Liar Liar",
+    "vibe": "Quirky, Casual, Eclectic, Fun, Playful",
+    "lat": 40.6796022,
+    "lon": -73.9869318,
+    "link": "https://www.instagram.com/liarliarbk/?hl=en"
+  },
+  {
+    "name": "Elsa",
+    "vibe": "Modern, Sleek, Casual, Chic, Inviting",
+    "lat": 40.6902868,
+    "lon": -73.99534426,
+    "link": "https://www.instagram.com/elsabarnyc/?hl=en"
+  },
+  {
+    "name": "Saint Julivert",
+    "vibe": "Nautical, Cozy, Elegant, Relaxed, Intimate",
+    "lat": 40.6878828,
+    "lon": -73.995709,
+    "link": "https://www.instagram.com/saintjulivertbk/?hl=en"
+  },
+  {
+    "name": "The Otheroom",
+    "vibe": "Laid-back, Trendy, Dimly-lit, Casual, Hip",
+    "lat": 40.7349434,
+    "lon": -74.0080378,
+    "link": "https://www.instagram.com/theotheroomnyc/?hl=en"
+  },
+  {
+    "name": "Ophelia Lounge NYC",
+    "vibe": "Glamorous, Lounge, Rooftop, Upscale, Elegant, Scenic, Luxurious",
+    "lat": 40.7533299,
+    "lon": -73.966171,
+    "link": "https://www.instagram.com/opheliany/?hl=en"
+  },
+  {
+    "name": "Koi Bā",
+    "vibe": "Modern, Chic, Japanese Intimate, Trendy, Hidden, Speakeasy",
+    "lat": 40.7189329,
+    "lon": -73.961364,
+    "link": "https://www.instagram.com/koibabrooklyn/?hl=en"
   }
 ]
