@@ -5,7 +5,6 @@
    "lat": 40.718182,
    "lon": -73.991684,
    "link": "https://www.instagram.com/steightnyc?igsh=MXR2eDdyOGNvNTF0cA==",
-   "price": "$$",
    "openNow": true,
    "hours": [
     "Monday: 5 PM–12 AM",
@@ -14,7 +13,8 @@
    "Thursday: 5 PM–12 AM",
    "Friday: 5 PM–12 AM",
    "Saturday: 5 PM–12 AM",
-   "Sunday: 5 PM–12 AM"]
+   "Sunday: 5 PM–12 AM"],
+  "price": "$$"
  },
  {
    "name": "Doris",
@@ -22,7 +22,6 @@
    "lat": 40.68121,
    "lon": -73.957443,
    "link": "https://www.instagram.com/dorisbedstuy/?hl=en",
-   "price": "$$"
    "openNow": true,
    "hours": [
     "Monday: 5 PM–1 AM",
@@ -31,7 +30,8 @@
    "Thursday: 5 PM–2 AM",
    "Friday: 5 PM–3 AM",
    "Saturday: 4 PM–3 AM",
-   "Sunday: 4 PM–1 AM"]
+   "Sunday: 4 PM–1 AM"],
+  "price": "$$"
  },
  {
    "name": "Abe's Pagoda Bar",
