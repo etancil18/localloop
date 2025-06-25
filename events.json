@@ -286,7 +286,7 @@
    "Friday: 11 AM–7 PM",
    "Saturday: 11 AM–7 PM",
    "Sunday: 11 AM–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "The Cactus Shop",
@@ -439,7 +439,7 @@
    "Friday: 7–11 PM",
    "Saturday: 7–11 PM",
    "Sunday: 3:30–7:30 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Million Goods",
@@ -558,7 +558,7 @@
    "Friday: 10 AM–6 PM",
    "Saturday: 10 AM–6 PM",
    "Sunday: Closed"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "The Tusk Bar",
@@ -609,7 +609,7 @@
    "Friday: 12–7 PM",
    "Saturday: 12–7 PM",
    "Sunday: 12–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Botanica Bar",
@@ -1102,7 +1102,7 @@
    "Friday: 6 PM–4 AM",
    "Saturday: 6 PM–4 AM",
    "Sunday: Closed"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "MONO+MONO",
@@ -1255,7 +1255,7 @@
    "Friday: 5 PM–2 AM",
    "Saturday: 3 PM–2 AM",
    "Sunday: 3 PM–12 AM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Ponyboy",
@@ -1289,7 +1289,7 @@
    "Friday: 4 PM–3 AM",
    "Saturday: 3 PM–4 AM",
    "Sunday: 3 PM–4 AM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Hotel Delmano",
@@ -1714,7 +1714,7 @@
    "Friday: 10:30 AM–6 PM",
    "Saturday: 10:30 AM–6 PM",
    "Sunday: 10:30 AM–6 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Magic Jewelry",
@@ -1748,7 +1748,7 @@
    "Friday: 10 AM–7 PM",
    "Saturday: 10 AM–7 PM",
    "Sunday: Closed"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Westsider Rare & Used Books Inc.",
@@ -1765,7 +1765,7 @@
    "Friday: 10 AM–7 PM",
    "Saturday: 10 AM–7 PM",
    "Sunday: 10 AM–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "niconeco zakkaya",
@@ -1782,7 +1782,7 @@
    "Friday: 12–7 PM",
    "Saturday: 12–7 PM",
    "Sunday: 12–6 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Bungee Space",
@@ -1799,7 +1799,7 @@
    "Friday: 11 AM–7 PM",
    "Saturday: 11 AM–7 PM",
    "Sunday: 11 AM–6:30 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Brandy Library",
@@ -1901,7 +1901,7 @@
    "Friday: 11 AM–7 PM",
    "Saturday: 11 AM–7 PM",
    "Sunday: 11 AM–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Death & Co East Village",
@@ -2190,7 +2190,7 @@
    "Friday: 9 AM–10 PM",
    "Saturday: 8 AM–10 PM",
    "Sunday: 8 AM–10 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Untermyer Gardens",
@@ -2292,7 +2292,7 @@
    "Friday: 5 PM–12 AM",
    "Saturday: 5 PM–12 AM",
    "Sunday: 5 PM–12 AM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Bode Men’s",
@@ -2309,7 +2309,7 @@
    "Friday: 11 AM–7 PM",
    "Saturday: 11 AM–7 PM",
    "Sunday: 11 AM–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Desert Vintage",
@@ -2326,7 +2326,7 @@
    "Friday: 11 AM–7 PM",
    "Saturday: 11 AM–7 PM",
    "Sunday: 11 AM–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Regina's Grocery",
@@ -2360,7 +2360,7 @@
    "Friday: 12–7 PM",
    "Saturday: 12–7 PM",
    "Sunday: 12–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Sommwhere",
@@ -2377,7 +2377,7 @@
    "Friday: 8 AM–12 AM",
    "Saturday: 8 AM–12 AM",
    "Sunday: 8 AM–12 AM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Old Friend Photobooth",
@@ -2411,7 +2411,7 @@
    "Friday: 9 AM–12 AM",
    "Saturday: 5 PM–12 AM",
    "Sunday: 5 PM–12 AM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Cellar 36",
@@ -2428,7 +2428,7 @@
    "Friday: 5 PM–2 AM",
    "Saturday: 5 PM–2 AM",
    "Sunday: 5 PM–2 AM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "the Ground",
@@ -2445,7 +2445,7 @@
    "Friday: 8 AM–12 AM",
    "Saturday: 8 AM–12 AM",
    "Sunday: Closed"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Amsterdam Billiards Club",
@@ -2479,7 +2479,7 @@
    "Friday: 11 AM–7 PM",
    "Saturday: 11 AM–7 PM",
    "Sunday: 11 AM–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "tearoom by calmplex",
@@ -2496,7 +2496,7 @@
    "Friday: 12–8 PM",
    "Saturday: 12–7 PM",
    "Sunday: 12–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "St Jardim",
@@ -2530,7 +2530,7 @@
    "Friday: Closed",
    "Saturday: 12–5 PM",
    "Sunday: 12–5 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Bury Your Dead Downwind",
@@ -2547,7 +2547,7 @@
    "Friday: 10 AM–6 PM",
    "Saturday: 12–6 PM",
    "Sunday: Closed"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Paquita",
@@ -2564,7 +2564,7 @@
    "Friday: 9 AM–8 PM",
    "Saturday: 9 AM–8 PM",
    "Sunday: 9 AM–8 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Bar Orai",
@@ -2632,7 +2632,7 @@
    "Friday: N/A",
    "Saturday: N/A",
    "Sunday: N/A"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Quarters",
@@ -2649,7 +2649,7 @@
    "Friday: 11 AM–6 PM",
    "Saturday: 11 AM–6 PM",
    "Sunday: Closed"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Sullaluna",
@@ -2683,7 +2683,7 @@
    "Friday: 3–10 PM",
    "Saturday: 3–10 PM",
    "Sunday: 3–9:30 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Mao Mao",
@@ -2751,7 +2751,7 @@
    "Friday: 11 AM–7 PM",
    "Saturday: 11 AM–7 PM",
    "Sunday: 11 AM–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Silence Please",
@@ -2768,7 +2768,7 @@
    "Friday: 10 AM–6 PM",
    "Saturday: 10 AM–6 PM",
    "Sunday: 10 AM–6 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "le gaz",
@@ -2853,7 +2853,7 @@
    "Friday: N/A",
    "Saturday: N/A",
    "Sunday: N/A"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Ed’s Elbow Room",
@@ -3091,7 +3091,7 @@
    "Friday: 5 PM–4 AM",
    "Saturday: 2 PM–4 AM",
    "Sunday: 2 PM–4 AM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Juliette Restaurant",
@@ -3176,7 +3176,7 @@
    "Friday: 12–6 PM",
    "Saturday: 10 AM–6 PM",
    "Sunday: 12–6 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Record Room",
@@ -3278,7 +3278,7 @@
    "Friday: 8 AM–1 AM",
    "Saturday: 9 AM–1 AM",
    "Sunday: 9 AM–11 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Petit Paulette",
@@ -3295,7 +3295,7 @@
    "Friday: 3 PM–12 AM",
    "Saturday: 3 PM–12 AM",
    "Sunday: 3–11 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "The Ten Bells Brooklyn",
@@ -3856,7 +3856,7 @@
    "Friday: 6 PM–2 AM",
    "Saturday: 6 PM–2 AM",
    "Sunday: 6 PM–1 AM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "The Coyote Club",
@@ -3907,7 +3907,7 @@
    "Friday: 10 AM–7 PM",
    "Saturday: 10 AM–7 PM",
    "Sunday: 10 AM–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "yakuni",
@@ -3958,7 +3958,7 @@
    "Friday: 7 AM–12 AM",
    "Saturday: 7 AM–12 AM",
    "Sunday: 7 AM–11 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Clemente Bar",
@@ -3992,7 +3992,7 @@
    "Friday: 7 AM–7 PM",
    "Saturday: 7 AM–7 PM",
    "Sunday: 7 AM–7 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "RHYTHM ZERO | GREENPOINT",
@@ -4536,7 +4536,7 @@
    "Friday: 5 PM–1 AM",
    "Saturday: 5 PM–1 AM",
    "Sunday: Closed"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Ding-a-ling",
@@ -4655,7 +4655,7 @@
    "Friday: 4:30 PM–12 AM",
    "Saturday: 4 PM–12 AM",
    "Sunday: 4:30 PM–12 AM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Ma•dé",
@@ -4689,7 +4689,7 @@
    "Friday: 8 PM–2 AM",
    "Saturday: 8 PM–2 AM",
    "Sunday: Closed"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Café Leon Dore",
@@ -4825,7 +4825,7 @@
    "Friday: 10 PM–3 AM",
    "Saturday: 10 PM–3 AM",
    "Sunday: Closed"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "COQODAQ",
@@ -4893,7 +4893,7 @@
    "Friday: 8 AM–11 PM",
    "Saturday: 8 AM–11 PM",
    "Sunday: 8 AM–11 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Black Mountain Wine House",
@@ -5743,7 +5743,7 @@
    "Friday: 12–11 PM",
    "Saturday: 12–11 PM",
    "Sunday: 12–9 PM"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Ketchy Shuby",
@@ -5845,7 +5845,7 @@
    "Friday: 7 PM–1 AM",
    "Saturday: 7 PM–1 AM",
    "Sunday: Closed"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "PIPS",
@@ -6066,7 +6066,7 @@
    "Friday: N/A",
    "Saturday: N/A",
    "Sunday: N/A"],
-   "price": "N/A"
+   "price": ""
  },
  {
    "name": "Le Boudoir",
