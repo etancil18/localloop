@@ -188,6 +188,8 @@ function showDetails(ev, latlng) {
   details.innerHTML = `
     <strong>${ev.name}</strong><br>
     Vibe: ${ev.vibe}<br>
+    Price: ${ev.price || "N/A"}<br>
+    Hours: ${ev.hours || "N/A"}<br>
     <a href="${ev.link}" target="_blank">View More</a><br>
     <button id="addToRoute">Add to Route</button>
     <button id="exportGooglePopup">Export Route to Google Maps</button>
