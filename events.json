@@ -6,13 +6,14 @@
    "lon": -73.991684,
    "link": "https://www.instagram.com/steightnyc?igsh=MXR2eDdyOGNvNTF0cA==",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "5 PM–12 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -22,13 +23,14 @@
    "lon": -73.957443,
    "link": "https://www.instagram.com/dorisbedstuy/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–1 AM",
+   "hours": [
+    "Monday: "5 PM–1 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–3 AM",
    "Saturday": "4 PM–3 AM",
-   "Sunday": "4 PM–1 AM",
+   "Sunday": "4 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -38,13 +40,14 @@
    "lon": -73.918953,
    "link": "https://www.instagram.com/abes_pagoda_bar/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–2 AM",
+   "hours": [
+    "Monday: "4 PM–2 AM",
    "Tuesday": "4 PM–2 AM",
    "Wednesday": "4 PM–2 AM",
    "Thursday": "4 PM–4 AM",
    "Friday": "4 PM–4 AM",
    "Saturday": "4 PM–4 AM",
-   "Sunday": "4 PM–2 AM",
+   "Sunday": "4 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -54,13 +57,14 @@
    "lon": -73.9205215,
    "link": "https://www.instagram.com/carmelosbushwick/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–4 AM",
+   "hours": [
+    "Monday: "4 PM–4 AM",
    "Tuesday": "4 PM–4 AM",
    "Wednesday": "4 PM–4 AM",
    "Thursday": "4 PM–4 AM",
    "Friday": "4 PM–4 AM",
    "Saturday": "4 PM–4 AM",
-   "Sunday": "4 PM–4 AM",
+   "Sunday": "4 PM–4 AM"],
    "price": "$"
  },
  {
@@ -70,13 +74,14 @@
    "lon": -73.9993515,
    "link": "https://www.instagram.com/saturdaysnyc/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–7 PM",
+   "hours": [
+    "Monday: "8 AM–7 PM",
    "Tuesday": "8 AM–7 PM",
    "Wednesday": "8 AM–7 PM",
    "Thursday": "8 AM–7 PM",
    "Friday": "8 AM–7 PM",
    "Saturday": "9 AM–7 PM",
-   "Sunday": "9 AM–6 PM",
+   "Sunday": "9 AM–6 PM"],
    "price": "$$$"
  },
  {
@@ -86,13 +91,14 @@
    "lon": -73.9231575,
    "link": "https://www.instagram.com/honeysbrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -102,13 +108,14 @@
    "lon": -73.9209374,
    "link": "https://www.instagram.com/lacabracoffee/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–6 PM",
+   "hours": [
+    "Monday: "8 AM–6 PM",
    "Tuesday": "8 AM–6 PM",
    "Wednesday": "8 AM–6 PM",
    "Thursday": "8 AM–6 PM",
    "Friday": "8 AM–6 PM",
    "Saturday": "8 AM–6 PM",
-   "Sunday": "8 AM–6 PM",
+   "Sunday": "8 AM–6 PM"],
    "price": "$"
  },
  {
@@ -118,13 +125,14 @@
    "lon": -73.9924678,
    "link": "https://www.instagram.com/freemansrestaurant/?hl=en",
    "openNow": true,
-   "Monday": "11 AM–10 PM",
+   "hours": [
+    "Monday: "11 AM–10 PM",
    "Tuesday": "11 AM–11 PM",
    "Wednesday": "11 AM–11 PM",
    "Thursday": "11 AM–11 PM",
    "Friday": "11 AM–11 PM",
    "Saturday": "10 AM–11 PM",
-   "Sunday": "10 AM–10 PM",
+   "Sunday": "10 AM–10 PM"],
    "price": "$$$"
  },
  {
@@ -134,13 +142,14 @@
    "lon": -73.9516441,
    "link": "https://www.instagram.com/bluesun_nyc/?hl=en",
    "openNow": true,
-   "Monday": "12–6 PM",
+   "hours": [
+    "Monday: "12–6 PM",
    "Tuesday": "Closed",
    "Wednesday": "12–8 PM",
    "Thursday": "12–8 PM",
    "Friday": "12–8 PM",
    "Saturday": "12–8 PM",
-   "Sunday": "12–8 PM",
+   "Sunday": "12–8 PM"],
    "price": "$"
  },
  {
@@ -150,13 +159,14 @@
    "lon": -73.9221354,
    "link": "https://www.instagram.com/carousel_bk/?hl=en",
    "openNow": true,
-   "Monday": "2 PM–12 AM",
+   "hours": [
+    "Monday: "2 PM–12 AM",
    "Tuesday": "2 PM–2 AM",
    "Wednesday": "2 PM–2 AM",
    "Thursday": "2 PM–2 AM",
    "Friday": "2 PM–2 AM",
    "Saturday": "2 PM–2 AM",
-   "Sunday": "2 PM–2 AM",
+   "Sunday": "2 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -166,13 +176,14 @@
    "lon": -73.9864792,
    "link": "https://www.instagram.com/nyc_kanoyama/?hl=en",
    "openNow": true,
-   "Monday": "5:30–10:30 PM",
+   "hours": [
+    "Monday: "5:30–10:30 PM",
    "Tuesday": "5:30–10:30 PM",
    "Wednesday": "5:30–10:30 PM",
    "Thursday": "5:30–10:30 PM",
    "Friday": "5:30–11:30 PM",
    "Saturday": "5:30–11:30 PM",
-   "Sunday": "5:30–10:30 PM",
+   "Sunday": "5:30–10:30 PM"],
    "price": "$$$$"
  },
  {
@@ -182,13 +193,14 @@
    "lon": -73.9807284,
    "link": "https://www.instagram.com/waitingonafriend/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–3 AM",
    "Saturday": "5 PM–3 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -198,13 +210,14 @@
    "lon": -73.96010291,
    "link": "https://www.instagram.com/bakeribrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "7 AM–6 PM",
+   "hours": [
+    "Monday: "7 AM–6 PM",
    "Tuesday": "7 AM–6 PM",
    "Wednesday": "7 AM–6 PM",
    "Thursday": "7 AM–6 PM",
    "Friday": "7 AM–6 PM",
    "Saturday": "8 AM–6 PM",
-   "Sunday": "8 AM–6 PM",
+   "Sunday": "8 AM–6 PM"],
    "price": "$"
  },
  {
@@ -214,13 +227,14 @@
    "lon": -73.9390719,
    "link": "https://www.instagram.com/redsorghumlic/?hl=en",
    "openNow": true,
-   "Monday": "11:30 AM–10 PM",
+   "hours": [
+    "Monday: "11:30 AM–10 PM",
    "Tuesday": "11:30 AM–10 PM",
    "Wednesday": "11:30 AM–10 PM",
    "Thursday": "11:30 AM–10 PM",
    "Friday": "11:30 AM–11 PM",
    "Saturday": "11:30 AM–11 PM",
-   "Sunday": "11:30 AM–10 PM",
+   "Sunday": "11:30 AM–10 PM"],
    "price": "$$"
  },
  {
@@ -230,13 +244,14 @@
    "lon": -73.9858591,
    "link": "https://www.instagram.com/rucolanyc/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–3:30 PM; 5–10:30 PM",
+   "hours": [
+    "Monday: "8 AM–3:30 PM; 5–10:30 PM",
    "Tuesday": "8 AM–3:30 PM; 5–10:30 PM",
    "Wednesday": "8 AM–3:30 PM; 5–10:30 PM",
    "Thursday": "8 AM–3:30 PM; 5–10:30 PM",
    "Friday": "8 AM–3:30 PM; 5–11:00 PM",
    "Saturday": "9 AM–3:30 PM; 5–11:00 PM",
-   "Sunday": "9 AM–3:30 PM; 5–10:30 PM",
+   "Sunday": "9 AM–3:30 PM; 5–10:30 PM"],
    "price": "$$"
  },
  {
@@ -246,13 +261,14 @@
    "lon": -73.964839,
    "link": "https://www.instagram.com/no9nyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "4 PM–2 AM",
-   "Sunday": "4 PM–12 AM",
+   "Sunday": "4 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -262,13 +278,14 @@
    "lon": -73.94424366,
    "link": "https://www.instagram.com/homerunnyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "11 AM–7 PM",
    "Wednesday": "11 AM–7 PM",
    "Thursday": "11 AM–7 PM",
    "Friday": "11 AM–7 PM",
    "Saturday": "11 AM–7 PM",
-   "Sunday": "11 AM–7 PM",
+   "Sunday": "11 AM–7 PM"],
    "price": "N/A"
  },
  {
@@ -278,13 +295,14 @@
    "lon": -73.96538125,
    "link": "https://www.instagram.com/thecactusshopnyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–11 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5 PM–12 AM",
    "Friday": "2 PM–1 AM",
    "Saturday": "12 PM–1 AM",
-   "Sunday": "12–10 PM",
+   "Sunday": "12–10 PM"],
    "price": "$$"
  },
  {
@@ -294,13 +312,14 @@
    "lon": -74.0012093,
    "link": "https://www.instagram.com/chisholm_larsson/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "11 AM–5 PM",
    "Wednesday": "11 AM–5 PM",
    "Thursday": "11 AM–5 PM",
    "Friday": "11 AM–5 PM",
    "Saturday": "11 AM–5 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -310,13 +329,14 @@
    "lon": -73.9554399,
    "link": "https://www.instagram.com/nightlysnyc/?hl=en",
    "openNow": true,
-   "Monday": "3 PM–11:45 AM",
+   "hours": [
+    "Monday: "3 PM–11:45 AM",
    "Tuesday": "3 PM–11:45 AM",
    "Wednesday": "3 PM–12:45 AM",
    "Thursday": "3 PM–12:45 AM",
    "Friday": "3 PM–12:45 AM",
    "Saturday": "10:30 AM–2:45 PM; 4 PM–12:45 AM",
-   "Sunday": "10:30 AM–2:45 PM; 4 PM–11:45 PM",
+   "Sunday": "10:30 AM–2:45 PM; 4 PM–11:45 PM"],
    "price": "$$$"
  },
  {
@@ -326,13 +346,14 @@
    "lon": -73.9864184,
    "link": "https://www.instagram.com/schmuck.ny/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "4 PM–1 AM",
    "Wednesday": "4 PM–1 AM",
    "Thursday": "4 PM–1 AM",
    "Friday": "4 PM–1 AM",
    "Saturday": "4 PM–1 AM",
-   "Sunday": "4 PM–1 AM",
+   "Sunday": "4 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -342,13 +363,14 @@
    "lon": -73.99886037,
    "link": "https://www.instagram.com/wohop17/?hl=en",
    "openNow": true,
-   "Monday": "10:30 AM–10 PM",
+   "hours": [
+    "Monday: "10:30 AM–10 PM",
    "Tuesday": "10:30 AM–10 PM",
    "Wednesday": "10:30 AM–10 PM",
    "Thursday": "10:30 AM–10 PM",
    "Friday": "10:30 AM–10 PM",
    "Saturday": "10:30 AM–10 PM",
-   "Sunday": "10:30 AM–9 PM",
+   "Sunday": "10:30 AM–9 PM"],
    "price": "$"
  },
  {
@@ -358,13 +380,14 @@
    "lon": -73.9948457,
    "link": "https://www.instagram.com/lappartement4f/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–6 PM",
+   "hours": [
+    "Monday: "8 AM–6 PM",
    "Tuesday": "8 AM–6 PM",
    "Wednesday": "8 AM–5 PM; 6–10 PM",
    "Thursday": "8 AM–5 PM; 6–10 PM",
    "Friday": "8 AM–5 PM; 6–10 PM",
    "Saturday": "8 AM–4 PM; 6–10 PM",
-   "Sunday": "8 AM–4 PM",
+   "Sunday": "8 AM–4 PM"],
    "price": "$"
  },
  {
@@ -374,13 +397,14 @@
    "lon": -73.984402,
    "link": "https://www.instagram.com/cafemogadornyc/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–10:30 PM",
+   "hours": [
+    "Monday: "10 AM–10:30 PM",
    "Tuesday": "10 AM–10:30 PM",
    "Wednesday": "10 AM–10:30 PM",
    "Thursday": "10 AM–10:30 PM",
    "Friday": "10 AM–11:30 PM",
    "Saturday": "9:30 AM–11:30 PM",
-   "Sunday": "9:30 AM–10:30 PM",
+   "Sunday": "9:30 AM–10:30 PM"],
    "price": "$$"
  },
  {
@@ -390,13 +414,14 @@
    "lon": -73.96251428,
    "link": "https://www.instagram.com/skarstedtgallery/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "9:30 AM–6 PM",
    "Wednesday": "9:30 AM–6 PM",
    "Thursday": "9:30 AM–6 PM",
    "Friday": "9:30 AM–6 PM",
    "Saturday": "10 AM–5 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -406,13 +431,14 @@
    "lon": -73.9470527,
    "link": "https://www.instagram.com/brownstonejazz/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "Closed",
    "Friday": "7–11 PM",
    "Saturday": "7–11 PM",
-   "Sunday": "3:30–7:30 PM",
+   "Sunday": "3:30–7:30 PM"],
    "price": "N/A"
  },
  {
@@ -422,13 +448,14 @@
    "lon": -73.9570584,
    "link": "https://www.instagram.com/million.goods/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "12–10 PM",
    "Wednesday": "12 PM–12 AM",
    "Thursday": "12 PM–12 AM",
    "Friday": "12 PM–12 AM",
    "Saturday": "12 PM–12 AM",
-   "Sunday": "12–10 PM",
+   "Sunday": "12–10 PM"],
    "price": "$$"
  },
  {
@@ -438,13 +465,14 @@
    "lon": -73.95978875,
    "link": "https://www.instagram.com/el_pinguino_greenpoint/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–12 AM",
    "Saturday": "4 PM–12 AM",
-   "Sunday": "4 PM–12 AM",
+   "Sunday": "4 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -454,13 +482,14 @@
    "lon": -73.9634407,
    "link": "https://www.instagram.com/se7en.bk/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–1 AM",
    "Friday": "4 PM–2 AM",
    "Saturday": "4 PM–2 AM",
-   "Sunday": "4 PM–1 AM",
+   "Sunday": "4 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -470,13 +499,14 @@
    "lon": -73.99034942,
    "link": "https://www.instagram.com/experimentalcocktailclubnyc/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–1 AM",
    "Saturday": "5 PM–1 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -486,13 +516,14 @@
    "lon": -73.98543914,
    "link": "https://www.instagram.com/soandso.nyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–1 AM",
    "Saturday": "5 PM–1 AM",
-   "Sunday": "4–11 PM",
+   "Sunday": "4–11 PM"],
    "price": "$$"
  },
  {
@@ -502,13 +533,14 @@
    "lon": -73.93467864,
    "link": "https://www.instagram.com/barlunatico/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–1 AM",
+   "hours": [
+    "Monday: "5 PM–1 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–1 AM",
    "Saturday": "5 PM–1 AM",
-   "Sunday": "5 PM–1 AM",
+   "Sunday": "5 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -518,13 +550,14 @@
    "lon": -73.9748539,
    "link": "https://www.instagram.com/carpentersworkshopgallery/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–6 PM",
+   "hours": [
+    "Monday: "10 AM–6 PM",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "N/A"
  },
  {
@@ -534,13 +567,14 @@
    "lon": -73.9869451,
    "link": "https://www.instagram.com/brass_tuskbar/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–12 AM",
    "Saturday": "4 PM–12 AM",
-   "Sunday": "4 PM–12 AM",
+   "Sunday": "4 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -550,13 +584,14 @@
    "lon": -73.923672,
    "link": "https://www.instagram.com/codexbooks/?hl=en",
    "openNow": true,
-   "Monday": "12–7 PM",
+   "hours": [
+    "Monday: "12–7 PM",
    "Tuesday": "12–7 PM",
    "Wednesday": "12–7 PM",
    "Thursday": "12–7 PM",
    "Friday": "12–7 PM",
    "Saturday": "12–7 PM",
-   "Sunday": "12–7 PM",
+   "Sunday": "12–7 PM"],
    "price": "$"
  },
  {
@@ -566,13 +601,14 @@
    "lon": -73.9925494,
    "link": "https://www.instagram.com/theholenyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "12–7 PM",
    "Thursday": "12–7 PM",
    "Friday": "12–7 PM",
    "Saturday": "12–7 PM",
-   "Sunday": "12–7 PM",
+   "Sunday": "12–7 PM"],
    "price": "N/A"
  },
  {
@@ -582,13 +618,14 @@
    "lon": -73.9947736,
    "link": "https://www.instagram.com/botanicabar/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–1 AM",
+   "hours": [
+    "Monday: "5 PM–1 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–3 AM",
-   "Sunday": "4 PM–3 AM",
+   "Sunday": "4 PM–3 AM"],
    "price": "$"
  },
  {
@@ -598,13 +635,14 @@
    "lon": -74.0007476,
    "link": "https://www.instagram.com/bibliothequenyc/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–10 PM",
+   "hours": [
+    "Monday: "10 AM–10 PM",
    "Tuesday": "10 AM–10 PM",
    "Wednesday": "10 AM–10 PM",
    "Thursday": "10 AM–10 PM",
    "Friday": "10 AM–11 PM",
    "Saturday": "10 AM–11 PM",
-   "Sunday": "10 AM–10 PM",
+   "Sunday": "10 AM–10 PM"],
    "price": "$$$"
  },
  {
@@ -614,13 +652,14 @@
    "lon": -73.9941507,
    "link": "https://www.instagram.com/arabica.ny/tagged/?hl=en",
    "openNow": true,
-   "Monday": "7:30 AM–6 PM",
+   "hours": [
+    "Monday: "7:30 AM–6 PM",
    "Tuesday": "7:30 AM–6 PM",
    "Wednesday": "7:30 AM–6 PM",
    "Thursday": "7:30 AM–6 PM",
    "Friday": "7:30 AM–6 PM",
    "Saturday": "7:30 AM–6 PM",
-   "Sunday": "7:30 AM–6 PM",
+   "Sunday": "7:30 AM–6 PM"],
    "price": "$"
  },
  {
@@ -630,13 +669,14 @@
    "lon": -73.94375126,
    "link": "https://www.instagram.com/tuffetbar/?hl=en",
    "openNow": true,
-   "Monday": "3 PM–12 AM",
+   "hours": [
+    "Monday: "3 PM–12 AM",
    "Tuesday": "3 PM–12 AM",
    "Wednesday": "3 PM–12 AM",
    "Thursday": "3 PM–12 AM",
    "Friday": "3 PM–2 AM",
    "Saturday": "1 PM–2 AM",
-   "Sunday": "1 PM–12 AM",
+   "Sunday": "1 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -646,13 +686,14 @@
    "lon": -74.004462,
    "link": "https://www.instagram.com/bisoubarnyc/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–1 AM",
    "Saturday": "5 PM–1 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -662,13 +703,14 @@
    "lon": -73.9885506,
    "link": "https://www.instagram.com/superbuenonyc/?hl=en",
    "openNow": true,
-   "Monday": "2 PM–2 AM",
+   "hours": [
+    "Monday: "2 PM–2 AM",
    "Tuesday": "4 PM–2 AM",
    "Wednesday": "4 PM–2 AM",
    "Thursday": "4 PM–2 AM",
    "Friday": "4 PM–2 AM",
    "Saturday": "2 PM–2 AM",
-   "Sunday": "2 PM–2 AM",
+   "Sunday": "2 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -678,13 +720,14 @@
    "lon": -74.0135326,
    "link": "https://www.instagram.com/barmariobk/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "4:30–10:30 PM",
    "Wednesday": "4:30–10:30 PM",
    "Thursday": "4:30–10:30 PM",
    "Friday": "4:30–11 PM",
    "Saturday": "2–11 PM",
-   "Sunday": "2–10 PM",
+   "Sunday": "2–10 PM"],
    "price": "$$$"
  },
  {
@@ -694,13 +737,14 @@
    "lon": -74.0014471,
    "link": "https://www.instagram.com/miladysnyc/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "12 PM–12 AM",
    "Wednesday": "12 PM–12 AM",
    "Thursday": "12 PM–12 AM",
    "Friday": "12 PM–2 AM",
    "Saturday": "12 PM–2 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -710,13 +754,14 @@
    "lon": -74.0013375,
    "link": "https://www.instagram.com/peperossotogo/?hl=en",
    "openNow": true,
-   "Monday": "12–10 PM",
+   "hours": [
+    "Monday: "12–10 PM",
    "Tuesday": "12–10 PM",
    "Wednesday": "12–10 PM",
    "Thursday": "12–10 PM",
    "Friday": "12–10 PM",
    "Saturday": "12–10 PM",
-   "Sunday": "3–10 PM",
+   "Sunday": "3–10 PM"],
    "price": "$$"
  },
  {
@@ -726,13 +771,14 @@
    "lon": -73.9920784,
    "link": "https://www.instagram.com/cloverclubny/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–2 AM",
    "Saturday": "12 PM–2 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -742,13 +788,14 @@
    "lon": -74.0168831,
    "link": "https://www.instagram.com/sunnysnyc/?hl=en",
    "openNow": true,
-   "Monday": "3 PM–12 AM",
+   "hours": [
+    "Monday: "3 PM–12 AM",
    "Tuesday": "3 PM–12 AM",
    "Wednesday": "3 PM–1 AM",
    "Thursday": "3 PM–1 AM",
    "Friday": "2 PM–2 AM",
    "Saturday": "12 PM–2 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$"
  },
  {
@@ -758,13 +805,14 @@
    "lon": -73.9945351,
    "link": "https://www.instagram.com/brooklynsocialbar/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–2 AM",
    "Saturday": "4 PM–2 AM",
-   "Sunday": "4 PM–12 AM",
+   "Sunday": "4 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -774,13 +822,14 @@
    "lon": -73.9856038,
    "link": "https://www.instagram.com/hardtoexplainnyc/?hl=en",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "5–11 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5–11 PM",
    "Friday": "5 PM–1 AM",
    "Saturday": "11 AM–1 AM",
-   "Sunday": "11 AM–10 PM",
+   "Sunday": "11 AM–10 PM"],
    "price": "$$"
  },
  {
@@ -790,13 +839,14 @@
    "lon": -73.9563783,
    "link": "https://www.instagram.com/haveandmeyer/?hl=en",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "5–11 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5–11 PM",
    "Friday": "5–11:30 PM",
    "Saturday": "5–11:30 PM",
-   "Sunday": "5–11 PM",
+   "Sunday": "5–11 PM"],
    "price": "$$$"
  },
  {
@@ -806,13 +856,14 @@
    "lon": -73.9654775,
    "link": "https://www.instagram.com/antidote__nyc/?hl=en",
    "openNow": true,
-   "Monday": "12:15–10 PM",
+   "hours": [
+    "Monday: "12:15–10 PM",
    "Tuesday": "12:15–10 PM",
    "Wednesday": "12:15–10 PM",
    "Thursday": "12:15–10 PM",
    "Friday": "12:15–10 PM",
    "Saturday": "12:15–10 PM",
-   "Sunday": "12:15–10 PM",
+   "Sunday": "12:15–10 PM"],
    "price": "$$"
  },
  {
@@ -822,13 +873,14 @@
    "lon": -73.9877312,
    "link": "https://www.instagram.com/sakebar.decibel/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "6 PM–12 AM",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–1 AM",
    "Friday": "6 PM–2 AM",
    "Saturday": "6 PM–2 AM",
-   "Sunday": "9 AM–5 PM",
+   "Sunday": "9 AM–5 PM"],
    "price": "$$"
  },
  {
@@ -838,13 +890,14 @@
    "lon": -74.0025925,
    "link": "https://www.instagram.com/rakunyc/?hl=en",
    "openNow": true,
-   "Monday": "5–10 PM",
+   "hours": [
+    "Monday: "5–10 PM",
    "Tuesday": "12–10 PM",
    "Wednesday": "12–10 PM",
    "Thursday": "12–10 PM",
    "Friday": "12–11 PM",
    "Saturday": "12–11 PM",
-   "Sunday": "12–10 PM",
+   "Sunday": "12–10 PM"],
    "price": "$$"
  },
  {
@@ -854,13 +907,14 @@
    "lon": -73.9880197,
    "link": "https://www.instagram.com/ichibanteiny/?hl=en",
    "openNow": true,
-   "Monday": "11 AM–3 AM",
+   "hours": [
+    "Monday: "11 AM–3 AM",
    "Tuesday": "11 AM–3 AM",
    "Wednesday": "11 AM–3 AM",
    "Thursday": "6 PM–3 AM",
    "Friday": "6 PM–3 AM",
    "Saturday": "11 AM–3 AM",
-   "Sunday": "11 AM–3 AM",
+   "Sunday": "11 AM–3 AM"],
    "price": "$$"
  },
  {
@@ -870,13 +924,14 @@
    "lon": -73.9508843,
    "link": "https://www.instagram.com/askforjanice.nyc/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -886,13 +941,14 @@
    "lon": -73.9625685,
    "link": "https://www.instagram.com/with.others.bk/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "5–11 PM",
    "Thursday": "5 PM–12 AM",
    "Friday": "4 PM–12 AM",
    "Saturday": "2 PM–12 AM",
-   "Sunday": "3–11 PM",
+   "Sunday": "3–11 PM"],
    "price": "$$$"
  },
  {
@@ -902,13 +958,14 @@
    "lon": -73.96014,
    "link": "https://www.instagram.com/samuraimama_bk/?hl=en",
    "openNow": true,
-   "Monday": "12–3:45 PM; 5–10 PM",
+   "hours": [
+    "Monday: "12–3:45 PM; 5–10 PM",
    "Tuesday": "12–3:45 PM; 5–10 PM",
    "Wednesday": "12–3:45 PM; 5–10 PM",
    "Thursday": "12–3:45 PM; 5–10 PM",
    "Friday": "12–3:45 PM; 5–10 PM",
    "Saturday": "12–3:45 PM; 5–10 PM",
-   "Sunday": "12–3:45 PM; 5–10 PM",
+   "Sunday": "12–3:45 PM; 5–10 PM"],
    "price": "$$"
  },
  {
@@ -918,13 +975,14 @@
    "lon": -73.9605332,
    "link": "https://www.instagram.com/birdsofafeatherbk/?hl=en",
    "openNow": true,
-   "Monday": "12–10 PM",
+   "hours": [
+    "Monday: "12–10 PM",
    "Tuesday": "12–10 PM",
    "Wednesday": "12–10 PM",
    "Thursday": "12–10 PM",
    "Friday": "12–10:30 PM",
    "Saturday": "11 AM–10:30 PM",
-   "Sunday": "11 AM–10 PM",
+   "Sunday": "11 AM–10 PM"],
    "price": "$$"
  },
  {
@@ -934,13 +992,14 @@
    "lon": -73.95466646,
    "link": "https://www.instagram.com/acre_nyc/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–5 PM",
+   "hours": [
+    "Monday: "8 AM–5 PM",
    "Tuesday": "8 AM–5 PM",
    "Wednesday": "8 AM–5 PM",
    "Thursday": "8 AM–5 PM",
    "Friday": "8 AM–5 PM",
    "Saturday": "8 AM–5 PM",
-   "Sunday": "8 AM–5 PM",
+   "Sunday": "8 AM–5 PM"],
    "price": "$$"
  },
  {
@@ -950,13 +1009,14 @@
    "lon": -74.0027295,
    "link": "https://www.instagram.com/smallslive/?hl=en",
    "openNow": true,
-   "Monday": "7 PM–3:30 AM",
+   "hours": [
+    "Monday: "7 PM–3:30 AM",
    "Tuesday": "7 PM–3:30 AM",
    "Wednesday": "7 PM–3:30 AM",
    "Thursday": "7 PM–3:30 AM",
    "Friday": "2 PM–3:30 AM",
    "Saturday": "2 PM–3:30 AM",
-   "Sunday": "2 PM–3:30 AM",
+   "Sunday": "2 PM–3:30 AM"],
    "price": "$$"
  },
  {
@@ -966,13 +1026,14 @@
    "lon": -73.9320225,
    "link": "https://www.instagram.com/ornithologyjazzclub/?hl=en",
    "openNow": true,
-   "Monday": "6 PM–2 AM",
+   "hours": [
+    "Monday: "6 PM–2 AM",
    "Tuesday": "6 PM–2 AM",
    "Wednesday": "6 PM–2 AM",
    "Thursday": "6 PM–2 AM",
    "Friday": "6 PM–2 AM",
    "Saturday": "6 PM–2 AM",
-   "Sunday": "6 PM–2 AM",
+   "Sunday": "6 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -982,13 +1043,14 @@
    "lon": -74.00432961,
    "link": "https://www.instagram.com/angelssharenyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "5 PM–12 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$"
  },
  {
@@ -998,13 +1060,14 @@
    "lon": -73.96295099,
    "link": "https://www.instagram.com/layla_nyc_/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–1 AM",
    "Friday": "12 PM–2 AM",
    "Saturday": "11 AM–2 AM",
-   "Sunday": "11 AM–12 AM",
+   "Sunday": "11 AM–12 AM"],
    "price": "$$$"
  },
  {
@@ -1014,13 +1077,14 @@
    "lon": -73.9569597,
    "link": "https://www.instagram.com/taqueria_ramirez_/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "12–10 PM",
    "Wednesday": "12–10 PM",
    "Thursday": "12–10 PM",
    "Friday": "12–10 PM",
    "Saturday": "12–10 PM",
-   "Sunday": "12–10 PM",
+   "Sunday": "12–10 PM"],
    "price": "$"
  },
  {
@@ -1030,13 +1094,14 @@
    "lon": -73.9775392,
    "link": "https://www.instagram.com/madelinesmartini/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "6 PM–2 AM",
    "Thursday": "6 PM–2 AM",
    "Friday": "6 PM–4 AM",
    "Saturday": "6 PM–4 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "N/A"
  },
  {
@@ -1046,13 +1111,14 @@
    "lon": -73.9880334,
    "link": "https://www.instagram.com/monomono.nyc/?hl=en",
    "openNow": true,
-   "Monday": "12–11 PM",
+   "hours": [
+    "Monday: "12–11 PM",
    "Tuesday": "12–11 PM",
    "Wednesday": "12–11 PM",
    "Thursday": "12–11 PM",
    "Friday": "12 PM–12 AM",
    "Saturday": "12 PM–12 AM",
-   "Sunday": "12–11 PM",
+   "Sunday": "12–11 PM"],
    "price": "$$$"
  },
  {
@@ -1062,13 +1128,14 @@
    "lon": -73.984037,
    "link": "https://www.instagram.com/romeosnyc/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–2 AM",
+   "hours": [
+    "Monday: "4 PM–2 AM",
    "Tuesday": "4 PM–2 AM",
    "Wednesday": "4 PM–2 AM",
    "Thursday": "4 PM–2 AM",
    "Friday": "4 PM–4 AM",
    "Saturday": "2 PM–4 AM",
-   "Sunday": "2 PM–2 AM",
+   "Sunday": "2 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -1078,13 +1145,14 @@
    "lon": -73.962782,
    "link": "https://www.instagram.com/simplecafebrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–6 PM",
+   "hours": [
+    "Monday: "10 AM–6 PM",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "11:30 AM–10 PM",
    "Friday": "12–10 PM",
    "Saturday": "10 AM–10 PM",
-   "Sunday": "10 AM–8 PM",
+   "Sunday": "10 AM–8 PM"],
    "price": "$$"
  },
  {
@@ -1094,13 +1162,14 @@
    "lon": -73.986294,
    "link": "https://www.instagram.com/belfrynyc/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–2 AM",
+   "hours": [
+    "Monday: "4 PM–2 AM",
    "Tuesday": "4 PM–2 AM",
    "Wednesday": "4 PM–2 AM",
    "Thursday": "4 PM–2 AM",
    "Friday": "3 PM–4 AM",
    "Saturday": "3 PM–4 AM",
-   "Sunday": "4 PM–12 AM",
+   "Sunday": "4 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -1110,13 +1179,14 @@
    "lon": -73.9629051,
    "link": "https://www.instagram.com/spectaclenyc/?hl=en",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "$"
  },
  {
@@ -1126,13 +1196,14 @@
    "lon": -73.9572969,
    "link": "https://www.instagram.com/everybodyiknowcanbefoundhere/?hl=en",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "$$"
  },
  {
@@ -1142,13 +1213,14 @@
    "lon": -73.9615252,
    "link": "https://www.instagram.com/radegasthall/?hl=en",
    "openNow": true,
-   "Monday": "12 PM–1 AM",
+   "hours": [
+    "Monday: "12 PM–1 AM",
    "Tuesday": "12 PM–1 AM",
    "Wednesday": "12 PM–1 AM",
    "Thursday": "12 PM–1 AM",
    "Friday": "12 PM–3 AM",
    "Saturday": "11 AM–3 AM",
-   "Sunday": "11 AM–1 AM",
+   "Sunday": "11 AM–1 AM"],
    "price": "$$"
  },
  {
@@ -1158,13 +1230,14 @@
    "lon": -73.9677352,
    "link": "https://www.instagram.com/deuxchatsbk/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "3 PM–2 AM",
-   "Sunday": "3–11 PM",
+   "Sunday": "3–11 PM"],
    "price": "$$$"
  },
  {
@@ -1174,13 +1247,14 @@
    "lon": -73.9622739,
    "link": "https://www.instagram.com/saucedbklyn/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "3 PM–2 AM",
-   "Sunday": "3 PM–12 AM",
+   "Sunday": "3 PM–12 AM"],
    "price": "N/A"
  },
  {
@@ -1190,13 +1264,14 @@
    "lon": -73.9507806,
    "link": "https://www.instagram.com/ponyboyny/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "6 PM–2 AM",
    "Friday": "6 PM–2 AM",
    "Saturday": "6 PM–2 AM",
-   "Sunday": "6 PM–2 AM",
+   "Sunday": "6 PM–2 AM"],
    "price": "$"
  },
  {
@@ -1206,13 +1281,14 @@
    "lon": -73.95193139,
    "link": "https://www.instagram.com/twinsloungenyc/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–3 AM",
+   "hours": [
+    "Monday: "4 PM–3 AM",
    "Tuesday": "4 PM–3 AM",
    "Wednesday": "4 PM–3 AM",
    "Thursday": "4 PM–3 AM",
    "Friday": "4 PM–3 AM",
    "Saturday": "3 PM–4 AM",
-   "Sunday": "3 PM–4 AM",
+   "Sunday": "3 PM–4 AM"],
    "price": "N/A"
  },
  {
@@ -1222,13 +1298,14 @@
    "lon": -73.9580192,
    "link": "https://www.instagram.com/hoteldelmano/?hl=en",
    "openNow": true,
-   "Monday": "2 PM–1 AM",
+   "hours": [
+    "Monday: "2 PM–1 AM",
    "Tuesday": "4 PM–1 AM",
    "Wednesday": "4 PM–1 AM",
    "Thursday": "4 PM–1 AM",
    "Friday": "4 PM–1 AM",
    "Saturday": "4 PM–2 AM",
-   "Sunday": "2 PM–2 AM",
+   "Sunday": "2 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -1238,13 +1315,14 @@
    "lon": -73.9780286,
    "link": "https://www.instagram.com/studio151nyc/?hl=en",
    "openNow": true,
-   "Monday": "6:45 PM–2 AM",
+   "hours": [
+    "Monday: "6:45 PM–2 AM",
    "Tuesday": "6:45 PM–2 AM",
    "Wednesday": "6:45 PM–4 AM",
    "Thursday": "6:45 PM–4 AM",
    "Friday": "6:45 PM–4 AM",
    "Saturday": "6:45 PM–4 AM",
-   "Sunday": "6:45 PM–2 AM",
+   "Sunday": "6:45 PM–2 AM"],
    "price": "$$$$"
  },
  {
@@ -1254,13 +1332,14 @@
    "lon": -73.9787539,
    "link": "https://www.instagram.com/joyfacenyc/?hl=en",
    "openNow": true,
-   "Monday": "7 PM–2 AM",
+   "hours": [
+    "Monday: "7 PM–2 AM",
    "Tuesday": "Closed",
    "Wednesday": "7 PM–2 AM",
    "Thursday": "7 PM–2 AM",
    "Friday": "7 PM–3 AM",
    "Saturday": "7 PM–3 AM",
-   "Sunday": "7 PM–3 AM",
+   "Sunday": "7 PM–3 AM"],
    "price": "$$"
  },
  {
@@ -1270,13 +1349,14 @@
    "lon": -73.9615254,
    "link": "https://www.instagram.com/freshkillsbar/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–1 AM",
+   "hours": [
+    "Monday: "5 PM–1 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–1 AM",
    "Saturday": "5 PM–1 AM",
-   "Sunday": "5 PM–1 AM",
+   "Sunday": "5 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -1286,13 +1366,14 @@
    "lon": -73.9580608,
    "link": "https://www.instagram.com/barblondeau/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "2 PM–12 AM",
-   "Sunday": "1 PM–12 AM",
+   "Sunday": "1 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -1302,13 +1383,14 @@
    "lon": -73.9499766,
    "link": "https://www.instagram.com/nightofjoy/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–4 AM",
    "Saturday": "5 PM–4 AM",
-   "Sunday": "5 PM–2 AM",
+   "Sunday": "5 PM–2 AM"],
    "price": "$"
  },
  {
@@ -1318,13 +1400,14 @@
    "lon": -73.958497,
    "link": "https://www.instagram.com/pplnyc/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–4 PM",
+   "hours": [
+    "Monday: "8 AM–4 PM",
    "Tuesday": "8 AM–4 PM",
    "Wednesday": "8 AM–4 PM",
    "Thursday": "8 AM–4 PM",
    "Friday": "8 AM–4 PM",
    "Saturday": "9 AM–4 PM",
-   "Sunday": "9 AM–4 PM",
+   "Sunday": "9 AM–4 PM"],
    "price": "$"
  },
  {
@@ -1334,13 +1417,14 @@
    "lon": -73.96788,
    "link": "https://www.instagram.com/baranobk/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "5–10 PM",
    "Saturday": "3–11 PM",
-   "Sunday": "3–10 PM",
+   "Sunday": "3–10 PM"],
    "price": "$$"
  },
  {
@@ -1350,13 +1434,14 @@
    "lon": -73.9644726,
    "link": "https://www.instagram.com/pollyn.nyc/?hl=en",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "$"
  },
  {
@@ -1366,13 +1451,14 @@
    "lon": -73.9607387,
    "link": "https://www.instagram.com/fanfriedricebar/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "5–11 PM",
    "Saturday": "4–11 PM",
-   "Sunday": "4–10 PM",
+   "Sunday": "4–10 PM"],
    "price": "$$"
  },
  {
@@ -1382,13 +1468,14 @@
    "lon": -74.0044663,
    "link": "https://www.instagram.com/casamagazinesnyc/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–10 PM",
+   "hours": [
+    "Monday: "8 AM–10 PM",
    "Tuesday": "8 AM–10 PM",
    "Wednesday": "8 AM–10 PM",
    "Thursday": "8 AM–10 PM",
    "Friday": "8 AM–10 PM",
    "Saturday": "8 AM–10 PM",
-   "Sunday": "8 AM–9 PM",
+   "Sunday": "8 AM–9 PM"],
    "price": "$"
  },
  {
@@ -1398,13 +1485,14 @@
    "lon": -73.99921644,
    "link": "https://www.instagram.com/cafeflornyc/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–12 AM",
+   "hours": [
+    "Monday: "8 AM–12 AM",
    "Tuesday": "8 AM–12 AM",
    "Wednesday": "8 AM–12 AM",
    "Thursday": "8 AM–12 AM",
    "Friday": "8 AM–2 AM",
    "Saturday": "8 AM–2 AM",
-   "Sunday": "8 AM–12 AM",
+   "Sunday": "8 AM–12 AM"],
    "price": "$"
  },
  {
@@ -1414,13 +1502,14 @@
    "lon": -73.99520423,
    "link": "https://www.instagram.com/frevonyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5:30–10 PM",
    "Wednesday": "5:30–10 PM",
    "Thursday": "5:30–10 PM",
    "Friday": "5:30–10 PM",
    "Saturday": "5:30–10 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$$"
  },
  {
@@ -1430,13 +1519,14 @@
    "lon": -73.957519,
    "link": "https://www.instagram.com/bozubrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "5–9:30 PM",
+   "hours": [
+    "Monday: "5–9:30 PM",
    "Tuesday": "5–9:30 PM",
    "Wednesday": "5–9:30 PM",
    "Thursday": "5–9:30 PM",
    "Friday": "5–10:30 PM",
    "Saturday": "5–10:30 PM",
-   "Sunday": "5–9:30 PM",
+   "Sunday": "5–9:30 PM"],
    "price": "$$"
  },
  {
@@ -1446,13 +1536,14 @@
    "lon": -74.0019638,
    "link": "https://www.instagram.com/auchevaldiner/?hl=en",
    "openNow": true,
-   "Monday": "5–10:30 PM",
+   "hours": [
+    "Monday: "5–10:30 PM",
    "Tuesday": "5–10:30 PM",
    "Wednesday": "12–10:30 PM",
    "Thursday": "12–10:30 PM",
    "Friday": "12–11:30 PM",
    "Saturday": "11 AM–11:30 PM",
-   "Sunday": "11 AM–10:30 PM",
+   "Sunday": "11 AM–10:30 PM"],
    "price": "$$$"
  },
  {
@@ -1462,13 +1553,14 @@
    "lon": -73.9871655,
    "link": "https://www.instagram.com/casamonobarjamon/?hl=en",
    "openNow": true,
-   "Monday": "12 PM–12 AM",
+   "hours": [
+    "Monday: "12 PM–12 AM",
    "Tuesday": "12 PM–12 AM",
    "Wednesday": "12 PM–12 AM",
    "Thursday": "12 PM–12 AM",
    "Friday": "12 PM–12 AM",
    "Saturday": "12 PM–12 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -1478,13 +1570,14 @@
    "lon": -73.9834817,
    "link": "https://www.instagram.com/ampersandbarnyc/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–2 AM",
+   "hours": [
+    "Monday: "4 PM–2 AM",
    "Tuesday": "4 PM–2 AM",
    "Wednesday": "4 PM–2 AM",
    "Thursday": "4 PM–4 AM",
    "Friday": "4 PM–4 AM",
    "Saturday": "4 PM–4 AM",
-   "Sunday": "4 PM–2 AM",
+   "Sunday": "4 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -1494,13 +1587,14 @@
    "lon": -73.92135392,
    "link": "https://www.instagram.com/cherry.on.top.nyc/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "2 PM–12 AM",
-   "Sunday": "2 PM–12 AM",
+   "Sunday": "2 PM–12 AM"],
    "price": "$"
  },
  {
@@ -1510,13 +1604,14 @@
    "lon": -73.9886623,
    "link": "https://www.instagram.com/nyc_close_up/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "Closed",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "5 PM–12 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -1526,13 +1621,14 @@
    "lon": -73.93760723,
    "link": "https://www.instagram.com/noguchimuseum/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "11 AM–6 PM",
    "Thursday": "11 AM–6 PM",
    "Friday": "11 AM–6 PM",
    "Saturday": "11 AM–6 PM",
-   "Sunday": "11 AM–6 PM",
+   "Sunday": "11 AM–6 PM"],
    "price": "$"
  },
  {
@@ -1542,13 +1638,14 @@
    "lon": -73.9408643,
    "link": "https://www.instagram.com/sculpturecenter/?hl=en",
    "openNow": true,
-   "Monday": "12–6 PM",
+   "hours": [
+    "Monday: "12–6 PM",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "12–6 PM",
    "Friday": "12–6 PM",
    "Saturday": "12–6 PM",
-   "Sunday": "12–6 PM",
+   "Sunday": "12–6 PM"],
    "price": "$"
  },
  {
@@ -1558,13 +1655,14 @@
    "lon": -73.9494444,
    "link": "https://www.instagram.com/sculpturesnyc/?hl=en",
    "openNow": true,
-   "Monday": "12–6 PM",
+   "hours": [
+    "Monday: "12–6 PM",
    "Tuesday": "12–6 PM",
    "Wednesday": "12–6 PM",
    "Thursday": "12–6 PM",
    "Friday": "12–6 PM",
    "Saturday": "Closed",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -1574,13 +1672,14 @@
    "lon": -73.95873594,
    "link": "https://www.instagram.com/salon94/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "11 AM–6 PM",
    "Thursday": "11 AM–6 PM",
    "Friday": "11 AM–6 PM",
    "Saturday": "11 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -1590,13 +1689,14 @@
    "lon": -73.9907793,
    "link": "https://www.instagram.com/apparatusstudio/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–5 PM",
+   "hours": [
+    "Monday: "10 AM–5 PM",
    "Tuesday": "10 AM–5 PM",
    "Wednesday": "10 AM–5 PM",
    "Thursday": "10 AM–5 PM",
    "Friday": "10 AM–5 PM",
    "Saturday": "Closed",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -1606,13 +1706,14 @@
    "lon": -73.998684,
    "link": "https://www.instagram.com/yansantiquejewelry/?hl=en",
    "openNow": true,
-   "Monday": "10:30 AM–6 PM",
+   "hours": [
+    "Monday: "10:30 AM–6 PM",
    "Tuesday": "10:30 AM–6 PM",
    "Wednesday": "10:30 AM–6 PM",
    "Thursday": "10:30 AM–6 PM",
    "Friday": "10:30 AM–6 PM",
    "Saturday": "10:30 AM–6 PM",
-   "Sunday": "10:30 AM–6 PM",
+   "Sunday": "10:30 AM–6 PM"],
    "price": "N/A"
  },
  {
@@ -1622,13 +1723,14 @@
    "lon": -74.00019657,
    "link": "https://www.instagram.com/magicjewelrynyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "11:30 AM–5:30 PM",
    "Wednesday": "11:30 AM–5:30 PM",
    "Thursday": "Closed",
    "Friday": "11:30 AM–5:30 PM",
    "Saturday": "11:30 AM–5:30 PM",
-   "Sunday": "11:30 AM–5:30 PM",
+   "Sunday": "11:30 AM–5:30 PM"],
    "price": "$"
  },
  {
@@ -1638,13 +1740,14 @@
    "lon": -74.00890916,
    "link": "https://www.instagram.com/postermuseum/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–7 PM",
+   "hours": [
+    "Monday: "10 AM–7 PM",
    "Tuesday": "10 AM–7 PM",
    "Wednesday": "10 AM–7 PM",
    "Thursday": "10 AM–7 PM",
    "Friday": "10 AM–7 PM",
    "Saturday": "10 AM–7 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "N/A"
  },
  {
@@ -1654,13 +1757,14 @@
    "lon": -73.9790284,
    "link": "https://www.instagram.com/westsiderbooks/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–7 PM",
+   "hours": [
+    "Monday: "10 AM–7 PM",
    "Tuesday": "10 AM–7 PM",
    "Wednesday": "10 AM–7 PM",
    "Thursday": "10 AM–7 PM",
    "Friday": "10 AM–7 PM",
    "Saturday": "10 AM–7 PM",
-   "Sunday": "10 AM–7 PM",
+   "Sunday": "10 AM–7 PM"],
    "price": "N/A"
  },
  {
@@ -1670,13 +1774,14 @@
    "lon": -73.9833099,
    "link": "https://www.instagram.com/niconeco_zakkaya/?hl=en",
    "openNow": true,
-   "Monday": "12–7 PM",
+   "hours": [
+    "Monday: "12–7 PM",
    "Tuesday": "12–7 PM",
    "Wednesday": "12–7 PM",
    "Thursday": "12–7 PM",
    "Friday": "12–7 PM",
    "Saturday": "12–7 PM",
-   "Sunday": "12–6 PM",
+   "Sunday": "12–6 PM"],
    "price": "N/A"
  },
  {
@@ -1686,13 +1791,14 @@
    "lon": -73.9923162,
    "link": "https://www.instagram.com/bungee.space/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "11 AM–7 PM",
    "Wednesday": "11 AM–7 PM",
    "Thursday": "11 AM–7 PM",
    "Friday": "11 AM–7 PM",
    "Saturday": "11 AM–7 PM",
-   "Sunday": "11 AM–6:30 PM",
+   "Sunday": "11 AM–6:30 PM"],
    "price": "N/A"
  },
  {
@@ -1702,13 +1808,14 @@
    "lon": -74.007213,
    "link": "https://www.instagram.com/brandylibrarynyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–2 AM",
    "Friday": "4 PM–2 AM",
    "Saturday": "4 PM–2 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$"
  },
  {
@@ -1718,13 +1825,14 @@
    "lon": -73.9371547,
    "link": "https://www.instagram.com/cafe.erzulie/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "7–11 PM",
    "Thursday": "7 PM–2 AM",
    "Friday": "7 PM–4 AM",
    "Saturday": "4 PM–4 AM",
-   "Sunday": "4–11 PM",
+   "Sunday": "4–11 PM"],
    "price": "$"
  },
  {
@@ -1734,13 +1842,14 @@
    "lon": -73.9501191,
    "link": "https://www.instagram.com/mr.melobar/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–12:30 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "5 PM–12:30 AM",
+   "Sunday": "5 PM–12:30 AM"],
    "price": "$$"
  },
  {
@@ -1750,13 +1859,14 @@
    "lon": -73.9612431,
    "link": "https://www.instagram.com/nemsbistro/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–9 PM",
+   "hours": [
+    "Monday: "8 AM–9 PM",
    "Tuesday": "8 AM–9 PM",
    "Wednesday": "8 AM–9 PM",
    "Thursday": "8 AM–9 PM",
    "Friday": "8 AM–10 PM",
    "Saturday": "8 AM–10 PM",
-   "Sunday": "8:30 AM–9 PM",
+   "Sunday": "8:30 AM–9 PM"],
    "price": "$$"
  },
  {
@@ -1766,13 +1876,14 @@
    "lon": -73.9550647,
    "link": "https://www.instagram.com/milkandrosesbistro/?hl=en",
    "openNow": true,
-   "Monday": "11 AM–10 PM",
+   "hours": [
+    "Monday: "11 AM–10 PM",
    "Tuesday": "11 AM–10 PM",
    "Wednesday": "11 AM–10 PM",
    "Thursday": "11 AM–10 PM",
    "Friday": "11 AM–11 PM",
    "Saturday": "10 AM–3 PM",
-   "Sunday": "10 AM–9 PM",
+   "Sunday": "10 AM–9 PM"],
    "price": "$$"
  },
  {
@@ -1782,13 +1893,14 @@
    "lon": -73.95507429,
    "link": "https://www.instagram.com/tulahouse/?hl=en",
    "openNow": true,
-   "Monday": "11 AM–7 PM",
+   "hours": [
+    "Monday: "11 AM–7 PM",
    "Tuesday": "11 AM–7 PM",
    "Wednesday": "11 AM–7 PM",
    "Thursday": "11 AM–7 PM",
    "Friday": "11 AM–7 PM",
    "Saturday": "11 AM–7 PM",
-   "Sunday": "11 AM–7 PM",
+   "Sunday": "11 AM–7 PM"],
    "price": "N/A"
  },
  {
@@ -1798,13 +1910,14 @@
    "lon": -73.98465537,
    "link": "https://www.instagram.com/deathandcompany/?hl=en",
    "openNow": true,
-   "Monday": "6 PM–1 AM",
+   "hours": [
+    "Monday: "6 PM–1 AM",
    "Tuesday": "6 PM–1 AM",
    "Wednesday": "6 PM–1 AM",
    "Thursday": "6 PM–2 AM",
    "Friday": "6 PM–2 AM",
    "Saturday": "6 PM–2 AM",
-   "Sunday": "6 PM–1 AM",
+   "Sunday": "6 PM–1 AM"],
    "price": "$$$"
  },
  {
@@ -1814,13 +1927,14 @@
    "lon": -73.9874568,
    "link": "https://www.instagram.com/midnightblue_nyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "6 PM–1 AM",
    "Thursday": "6 PM–1 AM",
    "Friday": "6 PM–1 AM",
    "Saturday": "6 PM–1 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$"
  },
  {
@@ -1830,13 +1944,14 @@
    "lon": -73.984036,
    "link": "https://www.instagram.com/dear.mr.moto/?hl=en",
    "openNow": true,
-   "Monday": "6 PM–12 AM",
+   "hours": [
+    "Monday: "6 PM–12 AM",
    "Tuesday": "6 PM–12 AM",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–12 AM",
    "Friday": "6 PM–12 AM",
    "Saturday": "6 PM–12 AM",
-   "Sunday": "6 PM–12 AM",
+   "Sunday": "6 PM–12 AM"],
    "price": "$$$$"
  },
  {
@@ -1846,13 +1961,14 @@
    "lon": -73.98427166,
    "link": "https://www.instagram.com/jonesstreetwinebar/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–11:30 PM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "5 PM–12 AM",
-   "Sunday": "5–11 PM",
+   "Sunday": "5–11 PM"],
    "price": "$$"
  },
  {
@@ -1862,13 +1978,14 @@
    "lon": -73.9844558,
    "link": "https://www.instagram.com/a1recordshop/?hl=en",
    "openNow": true,
-   "Monday": "12–8 PM",
+   "hours": [
+    "Monday: "12–8 PM",
    "Tuesday": "12–8 PM",
    "Wednesday": "12–8 PM",
    "Thursday": "12–8 PM",
    "Friday": "12–8 PM",
    "Saturday": "12–8 PM",
-   "Sunday": "12–8 PM",
+   "Sunday": "12–8 PM"],
    "price": "$"
  },
  {
@@ -1878,13 +1995,14 @@
    "lon": -73.954374,
    "link": "https://www.instagram.com/thelotradio/?hl=en",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "$"
  },
  {
@@ -1894,13 +2012,14 @@
    "lon": -73.9552053,
    "link": "https://www.instagram.com/thirdsbk/?hl=en",
    "openNow": true,
-   "Monday": "5–10 PM",
+   "hours": [
+    "Monday: "5–10 PM",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "5–11 PM",
    "Saturday": "10 AM–3 PM; 5–11 PM",
-   "Sunday": "10 AM–1:30 PM",
+   "Sunday": "10 AM–1:30 PM"],
    "price": "$$$"
  },
  {
@@ -1910,13 +2029,14 @@
    "lon": -73.9319228,
    "link": "https://www.instagram.com/metcloisters/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–5 PM",
+   "hours": [
+    "Monday: "10 AM–5 PM",
    "Tuesday": "10 AM–5 PM",
    "Wednesday": "Closed",
    "Thursday": "10 AM–5 PM",
    "Friday": "10 AM–5 PM",
    "Saturday": "10 AM–5 PM",
-   "Sunday": "10 AM–5 PM",
+   "Sunday": "10 AM–5 PM"],
    "price": "$"
  },
  {
@@ -1926,13 +2046,14 @@
    "lon": -73.9572158,
    "link": "https://www.instagram.com/lexingtoncandyshop/?hl=en",
    "openNow": true,
-   "Monday": "7 AM–6 PM",
+   "hours": [
+    "Monday: "7 AM–6 PM",
    "Tuesday": "11:30 AM–6 PM",
    "Wednesday": "7 AM–6 PM",
    "Thursday": "7 AM–6 PM",
    "Friday": "7 AM–6 PM",
    "Saturday": "8 AM–6 PM",
-   "Sunday": "8 AM–4 PM",
+   "Sunday": "8 AM–4 PM"],
    "price": "$"
  },
  {
@@ -1942,13 +2063,14 @@
    "lon": -73.9822272,
    "link": "https://www.instagram.com/tsumonyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "2–4 PM; 5–10 PM",
    "Wednesday": "2–4 PM; 5–10 PM",
    "Thursday": "2–4 PM; 5–10 PM",
    "Friday": "2–4 PM; 5–10 PM",
    "Saturday": "2–4 PM; 5–10 PM",
-   "Sunday": "2–4 PM; 5–10 PM",
+   "Sunday": "2–4 PM; 5–10 PM"],
    "price": "$$$"
  },
  {
@@ -1958,13 +2080,14 @@
    "lon": -73.9901283,
    "link": "https://www.instagram.com/piccolastrada4thstreet/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "4:30–9:30 PM",
    "Wednesday": "4:30–9:30 PM",
    "Thursday": "4:30–10 PM",
    "Friday": "4:30–10:30 PM",
    "Saturday": "4:30–10:30 PM",
-   "Sunday": "4:30–9:30 PM",
+   "Sunday": "4:30–9:30 PM"],
    "price": "$$"
  },
  {
@@ -1974,13 +2097,14 @@
    "lon": -73.9983694,
    "link": "https://www.instagram.com/kamman.canal/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–5:50 PM",
+   "hours": [
+    "Monday: "10 AM–5:50 PM",
    "Tuesday": "10 AM–5:50 PM",
    "Wednesday": "10 AM–5:50 PM",
    "Thursday": "10 AM–5:50 PM",
    "Friday": "10 AM–5:50 PM",
    "Saturday": "10 AM–5:50 PM",
-   "Sunday": "10 AM–5:50 PM",
+   "Sunday": "10 AM–5:50 PM"],
    "price": "$$"
  },
  {
@@ -1990,13 +2114,14 @@
    "lon": -74.00239612,
    "link": "https://www.instagram.com/explore/locations/6930798/kai-feng-fu-dumpling-house/?hl=en",
    "openNow": true,
-   "Monday": "7:30 AM–8 PM",
+   "hours": [
+    "Monday: "7:30 AM–8 PM",
    "Tuesday": "7:30 AM–8 PM",
    "Wednesday": "7:30 AM–8 PM",
    "Thursday": "7:30 AM–8 PM",
    "Friday": "7:30 AM–8 PM",
    "Saturday": "7:30 AM–8 PM",
-   "Sunday": "7:30 AM–8 PM",
+   "Sunday": "7:30 AM–8 PM"],
    "price": "$"
  },
  {
@@ -2006,13 +2131,14 @@
    "lon": -73.968135,
    "link": "https://www.instagram.com/leveaudor/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "11:30 AM–2 PM; 5–10 PM",
    "Wednesday": "11:30 AM–2 PM; 5–10 PM",
    "Thursday": "11:30 AM–2 PM; 5–10 PM",
    "Friday": "11:30 AM–2 PM; 5–10 PM",
    "Saturday": "5–10 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$$"
  },
  {
@@ -2022,13 +2148,14 @@
    "lon": -73.9755335,
    "link": "https://www.instagram.com/caferegular/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–4 PM",
+   "hours": [
+    "Monday: "8 AM–4 PM",
    "Tuesday": "8 AM–4 PM",
    "Wednesday": "8 AM–4 PM",
    "Thursday": "8 AM–4 PM",
    "Friday": "8 AM–4 PM",
    "Saturday": "8 AM–4 PM",
-   "Sunday": "8 AM–4 PM",
+   "Sunday": "8 AM–4 PM"],
    "price": "$"
  },
  {
@@ -2038,13 +2165,14 @@
    "lon": -73.979469,
    "link": "https://www.instagram.com/nbetween.bar/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "4–11 PM",
    "Wednesday": "4–11 PM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–12 AM",
    "Saturday": "4 PM–12 AM",
-   "Sunday": "4–11 PM",
+   "Sunday": "4–11 PM"],
    "price": "$$"
  },
  {
@@ -2054,13 +2182,14 @@
    "lon": -73.9937056,
    "link": "https://www.instagram.com/craftsmanave/?hl=en",
    "openNow": true,
-   "Monday": "9 AM–10 PM",
+   "hours": [
+    "Monday: "9 AM–10 PM",
    "Tuesday": "9 AM–10 PM",
    "Wednesday": "9 AM–10 PM",
    "Thursday": "9 AM–10 PM",
    "Friday": "9 AM–10 PM",
    "Saturday": "8 AM–10 PM",
-   "Sunday": "8 AM–10 PM",
+   "Sunday": "8 AM–10 PM"],
    "price": "N/A"
  },
  {
@@ -2070,13 +2199,14 @@
    "lon": -73.88601742,
    "link": "https://www.instagram.com/untermyergardens/?hl=en",
    "openNow": true,
-   "Monday": "9 AM–7 PM",
+   "hours": [
+    "Monday: "9 AM–7 PM",
    "Tuesday": "9 AM–7 PM",
    "Wednesday": "9 AM–7 PM",
    "Thursday": "9 AM–7 PM",
    "Friday": "9 AM–7 PM",
    "Saturday": "9 AM–7 PM",
-   "Sunday": "9 AM–7 PM",
+   "Sunday": "9 AM–7 PM"],
    "price": "$"
  },
  {
@@ -2086,13 +2216,14 @@
    "lon": -73.9924393,
    "link": "https://www.instagram.com/dahingplantsnyc/?hl=en",
    "openNow": true,
-   "Monday": "9 AM–6:30 PM",
+   "hours": [
+    "Monday: "9 AM–6:30 PM",
    "Tuesday": "9 AM–6:30 PM",
    "Wednesday": "9 AM–6:30 PM",
    "Thursday": "9 AM–6:30 PM",
    "Friday": "9 AM–6:30 PM",
    "Saturday": "9 AM–6:30 PM",
-   "Sunday": "9 AM–6:30 PM",
+   "Sunday": "9 AM–6:30 PM"],
    "price": "$"
  },
  {
@@ -2102,13 +2233,14 @@
    "lon": -73.9796265,
    "link": "https://www.instagram.com/bricolagebk/?hl=en",
    "openNow": true,
-   "Monday": "12–3:30 PM; 5:30–9:45 PM",
+   "hours": [
+    "Monday: "12–3:30 PM; 5:30–9:45 PM",
    "Tuesday": "12–3:30 PM; 5:30–9:45 PM",
    "Wednesday": "12–3:30 PM; 5:30–9:45 PM",
    "Thursday": "12–3:30 PM; 5:30–9:45 PM",
    "Friday": "12–3:30 PM; 5:30–10:30 PM",
    "Saturday": "11–3:30 PM; 5:30–10:30 PM",
-   "Sunday": "11–3:30 PM; 5:30–9:30 PM",
+   "Sunday": "11–3:30 PM; 5:30–9:30 PM"],
    "price": "$$$"
  },
  {
@@ -2118,13 +2250,14 @@
    "lon": -73.985173,
    "link": "https://www.instagram.com/104bond/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "6 PM–1 AM",
    "Thursday": "6 PM–1 AM",
    "Friday": "6 PM–1 AM",
    "Saturday": "6 PM–1 AM",
-   "Sunday": "6 PM–1 AM",
+   "Sunday": "6 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -2134,13 +2267,14 @@
    "lon": -73.9865223,
    "link": "https://www.instagram.com/publicrecordsnyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "10 AM–5 PM",
    "Wednesday": "10 AM–5 PM",
    "Thursday": "10 AM–5 PM",
    "Friday": "10 AM–5 PM; 6 PM–4 AM",
    "Saturday": "10 AM–5 PM; 6 PM–4 AM",
-   "Sunday": "10 AM–9 PM",
+   "Sunday": "10 AM–9 PM"],
    "price": "$$"
  },
  {
@@ -2150,13 +2284,14 @@
    "lon": -73.9896705,
    "link": "https://www.instagram.com/casino.ny/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "5 PM–12 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "N/A"
  },
  {
@@ -2166,13 +2301,14 @@
    "lon": -73.990996,
    "link": "https://www.instagram.com/bode/?hl=en",
    "openNow": true,
-   "Monday": "11 AM–7 PM",
+   "hours": [
+    "Monday: "11 AM–7 PM",
    "Tuesday": "11 AM–7 PM",
    "Wednesday": "11 AM–7 PM",
    "Thursday": "11 AM–7 PM",
    "Friday": "11 AM–7 PM",
    "Saturday": "11 AM–7 PM",
-   "Sunday": "11 AM–7 PM",
+   "Sunday": "11 AM–7 PM"],
    "price": "N/A"
  },
  {
@@ -2182,13 +2318,14 @@
    "lon": -73.9912318,
    "link": "https://www.instagram.com/desertvintage/?hl=en",
    "openNow": true,
-   "Monday": "11 AM–7 PM",
+   "hours": [
+    "Monday: "11 AM–7 PM",
    "Tuesday": "11 AM–7 PM",
    "Wednesday": "11 AM–7 PM",
    "Thursday": "11 AM–7 PM",
    "Friday": "11 AM–7 PM",
    "Saturday": "11 AM–7 PM",
-   "Sunday": "11 AM–7 PM",
+   "Sunday": "11 AM–7 PM"],
    "price": "N/A"
  },
  {
@@ -2198,13 +2335,14 @@
    "lon": -73.9917005,
    "link": "https://www.instagram.com/reginasgrocery/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–6 PM",
+   "hours": [
+    "Monday: "10 AM–6 PM",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "10 AM–6 PM",
+   "Sunday": "10 AM–6 PM"],
    "price": "$"
  },
  {
@@ -2214,13 +2352,14 @@
    "lon": -73.991428,
    "link": "https://www.instagram.com/tumbao.world?hl=en",
    "openNow": true,
-   "Monday": "12–7 PM",
+   "hours": [
+    "Monday: "12–7 PM",
    "Tuesday": "12–7 PM",
    "Wednesday": "12–7 PM",
    "Thursday": "12–7 PM",
    "Friday": "12–7 PM",
    "Saturday": "12–7 PM",
-   "Sunday": "12–7 PM",
+   "Sunday": "12–7 PM"],
    "price": "N/A"
  },
  {
@@ -2230,13 +2369,14 @@
    "lon": -73.9902028,
    "link": "https://www.instagram.com/sommwhere/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–12 AM",
+   "hours": [
+    "Monday: "8 AM–12 AM",
    "Tuesday": "8 AM–12 AM",
    "Wednesday": "8 AM–12 AM",
    "Thursday": "8 AM–12 AM",
    "Friday": "8 AM–12 AM",
    "Saturday": "8 AM–12 AM",
-   "Sunday": "8 AM–12 AM",
+   "Sunday": "8 AM–12 AM"],
    "price": "N/A"
  },
  {
@@ -2246,13 +2386,14 @@
    "lon": -73.9900143,
    "link": "https://www.instagram.com/oldfriendphotobooth/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–10 PM",
+   "hours": [
+    "Monday: "10 AM–10 PM",
    "Tuesday": "10 AM–10 PM",
    "Wednesday": "10 AM–10 PM",
    "Thursday": "10 AM–10 PM",
    "Friday": "10 AM–10 PM",
    "Saturday": "10 AM–10 PM",
-   "Sunday": "10 AM–10 PM",
+   "Sunday": "10 AM–10 PM"],
    "price": "$"
  },
  {
@@ -2262,13 +2403,14 @@
    "lon": -74.00090579,
    "link": "https://www.instagram.com/thelittleshopny/?hl=en",
    "openNow": true,
-   "Monday": "9 AM–10:30 PM",
+   "hours": [
+    "Monday: "9 AM–10:30 PM",
    "Tuesday": "9 AM–12 AM",
    "Wednesday": "9 AM–12 AM",
    "Thursday": "9 AM–12 AM",
    "Friday": "9 AM–12 AM",
    "Saturday": "5 PM–12 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "N/A"
  },
  {
@@ -2278,13 +2420,14 @@
    "lon": -73.99415102,
    "link": "https://www.instagram.com/cellarthirtysix/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–2 AM",
+   "hours": [
+    "Monday: "5 PM–2 AM",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "5 PM–2 AM",
+   "Sunday": "5 PM–2 AM"],
    "price": "N/A"
  },
  {
@@ -2294,13 +2437,14 @@
    "lon": -73.99373305,
    "link": "https://www.instagram.com/thegroundnyc/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–12 AM",
+   "hours": [
+    "Monday: "8 AM–12 AM",
    "Tuesday": "8 AM–12 AM",
    "Wednesday": "8 AM–12 AM",
    "Thursday": "8 AM–12 AM",
    "Friday": "8 AM–12 AM",
    "Saturday": "8 AM–12 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "N/A"
  },
  {
@@ -2310,13 +2454,14 @@
    "lon": -73.9898254,
    "link": "https://www.instagram.com/amsterdambilliards/?hl=en",
    "openNow": true,
-   "Monday": "11 AM–3 AM",
+   "hours": [
+    "Monday: "11 AM–3 AM",
    "Tuesday": "11 AM–3 AM",
    "Wednesday": "11 AM–3 AM",
    "Thursday": "11 AM–3 AM",
    "Friday": "11 AM–3 AM",
    "Saturday": "11 AM–3 AM",
-   "Sunday": "11 AM–3 AM",
+   "Sunday": "11 AM–3 AM"],
    "price": "$$"
  },
  {
@@ -2326,13 +2471,14 @@
    "lon": -73.9912397,
    "link": "https://www.instagram.com/colbo.nyc/?hl=en",
    "openNow": true,
-   "Monday": "11 AM–7 PM",
+   "hours": [
+    "Monday: "11 AM–7 PM",
    "Tuesday": "11 AM–7 PM",
    "Wednesday": "11 AM–7 PM",
    "Thursday": "11 AM–7 PM",
    "Friday": "11 AM–7 PM",
    "Saturday": "11 AM–7 PM",
-   "Sunday": "11 AM–7 PM",
+   "Sunday": "11 AM–7 PM"],
    "price": "N/A"
  },
  {
@@ -2342,13 +2488,14 @@
    "lon": -73.96942222,
    "link": "https://www.instagram.com/tearoom.by.calmplex/?hl=en",
    "openNow": true,
-   "Monday": "12–8 PM",
+   "hours": [
+    "Monday: "12–8 PM",
    "Tuesday": "Closed",
    "Wednesday": "12–8 PM",
    "Thursday": "12–8 PM",
    "Friday": "12–8 PM",
    "Saturday": "12–7 PM",
-   "Sunday": "12–7 PM",
+   "Sunday": "12–7 PM"],
    "price": "N/A"
  },
  {
@@ -2358,13 +2505,14 @@
    "lon": -74.0028479,
    "link": "https://www.instagram.com/stjardimnyc/?hl=en",
    "openNow": true,
-   "Monday": "7:30 AM–5 PM",
+   "hours": [
+    "Monday: "7:30 AM–5 PM",
    "Tuesday": "7:30 AM–11 PM",
    "Wednesday": "7:30 AM–11 PM",
    "Thursday": "7:30 AM–11 PM",
    "Friday": "7:30 AM–12 AM",
    "Saturday": "8 AM–12 AM",
-   "Sunday": "8 AM–10 PM",
+   "Sunday": "8 AM–10 PM"],
    "price": "$$"
  },
  {
@@ -2374,13 +2522,14 @@
    "lon": -73.95784981,
    "link": "https://www.instagram.com/renewfinds/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "Closed",
    "Friday": "Closed",
    "Saturday": "12–5 PM",
-   "Sunday": "12–5 PM",
+   "Sunday": "12–5 PM"],
    "price": "N/A"
  },
  {
@@ -2390,13 +2539,14 @@
    "lon": -74.0002831,
    "link": "https://www.instagram.com/bddw_etc/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–6 PM",
+   "hours": [
+    "Monday: "10 AM–6 PM",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "12–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "N/A"
  },
  {
@@ -2406,13 +2556,14 @@
    "lon": -74.0057112,
    "link": "https://www.instagram.com/paquita.nyc/?hl=en",
    "openNow": true,
-   "Monday": "9 AM–8 PM",
+   "hours": [
+    "Monday: "9 AM–8 PM",
    "Tuesday": "9 AM–8 PM",
    "Wednesday": "9 AM–8 PM",
    "Thursday": "9 AM–8 PM",
    "Friday": "9 AM–8 PM",
    "Saturday": "9 AM–8 PM",
-   "Sunday": "9 AM–8 PM",
+   "Sunday": "9 AM–8 PM"],
    "price": "N/A"
  },
  {
@@ -2422,13 +2573,14 @@
    "lon": -73.96929948,
    "link": "https://www.instagram.com/bar.orai/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "6 PM–12 AM",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–12 AM",
    "Friday": "6 PM–12 AM",
    "Saturday": "6 PM–12 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -2438,13 +2590,14 @@
    "lon": -73.99196929,
    "link": "https://www.instagram.com/sakebarasoko/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "6 PM–12 AM",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–1 AM",
    "Friday": "6 PM–2 AM",
    "Saturday": "6 PM–2 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -2454,13 +2607,14 @@
    "lon": -74.0018374,
    "link": "https://www.instagram.com/mezzrowjazzclub/?hl=en",
    "openNow": true,
-   "Monday": "5:30 PM–1 AM",
+   "hours": [
+    "Monday: "5:30 PM–1 AM",
    "Tuesday": "5:30 PM–1 AM",
    "Wednesday": "5:30 PM–1 AM",
    "Thursday": "5:30 PM–1 AM",
    "Friday": "5:30 PM–1 AM",
    "Saturday": "5:30 PM–1 AM",
-   "Sunday": "5:30 PM–1 AM",
+   "Sunday": "5:30 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -2470,13 +2624,14 @@
    "lon": -73.96260438,
    "link": "https://www.instagram.com/sunatsix/?hl=en",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "N/A"
  },
  {
@@ -2486,13 +2641,14 @@
    "lon": -74.00301211,
    "link": "https://www.instagram.com/shopquarters/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "11 AM–6 PM",
    "Wednesday": "11 AM–6 PM",
    "Thursday": "11 AM–6 PM",
    "Friday": "11 AM–6 PM",
    "Saturday": "11 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "N/A"
  },
  {
@@ -2502,13 +2658,14 @@
    "lon": -74.00362275,
    "link": "https://www.instagram.com/sullaluna.nyc/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–10 PM",
+   "hours": [
+    "Monday: "10 AM–10 PM",
    "Tuesday": "10 AM–10 PM",
    "Wednesday": "10 AM–10 PM",
    "Thursday": "10 AM–10 PM",
    "Friday": "10 AM–11 PM",
    "Saturday": "10 AM–11 PM",
-   "Sunday": "10 AM–10 PM",
+   "Sunday": "10 AM–10 PM"],
    "price": "$$"
  },
  {
@@ -2518,13 +2675,14 @@
    "lon": -73.9911555,
    "link": "https://www.instagram.com/parcellewine/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "3–10 PM",
    "Friday": "3–10 PM",
    "Saturday": "3–10 PM",
-   "Sunday": "3–9:30 PM",
+   "Sunday": "3–9:30 PM"],
    "price": "N/A"
  },
  {
@@ -2534,13 +2692,14 @@
    "lon": -73.9334721,
    "link": "https://www.instagram.com/maomaobrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "5–11:30 PM",
+   "hours": [
+    "Monday: "5–11:30 PM",
    "Tuesday": "5–11:30 PM",
    "Wednesday": "5–11:30 PM",
    "Thursday": "5–11:30 PM",
    "Friday": "5 PM–12 AM",
    "Saturday": "1 PM–12 AM",
-   "Sunday": "1 PM–12 AM",
+   "Sunday": "1 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -2550,13 +2709,14 @@
    "lon": -73.93688719,
    "link": "https://www.instagram.com/damballa.nyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–3 AM",
    "Friday": "6 PM–4 AM",
    "Saturday": "6 PM–4 AM",
-   "Sunday": "7 PM–12 AM",
+   "Sunday": "7 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -2566,13 +2726,14 @@
    "lon": -73.9693969,
    "link": "https://www.instagram.com/levygorvydayan/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -2582,13 +2743,14 @@
    "lon": -73.953394,
    "link": "https://www.instagram.com/dreamfishingtackle/?hl=en",
    "openNow": true,
-   "Monday": "11 AM–7 PM",
+   "hours": [
+    "Monday: "11 AM–7 PM",
    "Tuesday": "11 AM–7 PM",
    "Wednesday": "11 AM–7 PM",
    "Thursday": "11 AM–7 PM",
    "Friday": "11 AM–7 PM",
    "Saturday": "11 AM–7 PM",
-   "Sunday": "11 AM–7 PM",
+   "Sunday": "11 AM–7 PM"],
    "price": "N/A"
  },
  {
@@ -2598,13 +2760,14 @@
    "lon": -73.9948154,
    "link": "https://www.instagram.com/silenceplease/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "10 AM–6 PM",
+   "Sunday": "10 AM–6 PM"],
    "price": "N/A"
  },
  {
@@ -2614,13 +2777,14 @@
    "lon": -73.9919913,
    "link": "https://www.instagram.com/cafelegaz/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–7 PM",
+   "hours": [
+    "Monday: "8 AM–7 PM",
    "Tuesday": "8 AM–7 PM",
    "Wednesday": "8 AM–7 PM",
    "Thursday": "8 AM–7 PM",
    "Friday": "8 AM–7 PM",
    "Saturday": "8 AM–7 PM",
-   "Sunday": "9 AM–6 PM",
+   "Sunday": "9 AM–6 PM"],
    "price": "$"
  },
  {
@@ -2630,13 +2794,14 @@
    "lon": -73.9992134,
    "link": "https://www.instagram.com/chessforum/?hl=en",
    "openNow": true,
-   "Monday": "12 PM–12 AM",
+   "hours": [
+    "Monday: "12 PM–12 AM",
    "Tuesday": "12 PM–12 AM",
    "Wednesday": "12 PM–12 AM",
    "Thursday": "12 PM–12 AM",
    "Friday": "12 PM–12 AM",
    "Saturday": "12 PM–12 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$"
  },
  {
@@ -2646,13 +2811,14 @@
    "lon": -73.99459486,
    "link": "https://www.instagram.com/earlyterriblenyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–4 AM",
    "Friday": "5 PM–4 AM",
    "Saturday": "3 PM–4 AM",
-   "Sunday": "3 PM–2 AM",
+   "Sunday": "3 PM–2 AM"],
    "price": "$$$"
  },
  {
@@ -2662,13 +2828,14 @@
    "lon": -73.9921853,
    "link": "https://www.instagram.com/elvisgreatjones/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–1 AM",
    "Friday": "2 PM–1 AM",
    "Saturday": "1 PM–1 AM",
-   "Sunday": "2–10 PM",
+   "Sunday": "2–10 PM"],
    "price": "$$"
  },
  {
@@ -2678,13 +2845,14 @@
    "lon": -73.95114043,
    "link": "https://www.instagram.com/highvalleybooks/?hl=en",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "N/A"
  },
  {
@@ -2694,13 +2862,14 @@
    "lon": -73.9550167,
    "link": "https://www.instagram.com/edselbowroomnyc/",
    "openNow": true,
-   "Monday": "5–10:30 PM",
+   "hours": [
+    "Monday: "5–10:30 PM",
    "Tuesday": "5–10:30 PM",
    "Wednesday": "5–10:30 PM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5–11:30 PM",
    "Saturday": "4–11:30 PM",
-   "Sunday": "4–10:30 PM",
+   "Sunday": "4–10:30 PM"],
    "price": "$$"
  },
  {
@@ -2710,13 +2879,14 @@
    "lon": -73.9573417,
    "link": "https://www.instagram.com/mezcaleriamilagrosa/",
    "openNow": true,
-   "Monday": "12 AM–4 AM",
+   "hours": [
+    "Monday: "12 AM–4 AM",
    "Tuesday": "12 AM–4 AM",
    "Wednesday": "12 AM–4 AM",
    "Thursday": "12 AM–4 AM",
    "Friday": "12 AM–4 AM",
    "Saturday": "12 AM–4 AM",
-   "Sunday": "12 AM–4 AM",
+   "Sunday": "12 AM–4 AM"],
    "price": "$$"
  },
  {
@@ -2726,13 +2896,14 @@
    "lon": -73.951608,
    "link": "https://www.instagram.com/filmnoircinema/",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "$"
  },
  {
@@ -2742,13 +2913,14 @@
    "lon": -74.00298799,
    "link": "https://www.instagram.com/pearlboxnyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5:30–11:30 PM",
    "Wednesday": "5:30–11:30 PM",
    "Thursday": "5:30–11:30 PM",
    "Friday": "5:30 PM–12 AM",
    "Saturday": "5:30 PM–12 AM",
-   "Sunday": "5–9 PM",
+   "Sunday": "5–9 PM"],
    "price": "$$$"
  },
  {
@@ -2758,13 +2930,14 @@
    "lon": -73.9539085,
    "link": "https://www.instagram.com/wegotcompanybar/",
    "openNow": true,
-   "Monday": "2 PM–2 AM",
+   "hours": [
+    "Monday: "2 PM–2 AM",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "4 PM–3 AM",
-   "Sunday": "2 PM–3 AM",
+   "Sunday": "2 PM–3 AM"],
    "price": "$$"
  },
  {
@@ -2774,13 +2947,14 @@
    "lon": -73.95546035,
    "link": "https://www.instagram.com/_oxomoco_/",
    "openNow": true,
-   "Monday": "12–3 PM; 5:30–10 PM",
+   "hours": [
+    "Monday: "12–3 PM; 5:30–10 PM",
    "Tuesday": "12–3 PM; 5:30–10 PM",
    "Wednesday": "12–3 PM; 5:30–10 PM",
    "Thursday": "12–3 PM; 5:30–10 PM",
    "Friday": "12–3 PM; 5:30–10 PM",
    "Saturday": "11 AM–3 PM; 5:30–10 PM",
-   "Sunday": "11 AM–3 PM; 5:30–10 PM",
+   "Sunday": "11 AM–3 PM; 5:30–10 PM"],
    "price": "$$$"
  },
  {
@@ -2790,13 +2964,14 @@
    "lon": -73.9385509,
    "link": "https://www.instagram.com/frogwinebar/",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "3 PM–12 AM",
    "Saturday": "3 PM–12 AM",
-   "Sunday": "3 PM–12 AM",
+   "Sunday": "3 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -2806,13 +2981,14 @@
    "lon": -73.999818,
    "link": "https://www.instagram.com/apothekenyc/?hl=en",
    "openNow": true,
-   "Monday": "6:30 PM–12 AM",
+   "hours": [
+    "Monday: "6:30 PM–12 AM",
    "Tuesday": "6:30 PM–12 AM",
    "Wednesday": "6:30 PM–12 AM",
    "Thursday": "6:30 PM–2 AM",
    "Friday": "6:30 PM–2 AM",
    "Saturday": "6:30 PM–2 AM",
-   "Sunday": "6:30 PM–12 AM",
+   "Sunday": "6:30 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -2822,13 +2998,14 @@
    "lon": -73.9902716,
    "link": "https://www.instagram.com/patentpendingnyc/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -2838,13 +3015,14 @@
    "lon": -74.0030242,
    "link": "https://www.instagram.com/wilfieandnell/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–2 AM",
+   "hours": [
+    "Monday: "4 PM–2 AM",
    "Tuesday": "4 PM–2 AM",
    "Wednesday": "4 PM–2 AM",
    "Thursday": "4 PM–4 AM",
    "Friday": "3 PM–4 AM",
    "Saturday": "12 PM–4 AM",
-   "Sunday": "12 PM–2 AM",
+   "Sunday": "12 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -2854,13 +3032,14 @@
    "lon": -73.9998463,
    "link": "https://www.instagram.com/rosecrans/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–10 PM",
+   "hours": [
+    "Monday: "8 AM–10 PM",
    "Tuesday": "8 AM–10 PM",
    "Wednesday": "8 AM–10 PM",
    "Thursday": "8 AM–11 PM",
    "Friday": "8 AM–11 PM",
    "Saturday": "8 AM–11 PM",
-   "Sunday": "8 AM–10 PM",
+   "Sunday": "8 AM–10 PM"],
    "price": "$"
  },
  {
@@ -2870,13 +3049,14 @@
    "lon": -73.953737,
    "link": "https://www.instagram.com/sunshinelaundromat/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–2 AM",
+   "hours": [
+    "Monday: "8 AM–2 AM",
    "Tuesday": "8 AM–2 AM",
    "Wednesday": "8 AM–2 AM",
    "Thursday": "8 AM–2 AM",
    "Friday": "8 AM–2 AM",
    "Saturday": "7 AM–2 AM",
-   "Sunday": "7 AM–2 AM",
+   "Sunday": "7 AM–2 AM"],
    "price": "$"
  },
  {
@@ -2886,13 +3066,14 @@
    "lon": -73.9588733,
    "link": "https://www.instagram.com/grantorinonyc/?hl=en",
    "openNow": true,
-   "Monday": "10 AM–12 AM",
+   "hours": [
+    "Monday: "10 AM–12 AM",
    "Tuesday": "10 AM–12 AM",
    "Wednesday": "10 AM–12 AM",
    "Thursday": "10 AM–1 AM",
    "Friday": "10 AM–2 AM",
    "Saturday": "9 AM–2 AM",
-   "Sunday": "9 AM–12 AM",
+   "Sunday": "9 AM–12 AM"],
    "price": "$$"
  },
  {
@@ -2902,13 +3083,14 @@
    "lon": -73.9567687,
    "link": "https://www.instagram.com/cafebalearica/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–4 AM",
    "Saturday": "2 PM–4 AM",
-   "Sunday": "2 PM–4 AM",
+   "Sunday": "2 PM–4 AM"],
    "price": "N/A"
  },
  {
@@ -2918,13 +3100,14 @@
    "lon": -73.9591501,
    "link": "https://www.instagram.com/juliettebkny/?hl=en",
    "openNow": true,
-   "Monday": "11 AM–10 PM",
+   "hours": [
+    "Monday: "11 AM–10 PM",
    "Tuesday": "11 AM–10 PM",
    "Wednesday": "11 AM–10 PM",
    "Thursday": "11 AM–10 PM",
    "Friday": "11 AM–10 PM",
    "Saturday": "10 AM–10 PM",
-   "Sunday": "10 AM–10 PM",
+   "Sunday": "10 AM–10 PM"],
    "price": "$$"
  },
  {
@@ -2934,13 +3117,14 @@
    "lon": -73.9584368,
    "link": "https://www.instagram.com/midnightsbrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–2 AM",
+   "hours": [
+    "Monday: "4 PM–2 AM",
    "Tuesday": "4 PM–2 AM",
    "Wednesday": "4 PM–2 AM",
    "Thursday": "4 PM–2 AM",
    "Friday": "4 PM–3:30 AM",
    "Saturday": "2 PM–3:30 AM",
-   "Sunday": "2 PM–2 AM",
+   "Sunday": "2 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -2950,13 +3134,14 @@
    "lon": -73.9621335,
    "link": "https://www.instagram.com/skinnydennis/?hl=en",
    "openNow": true,
-   "Monday": "12 PM–4 AM",
+   "hours": [
+    "Monday: "12 PM–4 AM",
    "Tuesday": "12 PM–4 AM",
    "Wednesday": "12 PM–4 AM",
    "Thursday": "12 PM–4 AM",
    "Friday": "12 PM–4 AM",
    "Saturday": "12 PM–4 AM",
-   "Sunday": "12 PM–4 AM",
+   "Sunday": "12 PM–4 AM"],
    "price": "$"
  },
  {
@@ -2966,13 +3151,14 @@
    "lon": -73.961939,
    "link": "https://www.instagram.com/pokitobrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "12 PM–2 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -2982,13 +3168,14 @@
    "lon": -73.946913,
    "link": "https://www.instagram.com/momaps1/?hl=en",
    "openNow": true,
-   "Monday": "12–6 PM",
+   "hours": [
+    "Monday: "12–6 PM",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "12–6 PM",
    "Friday": "12–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "12–6 PM",
+   "Sunday": "12–6 PM"],
    "price": "N/A"
  },
  {
@@ -2998,13 +3185,14 @@
    "lon": -73.9571733,
    "link": "https://www.instagram.com/recordroom/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "6 PM–12 AM",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–1 AM",
    "Friday": "6 PM–1 AM",
    "Saturday": "6 PM–1 AM",
-   "Sunday": "6 PM–12 AM",
+   "Sunday": "6 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -3014,13 +3202,14 @@
    "lon": -73.9776796,
    "link": "https://www.instagram.com/thehoneycomb_bk/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "4 PM–2 AM",
    "Saturday": "4 PM–2 AM",
-   "Sunday": "4 PM–12 AM",
+   "Sunday": "4 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -3030,13 +3219,14 @@
    "lon": -73.9714335,
    "link": "https://www.instagram.com/rhodora_wine_bar/?hl=en",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "5–11 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5–11 PM",
    "Friday": "4 PM–12 AM",
    "Saturday": "1 PM–12 AM",
-   "Sunday": "1–11 PM",
+   "Sunday": "1–11 PM"],
    "price": "$$"
  },
  {
@@ -3046,13 +3236,14 @@
    "lon": -73.9570883,
    "link": "https://www.instagram.com/barbirbabk/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "5 PM–12 AM",
-   "Sunday": "4–10 PM",
+   "Sunday": "4–10 PM"],
    "price": "$$"
  },
  {
@@ -3062,13 +3253,14 @@
    "lon": -73.962875,
    "link": "https://www.instagram.com/entrenous.bk/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–11 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5–11 PM",
    "Friday": "5 PM–12 AM",
    "Saturday": "3 PM–12 AM",
-   "Sunday": "3–11 PM",
+   "Sunday": "3–11 PM"],
    "price": "$$$"
  },
  {
@@ -3078,13 +3270,14 @@
    "lon": -73.9860837,
    "link": "https://www.instagram.com/anaiswinebk/?hl=en",
    "openNow": true,
-   "Monday": "8 AM–11 PM",
+   "hours": [
+    "Monday: "8 AM–11 PM",
    "Tuesday": "8 AM–11 PM",
    "Wednesday": "8 AM–11 PM",
    "Thursday": "8 AM–11 PM",
    "Friday": "8 AM–1 AM",
    "Saturday": "9 AM–1 AM",
-   "Sunday": "9 AM–11 PM",
+   "Sunday": "9 AM–11 PM"],
    "price": "N/A"
  },
  {
@@ -3094,13 +3287,14 @@
    "lon": -73.9757378,
    "link": "https://www.instagram.com/petitpaulettebk/",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "5–11 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5–11 PM",
    "Friday": "3 PM–12 AM",
    "Saturday": "3 PM–12 AM",
-   "Sunday": "3–11 PM",
+   "Sunday": "3–11 PM"],
    "price": "N/A"
  },
  {
@@ -3110,13 +3304,14 @@
    "lon": -73.92385397,
    "link": "https://www.instagram.com/thetenbellsbk/",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–1 AM",
    "Saturday": "3 PM–1 AM",
-   "Sunday": "3 PM–12 AM",
+   "Sunday": "3 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -3126,13 +3321,14 @@
    "lon": -73.9553597,
    "link": "https://www.instagram.com/bouquetwinebar/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "5–11 PM",
    "Thursday": "5–11 PM",
    "Friday": "5–11 PM",
    "Saturday": "2–11 PM",
-   "Sunday": "2–10 PM",
+   "Sunday": "2–10 PM"],
    "price": "$$"
  },
  {
@@ -3142,13 +3338,14 @@
    "lon": -73.946085,
    "link": "https://www.instagram.com/diamondlilbar/",
    "openNow": true,
-   "Monday": "4 PM–1 AM",
+   "hours": [
+    "Monday: "4 PM–1 AM",
    "Tuesday": "4 PM–1 AM",
    "Wednesday": "4 PM–1 AM",
    "Thursday": "4 PM–2 AM",
    "Friday": "4 PM–4 AM",
    "Saturday": "2 PM–4 AM",
-   "Sunday": "2 PM–1 AM",
+   "Sunday": "2 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -3158,13 +3355,14 @@
    "lon": -73.9391293,
    "link": "https://www.instagram.com/heavenandearth.bk/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–11 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5–11 PM",
    "Friday": "4 PM–12 AM",
    "Saturday": "1 PM–12 AM",
-   "Sunday": "1–10 PM",
+   "Sunday": "1–10 PM"],
    "price": "$$"
  },
  {
@@ -3174,13 +3372,14 @@
    "lon": -73.95074,
    "link": "https://www.instagram.com/babaonwithers/",
    "openNow": true,
-   "Monday": "5–10 PM",
+   "hours": [
+    "Monday: "5–10 PM",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–1 AM",
    "Saturday": "10 AM–1 AM",
-   "Sunday": "10 AM–10 PM",
+   "Sunday": "10 AM–10 PM"],
    "price": "$$"
  },
  {
@@ -3190,13 +3389,14 @@
    "lon": -73.9451974,
    "link": "https://www.instagram.com/pdvnyc/",
    "openNow": true,
-   "Monday": "4–11 PM",
+   "hours": [
+    "Monday: "4–11 PM",
    "Tuesday": "4–11 PM",
    "Wednesday": "4–11 PM",
    "Thursday": "4–11 PM",
    "Friday": "4–11 PM",
    "Saturday": "1–11 PM",
-   "Sunday": "1–10 PM",
+   "Sunday": "1–10 PM"],
    "price": "$$"
  },
  {
@@ -3206,13 +3406,14 @@
    "lon": -73.9587858,
    "link": "https://www.instagram.com/woodhulwinebar/",
    "openNow": true,
-   "Monday": "6 PM–1 AM",
+   "hours": [
+    "Monday: "6 PM–1 AM",
    "Tuesday": "6 PM–1 AM",
    "Wednesday": "6 PM–1 AM",
    "Thursday": "6 PM–1 AM",
    "Friday": "6 PM–2 AM",
    "Saturday": "4:30 PM–2 AM",
-   "Sunday": "4:30 PM–1 AM",
+   "Sunday": "4:30 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -3222,13 +3423,14 @@
    "lon": -73.9542821,
    "link": "https://www.instagram.com/pinkertonbk/",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–1 AM",
    "Saturday": "1 PM–1 AM",
-   "Sunday": "1–11 PM",
+   "Sunday": "1–11 PM"],
    "price": "$$"
  },
  {
@@ -3238,13 +3440,14 @@
    "lon": -73.99029434,
    "link": "https://www.instagram.com/sauced.nyc/",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "3 PM–2 AM",
-   "Sunday": "3 PM–12 AM",
+   "Sunday": "3 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -3254,13 +3457,14 @@
    "lon": -73.9854028,
    "link": "https://www.instagram.com/theimmigrant_nyc/",
    "openNow": true,
-   "Monday": "4 PM–12:45 AM",
+   "hours": [
+    "Monday: "4 PM–12:45 AM",
    "Tuesday": "4 PM–1 AM",
    "Wednesday": "4 PM–1 AM",
    "Thursday": "4 PM–1:30 AM",
    "Friday": "4 PM–2 AM",
    "Saturday": "4 PM–2 AM",
-   "Sunday": "4 PM–12:45 AM",
+   "Sunday": "4 PM–12:45 AM"],
    "price": "$"
  },
  {
@@ -3270,13 +3474,14 @@
    "lon": -73.984114,
    "link": "https://www.instagram.com/ruffian_nyc/",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–12 AM",
    "Saturday": "3 PM–12 AM",
-   "Sunday": "3–11 PM",
+   "Sunday": "3–11 PM"],
    "price": "$$$"
  },
  {
@@ -3286,13 +3491,14 @@
    "lon": -73.983598,
    "link": "https://www.instagram.com/bibiwinebar/",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "4 PM–1 AM",
    "Saturday": "4 PM–1 AM",
-   "Sunday": "4–10 PM",
+   "Sunday": "4–10 PM"],
    "price": "$$"
  },
  {
@@ -3302,13 +3508,14 @@
    "lon": -73.9843722,
    "link": "https://www.instagram.com/brick.winebar/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "3 PM–2 AM",
-   "Sunday": "3 PM–12 AM",
+   "Sunday": "3 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -3318,13 +3525,14 @@
    "lon": -73.9577638,
    "link": "https://www.instagram.com/dominowinebarbk/",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–12 AM",
    "Saturday": "4 PM–12 AM",
-   "Sunday": "4–11 PM",
+   "Sunday": "4–11 PM"],
    "price": "$$"
  },
  {
@@ -3334,13 +3542,14 @@
    "lon": -73.94842052,
    "link": "https://www.instagram.com/liseandvito/",
    "openNow": true,
-   "Monday": "5 PM–1 AM",
+   "hours": [
+    "Monday: "5 PM–1 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "4 PM–2 AM",
    "Friday": "4 PM–2 AM",
    "Saturday": "2 PM–2 AM",
-   "Sunday": "2 PM–1 AM",
+   "Sunday": "2 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -3350,13 +3559,14 @@
    "lon": -73.9616034,
    "link": "https://www.instagram.com/maisonpremiere/",
    "openNow": true,
-   "Monday": "12 PM–1 AM",
+   "hours": [
+    "Monday: "12 PM–1 AM",
    "Tuesday": "12 PM–1 AM",
    "Wednesday": "12 PM–1 AM",
    "Thursday": "12 PM–1 AM",
    "Friday": "12 PM–1 AM",
    "Saturday": "11 AM–1 AM",
-   "Sunday": "11 AM–1 AM",
+   "Sunday": "11 AM–1 AM"],
    "price": "$$$"
  },
  {
@@ -3366,13 +3576,14 @@
    "lon": -73.961424,
    "link": "https://www.instagram.com/horsesanddivorces/",
    "openNow": true,
-   "Monday": "12 PM–4 AM",
+   "hours": [
+    "Monday: "12 PM–4 AM",
    "Tuesday": "12 PM–4 AM",
    "Wednesday": "12 PM–4 AM",
    "Thursday": "12 PM–4 AM",
    "Friday": "12 PM–4 AM",
    "Saturday": "12 PM–4 AM",
-   "Sunday": "12 PM–4 AM",
+   "Sunday": "12 PM–4 AM"],
    "price": "$"
  },
  {
@@ -3382,13 +3593,14 @@
    "lon": -73.9223702,
    "link": "https://www.instagram.com/thesultanroom/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "7 PM–12 AM",
    "Wednesday": "7 PM–12 AM",
    "Thursday": "7 PM–12 AM",
    "Friday": "7 PM–4 AM",
    "Saturday": "7 PM–4 AM",
-   "Sunday": "7 PM–12 AM",
+   "Sunday": "7 PM–12 AM"],
    "price": "$"
  },
  {
@@ -3398,13 +3610,14 @@
    "lon": -73.92323547,
    "link": "https://www.instagram.com/elsewherespace/",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "$$"
  },
  {
@@ -3414,13 +3627,14 @@
    "lon": -73.921365,
    "link": "https://www.instagram.com/mansions.bar/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "8 PM–2 AM",
    "Friday": "8 PM–4 AM",
    "Saturday": "8 PM–4 AM",
-   "Sunday": "8 PM–2 AM",
+   "Sunday": "8 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -3430,13 +3644,14 @@
    "lon": -73.94413785,
    "link": "https://www.instagram.com/pleasetellmebk/",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "12 PM–2 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -3446,13 +3661,14 @@
    "lon": -74.0028009,
    "link": "https://www.instagram.com/arcaneestatecoffee/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "7 AM–3 PM",
    "Thursday": "7 AM–3 PM",
    "Friday": "7 AM–3 PM",
    "Saturday": "8 AM–4 PM",
-   "Sunday": "8 AM–4 PM",
+   "Sunday": "8 AM–4 PM"],
    "price": "$"
  },
  {
@@ -3462,13 +3678,14 @@
    "lon": -73.9920355,
    "link": "https://www.instagram.com/publichotels/",
    "openNow": true,
-   "Monday": "5 PM–2 AM",
+   "hours": [
+    "Monday: "5 PM–2 AM",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–4 AM",
    "Friday": "5 PM–4 AM",
    "Saturday": "5 PM–4 AM",
-   "Sunday": "5 PM–2 AM",
+   "Sunday": "5 PM–2 AM"],
    "price": "$$$$"
  },
  {
@@ -3478,13 +3695,14 @@
    "lon": -73.9924737,
    "link": "https://www.instagram.com/raysbarnyc/",
    "openNow": true,
-   "Monday": "5 PM–2 AM",
+   "hours": [
+    "Monday: "5 PM–2 AM",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "1 PM–2 AM",
-   "Sunday": "1 PM–2 AM",
+   "Sunday": "1 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -3494,13 +3712,14 @@
    "lon": -73.99353903,
    "link": "https://www.instagram.com/fig19nyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "6 PM–1 AM",
    "Wednesday": "6 PM–1 AM",
    "Thursday": "6 PM–2 AM",
    "Friday": "6 PM–4 AM",
    "Saturday": "6 PM–4 AM",
-   "Sunday": "6 PM–1 AM",
+   "Sunday": "6 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -3510,13 +3729,14 @@
    "lon": -73.9913742,
    "link": "https://www.instagram.com/attaboy134/",
    "openNow": true,
-   "Monday": "5 PM–3 AM",
+   "hours": [
+    "Monday: "5 PM–3 AM",
    "Tuesday": "5 PM–3 AM",
    "Wednesday": "5 PM–3 AM",
    "Thursday": "5 PM–3 AM",
    "Friday": "5 PM–3 AM",
    "Saturday": "5 PM–3 AM",
-   "Sunday": "5 PM–3 AM",
+   "Sunday": "5 PM–3 AM"],
    "price": "$$$"
  },
  {
@@ -3526,13 +3746,14 @@
    "lon": -73.992134,
    "link": "https://www.instagram.com/theflowershopnyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -3542,13 +3763,14 @@
    "lon": -73.99022276,
    "link": "https://www.instagram.com/skincontact.nyc/",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "3 PM–12 AM",
-   "Sunday": "3–11 PM",
+   "Sunday": "3–11 PM"],
    "price": "$$"
  },
  {
@@ -3558,13 +3780,14 @@
    "lon": -73.9884561,
    "link": "https://www.instagram.com/ramenishida/",
    "openNow": true,
-   "Monday": "12–9:30 PM",
+   "hours": [
+    "Monday: "12–9:30 PM",
    "Tuesday": "12–9:30 PM",
    "Wednesday": "12–9:30 PM",
    "Thursday": "12–9:30 PM",
    "Friday": "12–9:30 PM",
    "Saturday": "12–9:30 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -3574,13 +3797,14 @@
    "lon": -73.9869338,
    "link": "https://www.instagram.com/thebackroomnyc/",
    "openNow": true,
-   "Monday": "6 PM–1 AM",
+   "hours": [
+    "Monday: "6 PM–1 AM",
    "Tuesday": "6 PM–2 AM",
    "Wednesday": "6 PM–2 AM",
    "Thursday": "6 PM–2 AM",
    "Friday": "6 PM–3 AM",
    "Saturday": "6 PM–3 AM",
-   "Sunday": "6 PM–1 AM",
+   "Sunday": "6 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -3590,13 +3814,14 @@
    "lon": -73.9873741,
    "link": "https://www.instagram.com/dearirving/",
    "openNow": true,
-   "Monday": "5 PM–1 AM",
+   "hours": [
+    "Monday: "5 PM–1 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "4 PM–2 AM",
-   "Sunday": "4 PM–1 AM",
+   "Sunday": "4 PM–1 AM"],
    "price": "$$$"
  },
  {
@@ -3606,13 +3831,14 @@
    "lon": -73.9945926,
    "link": "https://www.instagram.com/raineslawroom/",
    "openNow": true,
-   "Monday": "5 PM–1 AM",
+   "hours": [
+    "Monday: "5 PM–1 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "4 PM–2 AM",
-   "Sunday": "4 PM–1 AM",
+   "Sunday": "4 PM–1 AM"],
    "price": "$$"
  },
  {
@@ -3622,13 +3848,14 @@
    "lon": -73.993071,
    "link": "https://www.instagram.com/lanoxenyc/",
    "openNow": true,
-   "Monday": "6 PM–1 AM",
+   "hours": [
+    "Monday: "6 PM–1 AM",
    "Tuesday": "6 PM–1 AM",
    "Wednesday": "6 PM–1 AM",
    "Thursday": "6 PM–2 AM",
    "Friday": "6 PM–2 AM",
    "Saturday": "6 PM–2 AM",
-   "Sunday": "6 PM–1 AM",
+   "Sunday": "6 PM–1 AM"],
    "price": "N/A"
  },
  {
@@ -3638,13 +3865,14 @@
    "lon": -73.9418208,
    "link": "https://www.instagram.com/thecoyoteclub_bk/",
    "openNow": true,
-   "Monday": "4 PM–4 AM",
+   "hours": [
+    "Monday: "4 PM–4 AM",
    "Tuesday": "4 PM–4 AM",
    "Wednesday": "4 PM–4 AM",
    "Thursday": "4 PM–4 AM",
    "Friday": "4 PM–4 AM",
    "Saturday": "2 PM–4 AM",
-   "Sunday": "2 PM–4 AM",
+   "Sunday": "2 PM–4 AM"],
    "price": "$"
  },
  {
@@ -3654,13 +3882,14 @@
    "lon": -73.9516171,
    "link": "https://www.instagram.com/union_pool/",
    "openNow": true,
-   "Monday": "4 PM–2 AM",
+   "hours": [
+    "Monday: "4 PM–2 AM",
    "Tuesday": "4 PM–2 AM",
    "Wednesday": "4 PM–2 AM",
    "Thursday": "4 PM–2 AM",
    "Friday": "4 PM–4 AM",
    "Saturday": "2 PM–4 AM",
-   "Sunday": "2 PM–2 AM",
+   "Sunday": "2 PM–2 AM"],
    "price": "$"
  },
  {
@@ -3670,13 +3899,14 @@
    "lon": -73.9943672,
    "link": "https://www.instagram.com/7springnyc/",
    "openNow": true,
-   "Monday": "10 AM–7 PM",
+   "hours": [
+    "Monday: "10 AM–7 PM",
    "Tuesday": "10 AM–7 PM",
    "Wednesday": "10 AM–7 PM",
    "Thursday": "10 AM–7 PM",
    "Friday": "10 AM–7 PM",
    "Saturday": "10 AM–7 PM",
-   "Sunday": "10 AM–7 PM",
+   "Sunday": "10 AM–7 PM"],
    "price": "N/A"
  },
  {
@@ -3686,13 +3916,14 @@
    "lon": -73.968383,
    "link": "https://www.instagram.com/yakuninyc/",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "Closed",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "5 PM–12 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -3702,13 +3933,14 @@
    "lon": -73.9864693,
    "link": "https://www.instagram.com/barbianchinyc/",
    "openNow": true,
-   "Monday": "4 PM–1 AM",
+   "hours": [
+    "Monday: "4 PM–1 AM",
    "Tuesday": "4 PM–1 AM",
    "Wednesday": "4 PM–1 AM",
    "Thursday": "4 PM–2 AM",
    "Friday": "2 PM–2 AM",
    "Saturday": "12 PM–2 AM",
-   "Sunday": "12 PM–1 AM",
+   "Sunday": "12 PM–1 AM"],
    "price": "$$$"
  },
  {
@@ -3718,13 +3950,14 @@
    "lon": -73.9568097,
    "link": "https://www.instagram.com/littlefinonyc/",
    "openNow": true,
-   "Monday": "7 AM–11 PM",
+   "hours": [
+    "Monday: "7 AM–11 PM",
    "Tuesday": "7 AM–11 PM",
    "Wednesday": "7 AM–11 PM",
    "Thursday": "7 AM–11 PM",
    "Friday": "7 AM–12 AM",
    "Saturday": "7 AM–12 AM",
-   "Sunday": "7 AM–11 PM",
+   "Sunday": "7 AM–11 PM"],
    "price": "N/A"
  },
  {
@@ -3734,13 +3967,14 @@
    "lon": -73.9871904,
    "link": "https://www.instagram.com/theclementebar/",
    "openNow": true,
-   "Monday": "5 PM–1 AM",
+   "hours": [
+    "Monday: "5 PM–1 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–1 AM",
    "Saturday": "5 PM–1 AM",
-   "Sunday": "5 PM–1 AM",
+   "Sunday": "5 PM–1 AM"],
    "price": "$$$"
  },
  {
@@ -3750,13 +3984,14 @@
    "lon": -73.95736096,
    "link": "https://www.instagram.com/greenburgcafe/",
    "openNow": true,
-   "Monday": "7 AM–7 PM",
+   "hours": [
+    "Monday: "7 AM–7 PM",
    "Tuesday": "7 AM–7 PM",
    "Wednesday": "7 AM–7 PM",
    "Thursday": "7 AM–7 PM",
    "Friday": "7 AM–7 PM",
    "Saturday": "7 AM–7 PM",
-   "Sunday": "7 AM–7 PM",
+   "Sunday": "7 AM–7 PM"],
    "price": "N/A"
  },
  {
@@ -3766,13 +4001,14 @@
    "lon": -73.96001608,
    "link": "https://www.instagram.com/rhythmzeronyc/",
    "openNow": true,
-   "Monday": "7 AM–4 PM",
+   "hours": [
+    "Monday: "7 AM–4 PM",
    "Tuesday": "7 AM–4 PM",
    "Wednesday": "7 AM–4 PM",
    "Thursday": "7 AM–4 PM",
    "Friday": "7 AM–4 PM",
    "Saturday": "8 AM–4 PM",
-   "Sunday": "8 AM–4 PM",
+   "Sunday": "8 AM–4 PM"],
    "price": "$"
  },
  {
@@ -3782,13 +4018,14 @@
    "lon": -73.96338248,
    "link": "https://www.instagram.com/themuseumofmodernart/",
    "openNow": true,
-   "Monday": "10 AM–5 PM",
+   "hours": [
+    "Monday: "10 AM–5 PM",
    "Tuesday": "10 AM–5 PM",
    "Wednesday": "Closed",
    "Thursday": "10 AM–5 PM",
    "Friday": "10 AM–9 PM",
    "Saturday": "10 AM–9 PM",
-   "Sunday": "10 AM–5 PM",
+   "Sunday": "10 AM–5 PM"],
    "price": "$"
  },
  {
@@ -3798,13 +4035,14 @@
    "lon": -73.959124,
    "link": "https://www.instagram.com/guggenheim/",
    "openNow": true,
-   "Monday": "10:30 AM–5:30 PM",
+   "hours": [
+    "Monday: "10:30 AM–5:30 PM",
    "Tuesday": "10:30 AM–5:30 PM",
    "Wednesday": "10:30 AM–5:30 PM",
    "Thursday": "10:30 AM–8 PM",
    "Friday": "10:30 AM–5:30 PM",
    "Saturday": "10:30 AM–5:30 PM",
-   "Sunday": "10:30 AM–5:30 PM",
+   "Sunday": "10:30 AM–5:30 PM"],
    "price": "$"
  },
  {
@@ -3814,13 +4052,14 @@
    "lon": -73.9673861,
    "link": "https://www.instagram.com/frickcollection/",
    "openNow": true,
-   "Monday": "11 AM–6 PM",
+   "hours": [
+    "Monday: "11 AM–6 PM",
    "Tuesday": "Closed",
    "Wednesday": "11 AM–6 PM",
    "Thursday": "11 AM–6 PM",
    "Friday": "11 AM–9 PM",
    "Saturday": "11 AM–6 PM",
-   "Sunday": "11 AM–6 PM",
+   "Sunday": "11 AM–6 PM"],
    "price": "$"
  },
  {
@@ -3830,13 +4069,14 @@
    "lon": -73.9739882,
    "link": "https://www.instagram.com/amnh/",
    "openNow": true,
-   "Monday": "10 AM–5:30 PM",
+   "hours": [
+    "Monday: "10 AM–5:30 PM",
    "Tuesday": "10 AM–5:30 PM",
    "Wednesday": "10 AM–5:30 PM",
    "Thursday": "10 AM–5:30 PM",
    "Friday": "10 AM–5:30 PM",
    "Saturday": "10 AM–5:30 PM",
-   "Sunday": "10 AM–5:30 PM",
+   "Sunday": "10 AM–5:30 PM"],
    "price": "$"
  },
  {
@@ -3846,13 +4086,14 @@
    "lon": -74.00892095,
    "link": "https://www.instagram.com/whitneymuseum/",
    "openNow": true,
-   "Monday": "10:30 AM–6 PM",
+   "hours": [
+    "Monday: "10:30 AM–6 PM",
    "Tuesday": "Closed",
    "Wednesday": "10:30 AM–6 PM",
    "Thursday": "10:30 AM–6 PM",
    "Friday": "10:30 AM–10 PM",
    "Saturday": "10:30 AM–6 PM",
-   "Sunday": "10:30 AM–6 PM",
+   "Sunday": "10:30 AM–6 PM"],
    "price": "$"
  },
  {
@@ -3862,13 +4103,14 @@
    "lon": -73.975533,
    "link": "https://www.instagram.com/edengallery/",
    "openNow": true,
-   "Monday": "9 AM–9 PM",
+   "hours": [
+    "Monday: "9 AM–9 PM",
    "Tuesday": "9 AM–9 PM",
    "Wednesday": "9 AM–9 PM",
    "Thursday": "9 AM–9 PM",
    "Friday": "9 AM–9 PM",
    "Saturday": "9 AM–9 PM",
-   "Sunday": "9 AM–9 PM",
+   "Sunday": "9 AM–9 PM"],
    "price": "$"
  },
  {
@@ -3878,13 +4120,14 @@
    "lon": -74.00421095,
    "link": "https://www.instagram.com/taglialatellagalleries/",
    "openNow": true,
-   "Monday": "10 AM–6 PM",
+   "hours": [
+    "Monday: "10 AM–6 PM",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -3894,13 +4137,14 @@
    "lon": -74.0014366,
    "link": "https://www.instagram.com/edengallery/",
    "openNow": true,
-   "Monday": "9 AM–9 PM",
+   "hours": [
+    "Monday: "9 AM–9 PM",
    "Tuesday": "9 AM–9 PM",
    "Wednesday": "9 AM–9 PM",
    "Thursday": "9 AM–9 PM",
    "Friday": "9 AM–9 PM",
    "Saturday": "9 AM–9 PM",
-   "Sunday": "9 AM–9 PM",
+   "Sunday": "9 AM–9 PM"],
    "price": "$"
  },
  {
@@ -3910,13 +4154,14 @@
    "lon": -74.0059445,
    "link": "https://www.instagram.com/gagosian/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -3926,13 +4171,14 @@
    "lon": -74.0046681,
    "link": "https://www.instagram.com/agoragallery/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "11 AM–6 PM",
    "Wednesday": "11 AM–6 PM",
    "Thursday": "11 AM–6 PM",
    "Friday": "11 AM–6 PM",
    "Saturday": "11 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -3942,13 +4188,14 @@
    "lon": -74.0049685,
    "link": "https://www.instagram.com/pacegallery/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -3958,13 +4205,14 @@
    "lon": -74.006985,
    "link": "https://www.instagram.com/davidzwirner/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "Closed",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -3974,13 +4222,14 @@
    "lon": -74.0044742,
    "link": "https://www.instagram.com/lisson_gallery/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -3990,13 +4239,14 @@
    "lon": -74.004588,
    "link": "https://www.instagram.com/gladstone.gallery/",
    "openNow": true,
-   "Monday": "10 AM–6 PM",
+   "hours": [
+    "Monday: "10 AM–6 PM",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "Closed",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -4006,13 +4256,14 @@
    "lon": -74.00984088,
    "link": "https://www.instagram.com/elikleingallery/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -4022,13 +4273,14 @@
    "lon": -73.988682,
    "link": "https://www.instagram.com/thejazzgallery/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "7–11 PM",
    "Thursday": "7–11 PM",
    "Friday": "7–11 PM",
    "Saturday": "7–11 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -4038,13 +4290,14 @@
    "lon": -73.9892959,
    "link": "https://www.instagram.com/perrotin/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "10 AM–6 PM",
    "Wednesday": "10 AM–6 PM",
    "Thursday": "10 AM–6 PM",
    "Friday": "10 AM–6 PM",
    "Saturday": "10 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -4054,13 +4307,14 @@
    "lon": -73.98866775,
    "link": "https://www.instagram.com/hannahtraoregallery/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "11 AM–6 PM",
    "Wednesday": "11 AM–6 PM",
    "Thursday": "11 AM–6 PM",
    "Friday": "11 AM–6 PM",
    "Saturday": "11 AM–6 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -4070,13 +4324,14 @@
    "lon": -73.9883116,
    "link": "https://www.instagram.com/mrpurplenyc/",
    "openNow": true,
-   "Monday": "12 PM–2 AM",
+   "hours": [
+    "Monday: "12 PM–2 AM",
    "Tuesday": "12 PM–2 AM",
    "Wednesday": "12 PM–2 AM",
    "Thursday": "12 PM–3 AM",
    "Friday": "12 PM–4 AM",
    "Saturday": "12 PM–4 AM",
-   "Sunday": "12 PM–2 AM",
+   "Sunday": "12 PM–2 AM"],
    "price": "$$$"
  },
  {
@@ -4086,13 +4341,14 @@
    "lon": -73.98864371,
    "link": "https://www.instagram.com/vanderplasnyc/",
    "openNow": true,
-   "Monday": "11 AM–6 PM",
+   "hours": [
+    "Monday: "11 AM–6 PM",
    "Tuesday": "11 AM–6 PM",
    "Wednesday": "11 AM–6 PM",
    "Thursday": "11 AM–6 PM",
    "Friday": "11 AM–6 PM",
    "Saturday": "11 AM–6 PM",
-   "Sunday": "11 AM–6 PM",
+   "Sunday": "11 AM–6 PM"],
    "price": "$"
  },
  {
@@ -4102,13 +4358,14 @@
    "lon": -73.9898629,
    "link": "https://www.instagram.com/bargoto_nyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -4118,13 +4375,14 @@
    "lon": -73.98927365,
    "link": "https://www.instagram.com/makebelieve/",
    "openNow": true,
-   "Monday": "6 PM–12 AM",
+   "hours": [
+    "Monday: "6 PM–12 AM",
    "Tuesday": "6 PM–12 AM",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–3 AM",
    "Friday": "6 PM–4 AM",
    "Saturday": "2 PM–4 AM",
-   "Sunday": "2 PM–12 AM",
+   "Sunday": "2 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -4134,13 +4392,14 @@
    "lon": -73.9984656,
    "link": "https://www.instagram.com/riverdelibrooklyn/",
    "openNow": true,
-   "Monday": "5–10 PM",
+   "hours": [
+    "Monday: "5–10 PM",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "5–10:30 PM",
    "Saturday": "11:30 AM–4 PM; 5–10:30 PM",
-   "Sunday": "11:30 AM–4 PM; 5–10 PM",
+   "Sunday": "11:30 AM–4 PM; 5–10 PM"],
    "price": "$$"
  },
  {
@@ -4150,13 +4409,14 @@
    "lon": -73.9919964,
    "link": "https://www.instagram.com/thesandwichboardnyc/",
    "openNow": true,
-   "Monday": "8 AM–8 PM",
+   "hours": [
+    "Monday: "8 AM–8 PM",
    "Tuesday": "Closed",
    "Wednesday": "8 AM–8 PM",
    "Thursday": "8 AM–8 PM",
    "Friday": "8 AM–8 PM",
    "Saturday": "8 AM–8 PM",
-   "Sunday": "8 AM–8 PM",
+   "Sunday": "8 AM–8 PM"],
    "price": "$"
  },
  {
@@ -4166,13 +4426,14 @@
    "lon": -73.853837,
    "link": "https://www.instagram.com/chimitosnyc/",
    "openNow": true,
-   "Monday": "7 AM–12 AM",
+   "hours": [
+    "Monday: "7 AM–12 AM",
    "Tuesday": "7 AM–12 AM",
    "Wednesday": "7 AM–12 AM",
    "Thursday": "7 AM–12 AM",
    "Friday": "7 AM–12 AM",
    "Saturday": "11 AM–12 AM",
-   "Sunday": "11 AM–11 PM",
+   "Sunday": "11 AM–11 PM"],
    "price": "$"
  },
  {
@@ -4182,13 +4443,14 @@
    "lon": -74.005499,
    "link": "https://www.instagram.com/krispypizza/",
    "openNow": true,
-   "Monday": "11 AM–11 PM",
+   "hours": [
+    "Monday: "11 AM–11 PM",
    "Tuesday": "11 AM–11 PM",
    "Wednesday": "11 AM–11 PM",
    "Thursday": "11 AM–11 PM",
    "Friday": "11 AM–11 PM",
    "Saturday": "11 AM–11 PM",
-   "Sunday": "12–11 PM",
+   "Sunday": "12–11 PM"],
    "price": "$"
  },
  {
@@ -4198,13 +4460,14 @@
    "lon": -73.9881704,
    "link": "https://www.instagram.com/tigre.nyc/",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -4214,13 +4477,14 @@
    "lon": -73.9940546,
    "link": "https://www.instagram.com/thenines_nyc/",
    "openNow": true,
-   "Monday": "5:30 PM–1 AM",
+   "hours": [
+    "Monday: "5:30 PM–1 AM",
    "Tuesday": "5:30 PM–2 AM",
    "Wednesday": "5:30 PM–2 AM",
    "Thursday": "5:30 PM–3 AM",
    "Friday": "5:30 PM–3 AM",
    "Saturday": "5:30 PM–3 AM",
-   "Sunday": "5:30 PM–1 AM",
+   "Sunday": "5:30 PM–1 AM"],
    "price": "$$$$"
  },
  {
@@ -4230,13 +4494,14 @@
    "lon": -73.9834216,
    "link": "https://www.instagram.com/loversoftodaynyc/",
    "openNow": true,
-   "Monday": "5 PM–4 AM",
+   "hours": [
+    "Monday: "5 PM–4 AM",
    "Tuesday": "5 PM–4 AM",
    "Wednesday": "5 PM–4 AM",
    "Thursday": "5 PM–4 AM",
    "Friday": "5 PM–4 AM",
    "Saturday": "5 PM–4 AM",
-   "Sunday": "5 PM–4 AM",
+   "Sunday": "5 PM–4 AM"],
    "price": "$"
  },
  {
@@ -4246,13 +4511,14 @@
    "lon": -73.9804982,
    "link": "https://www.instagram.com/pebblebarnyc/",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–12 AM",
    "Saturday": "4 PM–12 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -4262,13 +4528,14 @@
    "lon": -73.9788238,
    "link": "https://www.instagram.com/hilotnyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–1 AM",
    "Saturday": "5 PM–1 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "N/A"
  },
  {
@@ -4278,13 +4545,14 @@
    "lon": -73.9784447,
    "link": "https://www.instagram.com/dingalingcocktaillounge/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "6 PM–4 AM",
    "Thursday": "6 PM–4 AM",
    "Friday": "6 PM–4 AM",
    "Saturday": "3 PM–4 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -4294,13 +4562,14 @@
    "lon": -74.0069365,
    "link": "https://www.instagram.com/thebeekmanny/",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "$$"
  },
  {
@@ -4310,13 +4579,14 @@
    "lon": -73.9877939,
    "link": "https://www.instagram.com/theportraitbarnyc/",
    "openNow": true,
-   "Monday": "5 PM–1 AM",
+   "hours": [
+    "Monday: "5 PM–1 AM",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -4326,13 +4596,14 @@
    "lon": -73.993176,
    "link": "https://www.instagram.com/shinjisbar/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–1 AM",
    "Saturday": "5 PM–1 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -4342,13 +4613,14 @@
    "lon": -74.0062506,
    "link": "https://www.instagram.com/dantewestvillage/",
    "openNow": true,
-   "Monday": "10 AM–12 AM",
+   "hours": [
+    "Monday: "10 AM–12 AM",
    "Tuesday": "10 AM–12 AM",
    "Wednesday": "10 AM–12 AM",
    "Thursday": "10 AM–12 AM",
    "Friday": "10 AM–12 AM",
    "Saturday": "10 AM–12 AM",
-   "Sunday": "10 AM–11 PM",
+   "Sunday": "10 AM–11 PM"],
    "price": "$$$"
  },
  {
@@ -4358,13 +4630,14 @@
    "lon": -73.98771028,
    "link": "https://www.instagram.com/martinys_nyc/",
    "openNow": true,
-   "Monday": "6 PM–1 AM",
+   "hours": [
+    "Monday: "6 PM–1 AM",
    "Tuesday": "6 PM–1 AM",
    "Wednesday": "6 PM–1 AM",
    "Thursday": "6 PM–1 AM",
    "Friday": "6 PM–1 AM",
    "Saturday": "6 PM–1 AM",
-   "Sunday": "6 PM–1 AM",
+   "Sunday": "6 PM–1 AM"],
    "price": "$$$"
  },
  {
@@ -4374,13 +4647,14 @@
    "lon": -73.9936365,
    "link": "https://www.instagram.com/jacsonbondnyc/",
    "openNow": true,
-   "Monday": "4:30 PM–12 AM",
+   "hours": [
+    "Monday: "4:30 PM–12 AM",
    "Tuesday": "4:30 PM–12 AM",
    "Wednesday": "4:30 PM–12 AM",
    "Thursday": "4:30 PM–12 AM",
    "Friday": "4:30 PM–12 AM",
    "Saturday": "4 PM–12 AM",
-   "Sunday": "4:30 PM–12 AM",
+   "Sunday": "4:30 PM–12 AM"],
    "price": "N/A"
  },
  {
@@ -4390,13 +4664,14 @@
    "lon": -73.9951726,
    "link": "https://www.instagram.com/ma_de.nyc/",
    "openNow": true,
-   "Monday": "5:30–9:30 PM",
+   "hours": [
+    "Monday: "5:30–9:30 PM",
    "Tuesday": "5:30–9:30 PM",
    "Wednesday": "5:30–9:30 PM",
    "Thursday": "5:30–9:30 PM",
    "Friday": "5–10:30 PM",
    "Saturday": "12–10:30 PM",
-   "Sunday": "12–9:30 PM",
+   "Sunday": "12–9:30 PM"],
    "price": "$$$$"
  },
  {
@@ -4406,13 +4681,14 @@
    "lon": -73.9957122,
    "link": "https://www.instagram.com/themulberrybar/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "8 PM–2 AM",
    "Wednesday": "8 PM–2 AM",
    "Thursday": "8 PM–2 AM",
    "Friday": "8 PM–2 AM",
    "Saturday": "8 PM–2 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "N/A"
  },
  {
@@ -4422,13 +4698,14 @@
    "lon": -73.99605,
    "link": "https://www.instagram.com/explore/search/keyword/?q=Caf%C3%A9%20Leon%20Dore",
    "openNow": true,
-   "Monday": "9 AM–7 PM",
+   "hours": [
+    "Monday: "9 AM–7 PM",
    "Tuesday": "9 AM–7 PM",
    "Wednesday": "9 AM–7 PM",
    "Thursday": "9 AM–7 PM",
    "Friday": "9 AM–7 PM",
    "Saturday": "9 AM–7 PM",
-   "Sunday": "9 AM–6 PM",
+   "Sunday": "9 AM–6 PM"],
    "price": "$"
  },
  {
@@ -4438,13 +4715,14 @@
    "lon": -73.9954001,
    "link": "https://www.instagram.com/richtorrisi/",
    "openNow": true,
-   "Monday": "5–11:30 PM",
+   "hours": [
+    "Monday: "5–11:30 PM",
    "Tuesday": "11:30 AM–2 PM; 5–11:30 PM",
    "Wednesday": "11:30 AM–2 PM; 5–11:30 PM",
    "Thursday": "11:30 AM–2 PM; 5–11:30 PM",
    "Friday": "11:30 AM–2 PM; 5–11:30 PM",
    "Saturday": "11:30 AM–2 PM; 5–11:30 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$$"
  },
  {
@@ -4454,13 +4732,14 @@
    "lon": -73.9884552,
    "link": "https://www.instagram.com/lilfrankies/",
    "openNow": true,
-   "Monday": "11 AM–2 AM",
+   "hours": [
+    "Monday: "11 AM–2 AM",
    "Tuesday": "11 AM–2 AM",
    "Wednesday": "11 AM–2 AM",
    "Thursday": "11 AM–2 AM",
    "Friday": "11 AM–4 AM",
    "Saturday": "11 AM–4 AM",
-   "Sunday": "11 AM–2 AM",
+   "Sunday": "11 AM–2 AM"],
    "price": "$$"
  },
  {
@@ -4470,13 +4749,14 @@
    "lon": -73.95791763,
    "link": "https://www.instagram.com/missionceviche/",
    "openNow": true,
-   "Monday": "12–10 PM",
+   "hours": [
+    "Monday: "12–10 PM",
    "Tuesday": "12–10 PM",
    "Wednesday": "12–10 PM",
    "Thursday": "12–10 PM",
    "Friday": "12–10:30 PM",
    "Saturday": "11 AM–10:30 PM",
-   "Sunday": "11 AM–10 PM",
+   "Sunday": "11 AM–10 PM"],
    "price": "$$$$"
  },
  {
@@ -4486,13 +4766,14 @@
    "lon": -73.967379,
    "link": "https://www.instagram.com/xolobk/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "5–11 PM",
    "Saturday": "1–11 PM",
-   "Sunday": "1–10 PM",
+   "Sunday": "1–10 PM"],
    "price": "$$"
  },
  {
@@ -4502,13 +4783,14 @@
    "lon": -74.00656451,
    "link": "https://www.instagram.com/birddog.nyc/",
    "openNow": true,
-   "Monday": "4–10 PM",
+   "hours": [
+    "Monday: "4–10 PM",
    "Tuesday": "4–10 PM",
    "Wednesday": "4–10 PM",
    "Thursday": "4–10 PM",
    "Friday": "4–11 PM",
    "Saturday": "2–11 PM",
-   "Sunday": "2–10 PM",
+   "Sunday": "2–10 PM"],
    "price": "$$$"
  },
  {
@@ -4518,13 +4800,14 @@
    "lon": -73.9880873,
    "link": "https://www.instagram.com/lefrenchdiner/",
    "openNow": true,
-   "Monday": "5:30–11 PM",
+   "hours": [
+    "Monday: "5:30–11 PM",
    "Tuesday": "5:30–11 PM",
    "Wednesday": "5:30–11 PM",
    "Thursday": "5:30–11 PM",
    "Friday": "5:30–11 PM",
    "Saturday": "5:30–11 PM",
-   "Sunday": "5:30–10 PM",
+   "Sunday": "5:30–10 PM"],
    "price": "$$$"
  },
  {
@@ -4534,13 +4817,14 @@
    "lon": -73.9986434,
    "link": "https://www.instagram.com/submercer/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "10 PM–3 AM",
    "Friday": "10 PM–3 AM",
    "Saturday": "10 PM–3 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "N/A"
  },
  {
@@ -4550,13 +4834,14 @@
    "lon": -73.98874859,
    "link": "https://www.instagram.com/coqodaq/",
    "openNow": true,
-   "Monday": "12–3 PM; 5–11 PM",
+   "hours": [
+    "Monday: "12–3 PM; 5–11 PM",
    "Tuesday": "12–3 PM; 5–11 PM",
    "Wednesday": "12–3 PM; 5–11 PM",
    "Thursday": "12–3 PM; 5–11 PM",
    "Friday": "12–3 PM; 5–11 PM",
    "Saturday": "12–3 PM; 5–11 PM",
-   "Sunday": "12–3 PM; 5–11 PM",
+   "Sunday": "12–3 PM; 5–11 PM"],
    "price": "$$$"
  },
  {
@@ -4566,13 +4851,14 @@
    "lon": -73.9776159,
    "link": "https://www.instagram.com/thecampbellnyc/",
    "openNow": true,
-   "Monday": "12 PM–2 AM",
+   "hours": [
+    "Monday: "12 PM–2 AM",
    "Tuesday": "12 PM–2 AM",
    "Wednesday": "12 PM–2 AM",
    "Thursday": "12 PM–2 AM",
    "Friday": "12 PM–2 AM",
    "Saturday": "12 PM–2 AM",
-   "Sunday": "12 PM–2 AM",
+   "Sunday": "12 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -4582,13 +4868,14 @@
    "lon": -73.9961673,
    "link": "https://www.instagram.com/shooshoonolita/",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "11:30 AM–11 PM",
    "Wednesday": "11:30 AM–11 PM",
    "Thursday": "11:30 AM–11 PM",
    "Friday": "11:30 AM–12 AM",
    "Saturday": "10:30 AM–12 AM",
-   "Sunday": "10:30 AM–10 PM",
+   "Sunday": "10:30 AM–10 PM"],
    "price": "$$"
  },
  {
@@ -4598,13 +4885,14 @@
    "lon": -74.0034603,
    "link": "https://www.instagram.com/barpisellino/",
    "openNow": true,
-   "Monday": "8 AM–11 PM",
+   "hours": [
+    "Monday: "8 AM–11 PM",
    "Tuesday": "8 AM–11 PM",
    "Wednesday": "8 AM–11 PM",
    "Thursday": "8 AM–11 PM",
    "Friday": "8 AM–11 PM",
    "Saturday": "8 AM–11 PM",
-   "Sunday": "8 AM–11 PM",
+   "Sunday": "8 AM–11 PM"],
    "price": "N/A"
  },
  {
@@ -4614,13 +4902,14 @@
    "lon": -73.9915451,
    "link": "https://www.instagram.com/blkmtnbk/",
    "openNow": true,
-   "Monday": "3 PM–12 AM",
+   "hours": [
+    "Monday: "3 PM–12 AM",
    "Tuesday": "3 PM–12 AM",
    "Wednesday": "3 PM–12 AM",
    "Thursday": "3 PM–12 AM",
    "Friday": "3 PM–1 AM",
    "Saturday": "1 PM–1 AM",
-   "Sunday": "1 PM–12 AM",
+   "Sunday": "1 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -4630,13 +4919,14 @@
    "lon": -74.00214,
    "link": "https://www.instagram.com/walkerrooftop/",
    "openNow": true,
-   "Monday": "4–10 PM",
+   "hours": [
+    "Monday: "4–10 PM",
    "Tuesday": "4–10 PM",
    "Wednesday": "4–10 PM",
    "Thursday": "4–11 PM",
    "Friday": "4 PM–12 AM",
    "Saturday": "1 PM–12 AM",
-   "Sunday": "1–9 PM",
+   "Sunday": "1–9 PM"],
    "price": "$$"
  },
  {
@@ -4646,13 +4936,14 @@
    "lon": -73.9629261,
    "link": "https://www.instagram.com/jolenesoundroom.bk/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "Closed",
    "Friday": "Closed",
    "Saturday": "8 PM–12 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -4662,13 +4953,14 @@
    "lon": -73.9898471,
    "link": "https://www.instagram.com/thetenbells/",
    "openNow": true,
-   "Monday": "5 PM–2 AM",
+   "hours": [
+    "Monday: "5 PM–2 AM",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "3 PM–2 AM",
-   "Sunday": "3 PM–2 AM",
+   "Sunday": "3 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -4678,13 +4970,14 @@
    "lon": -73.9446152,
    "link": "https://www.instagram.com/ammazzacaffe.nyc/",
    "openNow": true,
-   "Monday": "5–10 PM",
+   "hours": [
+    "Monday: "5–10 PM",
    "Tuesday": "Closed",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "12–3 PM; 5–11 PM",
    "Saturday": "12–3 PM; 5–11 PM",
-   "Sunday": "12–3 PM; 5–10 PM",
+   "Sunday": "12–3 PM; 5–10 PM"],
    "price": "$$$"
  },
  {
@@ -4694,13 +4987,14 @@
    "lon": -73.9986308,
    "link": "https://www.instagram.com/alicerestaurantnyc/",
    "openNow": true,
-   "Monday": "5–10 PM",
+   "hours": [
+    "Monday: "5–10 PM",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10:30 PM",
    "Thursday": "5–11 PM",
    "Friday": "5–11 PM",
    "Saturday": "5–11 PM",
-   "Sunday": "5–10 PM",
+   "Sunday": "5–10 PM"],
    "price": "$$$"
  },
  {
@@ -4710,13 +5004,14 @@
    "lon": -73.9930861,
    "link": "https://www.instagram.com/vinylsteakhouse/",
    "openNow": true,
-   "Monday": "4–9 PM",
+   "hours": [
+    "Monday: "4–9 PM",
    "Tuesday": "4–9:30 PM",
    "Wednesday": "4–9:30 PM",
    "Thursday": "4–10 PM",
    "Friday": "4–10:30 PM",
    "Saturday": "4–10:30 PM",
-   "Sunday": "4–9 PM",
+   "Sunday": "4–9 PM"],
    "price": "$$$$"
  },
  {
@@ -4726,13 +5021,14 @@
    "lon": -74.00214,
    "link": "https://www.instagram.com/sainttuesday_nyc/",
    "openNow": true,
-   "Monday": "6 PM–12 AM",
+   "hours": [
+    "Monday: "6 PM–12 AM",
    "Tuesday": "6 PM–12 AM",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–1 AM",
    "Friday": "6 PM–1 AM",
    "Saturday": "6 PM–1 AM",
-   "Sunday": "6 PM–12 AM",
+   "Sunday": "6 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -4742,13 +5038,14 @@
    "lon": -73.9909568,
    "link": "https://www.instagram.com/ledivenyc/",
    "openNow": true,
-   "Monday": "3 PM–12 AM",
+   "hours": [
+    "Monday: "3 PM–12 AM",
    "Tuesday": "3 PM–1 AM",
    "Wednesday": "3 PM–1 AM",
    "Thursday": "3 PM–2 AM",
    "Friday": "2 PM–2 AM",
    "Saturday": "12 PM–2 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -4758,13 +5055,14 @@
    "lon": -73.9915692,
    "link": "https://www.instagram.com/scarrspizza/",
    "openNow": true,
-   "Monday": "12 PM–12 AM",
+   "hours": [
+    "Monday: "12 PM–12 AM",
    "Tuesday": "12 PM–12 AM",
    "Wednesday": "12 PM–12 AM",
    "Thursday": "12 PM–12 AM",
    "Friday": "12 PM–1 AM",
    "Saturday": "12 PM–1 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$"
  },
  {
@@ -4774,13 +5072,14 @@
    "lon": -74.0033643,
    "link": "https://www.instagram.com/littlewaysnyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "11 AM–2 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -4790,13 +5089,14 @@
    "lon": -73.9537088,
    "link": "https://www.instagram.com/nurabrooklyn/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5:30–10 PM",
    "Wednesday": "5:30–10 PM",
    "Thursday": "5:30–10 PM",
    "Friday": "5:30–10 PM",
    "Saturday": "11 AM–2:30 PM; 5:30–10 PM",
-   "Sunday": "11 AM–2:30 PM; 5–9 PM",
+   "Sunday": "11 AM–2:30 PM; 5–9 PM"],
    "price": "$$$"
  },
  {
@@ -4806,13 +5106,14 @@
    "lon": -73.9437523,
    "link": "https://www.instagram.com/casaoranyc/",
    "openNow": true,
-   "Monday": "5:30–11 PM",
+   "hours": [
+    "Monday: "5:30–11 PM",
    "Tuesday": "5:30–11 PM",
    "Wednesday": "5:30–11 PM",
    "Thursday": "5:30–11 PM",
    "Friday": "5:30 PM–12 AM",
    "Saturday": "11 AM–3:30 PM; 5:30 PM–12 AM",
-   "Sunday": "11 AM–3:30 PM; 5:30–10 PM",
+   "Sunday": "11 AM–3:30 PM; 5:30–10 PM"],
    "price": "$$$"
  },
  {
@@ -4822,13 +5123,14 @@
    "lon": -74.004816,
    "link": "https://www.instagram.com/jimmy.soho/",
    "openNow": true,
-   "Monday": "5–10 PM",
+   "hours": [
+    "Monday: "5–10 PM",
    "Tuesday": "5–11 PM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "3 PM–2 AM",
-   "Sunday": "5–10:30 PM",
+   "Sunday": "5–10:30 PM"],
    "price": "$$$"
  },
  {
@@ -4838,13 +5140,14 @@
    "lon": -73.9965628,
    "link": "https://www.instagram.com/urbanbackyardnyc/",
    "openNow": true,
-   "Monday": "7:30 AM–6 PM",
+   "hours": [
+    "Monday: "7:30 AM–6 PM",
    "Tuesday": "7:30 AM–6 PM",
    "Wednesday": "7:30 AM–6 PM",
    "Thursday": "7:30 AM–6 PM",
    "Friday": "7:30 AM–6 PM",
    "Saturday": "8:30 AM–7 PM",
-   "Sunday": "8:30 AM–7 PM",
+   "Sunday": "8:30 AM–7 PM"],
    "price": "$"
  },
  {
@@ -4854,13 +5157,14 @@
    "lon": -73.9504137,
    "link": "https://www.instagram.com/llamainnnyc/",
    "openNow": true,
-   "Monday": "5:30–10 PM",
+   "hours": [
+    "Monday: "5:30–10 PM",
    "Tuesday": "5:30–10 PM",
    "Wednesday": "5:30–10 PM",
    "Thursday": "5:30–10 PM",
    "Friday": "5–11 PM",
    "Saturday": "5–11 PM",
-   "Sunday": "5–10 PM",
+   "Sunday": "5–10 PM"],
    "price": "$$$"
  },
  {
@@ -4870,13 +5174,14 @@
    "lon": -73.9897713,
    "link": "https://www.instagram.com/ms.yoo/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -4886,13 +5191,14 @@
    "lon": -73.9549709,
    "link": "https://www.instagram.com/nr_nyc/",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "5–11 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "12 PM–12 AM",
-   "Sunday": "12–10 PM",
+   "Sunday": "12–10 PM"],
    "price": "$$$"
  },
  {
@@ -4902,13 +5208,14 @@
    "lon": -74.0040209,
    "link": "https://www.instagram.com/macaonyc/",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–4 AM",
    "Friday": "5 PM–4 AM",
    "Saturday": "5 PM–4 AM",
-   "Sunday": "5 PM–12 AM",
+   "Sunday": "5 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -4918,13 +5225,14 @@
    "lon": -73.983769,
    "link": "https://www.instagram.com/pdtnyc/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–2 AM",
+   "hours": [
+    "Monday: "5 PM–2 AM",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "4 PM–2 AM",
    "Saturday": "4 PM–2 AM",
-   "Sunday": "4 PM–2 AM",
+   "Sunday": "4 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -4934,13 +5242,14 @@
    "lon": -73.9905364,
    "link": "https://www.instagram.com/thymebar_nyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–1 AM",
    "Wednesday": "5 PM–1 AM",
    "Thursday": "5 PM–1 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$$"
  },
  {
@@ -4950,13 +5259,14 @@
    "lon": -74.0031566,
    "link": "https://www.instagram.com/bathtubginnyc/",
    "openNow": true,
-   "Monday": "5 PM–2 AM",
+   "hours": [
+    "Monday: "5 PM–2 AM",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–3 AM",
    "Saturday": "5 PM–3 AM",
-   "Sunday": "5 PM–2 AM",
+   "Sunday": "5 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -4966,13 +5276,14 @@
    "lon": -73.988076,
    "link": "https://www.instagram.com/lucien.nyc/",
    "openNow": true,
-   "Monday": "10 AM–12 AM",
+   "hours": [
+    "Monday: "10 AM–12 AM",
    "Tuesday": "10 AM–12 AM",
    "Wednesday": "10 AM–12 AM",
    "Thursday": "10 AM–1 AM",
    "Friday": "10 AM–1 AM",
    "Saturday": "10 AM–1 AM",
-   "Sunday": "10 AM–12 AM",
+   "Sunday": "10 AM–12 AM"],
    "price": "$$$"
  },
  {
@@ -4982,13 +5293,14 @@
    "lon": -73.9883642,
    "link": "https://www.instagram.com/glassceilingrooftop/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "4–10:30 PM",
    "Wednesday": "4–10:30 PM",
    "Thursday": "4–10:30 PM",
    "Friday": "4–10:30 PM",
    "Saturday": "11 AM–10:30 PM",
-   "Sunday": "11 AM–4 PM",
+   "Sunday": "11 AM–4 PM"],
    "price": "$$$"
  },
  {
@@ -4998,13 +5310,14 @@
    "lon": -73.9231726,
    "link": "https://www.instagram.com/palmetto_bk/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–3 AM",
    "Saturday": "5 PM–3 AM",
-   "Sunday": "5 PM–2 AM",
+   "Sunday": "5 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -5014,13 +5327,14 @@
    "lon": -74.00200571,
    "link": "https://www.instagram.com/electriclemonnyc/",
    "openNow": true,
-   "Monday": "7–10:30 AM; 11:30 AM–3 PM; 5–10 PM",
+   "hours": [
+    "Monday: "7–10:30 AM; 11:30 AM–3 PM; 5–10 PM",
    "Tuesday": "7–10:30 AM; 11:30 AM–3 PM; 5–10 PM",
    "Wednesday": "7–10:30 AM; 11:30 AM–3 PM; 5–10 PM",
    "Thursday": "7–10:30 AM; 11:30 AM–3 PM; 5–10 PM",
    "Friday": "7–10:30 AM; 11:30 AM–3 PM; 5–11 PM",
    "Saturday": "8 AM–3 PM; 5–11 PM",
-   "Sunday": "8 AM–3 PM; 5–10 PM",
+   "Sunday": "8 AM–3 PM; 5–10 PM"],
    "price": "$$$"
  },
  {
@@ -5030,13 +5344,14 @@
    "lon": -73.962989,
    "link": "https://www.instagram.com/bemelmansbar/",
    "openNow": true,
-   "Monday": "12 PM–12 AM",
+   "hours": [
+    "Monday: "12 PM–12 AM",
    "Tuesday": "12 PM–12 AM",
    "Wednesday": "12 PM–12 AM",
    "Thursday": "12 PM–12:30 AM",
    "Friday": "12 PM–1 AM",
    "Saturday": "12 PM–1 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$$$$"
  },
  {
@@ -5046,13 +5361,14 @@
    "lon": -73.999442,
    "link": "https://www.instagram.com/thetygernyc/",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "5–11 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5–11:30 PM",
    "Friday": "5–11:30 PM",
    "Saturday": "5–11:30 PM",
-   "Sunday": "5–11 PM",
+   "Sunday": "5–11 PM"],
    "price": "$$$"
  },
  {
@@ -5062,13 +5378,14 @@
    "lon": -73.9660797,
    "link": "https://www.instagram.com/janemotorcycles/",
    "openNow": true,
-   "Monday": "7:30 AM–5 PM",
+   "hours": [
+    "Monday: "7:30 AM–5 PM",
    "Tuesday": "7:30 AM–5 PM",
    "Wednesday": "7:30 AM–5 PM",
    "Thursday": "7:30 AM–5 PM",
    "Friday": "7:30 AM–5 PM",
    "Saturday": "7:30 AM–4 PM",
-   "Sunday": "8 AM–5 PM",
+   "Sunday": "8 AM–5 PM"],
    "price": "$$"
  },
  {
@@ -5078,13 +5395,14 @@
    "lon": -74.00015175,
    "link": "https://www.instagram.com/tokyorecordbar/",
    "openNow": true,
-   "Monday": "5:30 PM–12 AM",
+   "hours": [
+    "Monday: "5:30 PM–12 AM",
    "Tuesday": "5:30 PM–12 AM",
    "Wednesday": "5:30 PM–12 AM",
    "Thursday": "5:30 PM–1 AM",
    "Friday": "5:30 PM–1 AM",
    "Saturday": "5:30 PM–1 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$$"
  },
  {
@@ -5094,13 +5412,14 @@
    "lon": -73.9704197,
    "link": "https://www.instagram.com/larinabrooklyn/",
    "openNow": true,
-   "Monday": "5–10 PM",
+   "hours": [
+    "Monday: "5–10 PM",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "5–11 PM",
    "Saturday": "12–11 PM",
-   "Sunday": "12–10 PM",
+   "Sunday": "12–10 PM"],
    "price": "$$"
  },
  {
@@ -5110,13 +5429,14 @@
    "lon": -74.0048375,
    "link": "https://www.instagram.com/thedjangonyc/",
    "openNow": true,
-   "Monday": "6:30 PM–2 AM",
+   "hours": [
+    "Monday: "6:30 PM–2 AM",
    "Tuesday": "6:30 PM–2 AM",
    "Wednesday": "6:30 PM–2 AM",
    "Thursday": "6:30 PM–2 AM",
    "Friday": "6:30 PM–2 AM",
    "Saturday": "6:30 PM–2 AM",
-   "Sunday": "5 PM–1 AM",
+   "Sunday": "5 PM–1 AM"],
    "price": "$$$"
  },
  {
@@ -5126,13 +5446,14 @@
    "lon": -73.9577771,
    "link": "https://www.instagram.com/maracujabk/",
    "openNow": true,
-   "Monday": "5 PM–2 AM",
+   "hours": [
+    "Monday: "5 PM–2 AM",
    "Tuesday": "5 PM–2 AM",
    "Wednesday": "5 PM–2 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–4 AM",
    "Saturday": "5 PM–4 AM",
-   "Sunday": "5 PM–2 AM",
+   "Sunday": "5 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -5142,13 +5463,14 @@
    "lon": -73.9663175,
    "link": "https://www.instagram.com/thewoodsbrooklyn/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "5 PM–4 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–4 AM",
    "Saturday": "4 PM–4 AM",
-   "Sunday": "4 PM–12 AM",
+   "Sunday": "4 PM–12 AM"],
    "price": "$"
  },
  {
@@ -5158,13 +5480,14 @@
    "lon": -73.987535,
    "link": "https://www.instagram.com/bar.adore/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "6–11 PM",
    "Wednesday": "6–11 PM",
    "Thursday": "6–11 PM",
    "Friday": "6–11 PM",
    "Saturday": "6–11 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -5174,13 +5497,14 @@
    "lon": -73.9210971,
    "link": "https://www.instagram.com/themonkeykingnyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "5–11 PM",
    "Saturday": "5–11 PM",
-   "Sunday": "5–10 PM",
+   "Sunday": "5–10 PM"],
    "price": "$$$"
  },
  {
@@ -5190,13 +5514,14 @@
    "lon": -73.95442,
    "link": "https://www.instagram.com/thenoblebk/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "3 PM–12 AM",
-   "Sunday": "3 PM–12 AM",
+   "Sunday": "3 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -5206,13 +5531,14 @@
    "lon": -73.9578334,
    "link": "https://www.instagram.com/sereneconyc/",
    "openNow": true,
-   "Monday": "8 AM–9 PM",
+   "hours": [
+    "Monday: "8 AM–9 PM",
    "Tuesday": "8 AM–9 PM",
    "Wednesday": "8 AM–9 PM",
    "Thursday": "8 AM–9 PM",
    "Friday": "8 AM–10 PM",
    "Saturday": "8:30 AM–10 PM",
-   "Sunday": "8:30 AM–9 PM",
+   "Sunday": "8:30 AM–9 PM"],
    "price": "$$"
  },
  {
@@ -5222,13 +5548,14 @@
    "lon": -73.9429324,
    "link": "https://www.instagram.com/cozyroyalebk/",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–12 AM",
    "Saturday": "11:30 AM–12 AM",
-   "Sunday": "11:30 AM–12 AM",
+   "Sunday": "11:30 AM–12 AM"],
    "price": "$$"
  },
  {
@@ -5238,13 +5565,14 @@
    "lon": -73.9016974,
    "link": "https://www.instagram.com/nowadaysnyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "5 PM–12 AM",
    "Friday": "12–4 AM; 5 PM–12 AM",
    "Saturday": "12–6 AM; 2 PM–12 AM",
-   "Sunday": "12 AM–10 PM",
+   "Sunday": "12 AM–10 PM"],
    "price": "$$"
  },
  {
@@ -5254,13 +5582,14 @@
    "lon": -73.95469863,
    "link": "https://www.instagram.com/caffepanna/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "1:30–9:30 PM",
    "Thursday": "1:30–9:30 PM",
    "Friday": "1:30–9:30 PM",
    "Saturday": "1:30–9:30 PM",
-   "Sunday": "1:30–9:30 PM",
+   "Sunday": "1:30–9:30 PM"],
    "price": "$$"
  },
  {
@@ -5270,13 +5599,14 @@
    "lon": -73.99325241,
    "link": "https://www.instagram.com/mam.nyc/",
    "openNow": true,
-   "Monday": "5–8:30 PM",
+   "hours": [
+    "Monday: "5–8:30 PM",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "5–8:30 PM",
    "Friday": "5–8:30 PM",
    "Saturday": "12–3:45 PM",
-   "Sunday": "12–3:45 PM",
+   "Sunday": "12–3:45 PM"],
    "price": "$$"
  },
  {
@@ -5286,13 +5616,14 @@
    "lon": -73.88819948,
    "link": "https://www.instagram.com/explore/locations/8494296/cosenzas-fish-mkt/",
    "openNow": true,
-   "Monday": "7:30 AM–5:30 PM",
+   "hours": [
+    "Monday: "7:30 AM–5:30 PM",
    "Tuesday": "7:30 AM–5:30 PM",
    "Wednesday": "7:30 AM–5:30 PM",
    "Thursday": "7:30 AM–5:30 PM",
    "Friday": "7:30 AM–5:30 PM",
    "Saturday": "7:30 AM–5:30 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -5302,13 +5633,14 @@
    "lon": -74.0187905,
    "link": "https://www.instagram.com/strongropebrewery/",
    "openNow": true,
-   "Monday": "2–10 PM",
+   "hours": [
+    "Monday: "2–10 PM",
    "Tuesday": "2–10 PM",
    "Wednesday": "2–10 PM",
    "Thursday": "2–10 PM",
    "Friday": "12–11 PM",
    "Saturday": "12–11 PM",
-   "Sunday": "12–9 PM",
+   "Sunday": "12–9 PM"],
    "price": "$$"
  },
  {
@@ -5318,13 +5650,14 @@
    "lon": -73.9601005,
    "link": "https://www.instagram.com/explore/locations/362855481/roys-fish-market/",
    "openNow": true,
-   "Monday": "9 AM–8:30 PM",
+   "hours": [
+    "Monday: "9 AM–8:30 PM",
    "Tuesday": "9 AM–8:30 PM",
    "Wednesday": "9 AM–8:30 PM",
    "Thursday": "9 AM–8:30 PM",
    "Friday": "9 AM–8:30 PM",
    "Saturday": "10 AM–7 PM",
-   "Sunday": "10 AM–7 PM",
+   "Sunday": "10 AM–7 PM"],
    "price": "$$"
  },
  {
@@ -5334,13 +5667,14 @@
    "lon": -74006676,
    "link": "https://www.instagram.com/legratinnyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "5–10:30 PM",
    "Saturday": "9 AM–10:30 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$$"
  },
  {
@@ -5350,13 +5684,14 @@
    "lon": -73.9900046,
    "link": "https://www.instagram.com/ellafunt.nyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "6 PM–12 AM",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–12 AM",
    "Friday": "6 PM–1 AM",
    "Saturday": "6 PM–1 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$"
  },
  {
@@ -5366,13 +5701,14 @@
    "lon": -73.9549611,
    "link": "https://www.instagram.com/troostnyc/",
    "openNow": true,
-   "Monday": "4 PM–2 AM",
+   "hours": [
+    "Monday: "4 PM–2 AM",
    "Tuesday": "4 PM–2 AM",
    "Wednesday": "4 PM–2 AM",
    "Thursday": "4 PM–2 AM",
    "Friday": "1 PM–2 AM",
    "Saturday": "1 PM–2 AM",
-   "Sunday": "1 PM–2 AM",
+   "Sunday": "1 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -5382,13 +5718,14 @@
    "lon": -73.9556881,
    "link": "https://www.instagram.com/barmadonnabk/",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "3 PM–2 AM",
-   "Sunday": "3 PM–12 AM",
+   "Sunday": "3 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -5398,13 +5735,14 @@
    "lon": -73.990317,
    "link": "https://www.instagram.com/casetta.ny/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "3–11 PM",
    "Wednesday": "3–11 PM",
    "Thursday": "3–11 PM",
    "Friday": "12–11 PM",
    "Saturday": "12–11 PM",
-   "Sunday": "12–9 PM",
+   "Sunday": "12–9 PM"],
    "price": "N/A"
  },
  {
@@ -5414,13 +5752,14 @@
    "lon": -73.9977804,
    "link": "https://www.instagram.com/ketchyshuby.nyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5:30–10:30 PM",
    "Wednesday": "5:30–10:30 PM",
    "Thursday": "5:30 PM–2:30 AM",
    "Friday": "5:30 PM–2:30 AM",
    "Saturday": "10:30 AM–3:30 PM; 5:30 PM–2:30 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$"
  },
  {
@@ -5430,13 +5769,14 @@
    "lon": -73.96577513,
    "link": "https://www.instagram.com/arlowilliamsburg/tagged/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "6 PM–12 AM",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–12 AM",
    "Friday": "6 PM–12 AM",
    "Saturday": "6 PM–12 AM",
-   "Sunday": "6 PM–12 AM",
+   "Sunday": "6 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -5446,13 +5786,14 @@
    "lon": -73.9565396,
    "link": "https://www.instagram.com/westlightnyc/",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–1 AM",
    "Saturday": "12 PM–2 AM",
-   "Sunday": "12 PM–12 AM",
+   "Sunday": "12 PM–12 AM"],
    "price": "$$$"
  },
  {
@@ -5462,13 +5803,14 @@
    "lon": -73.9566575,
    "link": "https://www.instagram.com/unveiled_nyc/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "9 PM–3 AM",
    "Friday": "9 PM–4 AM",
    "Saturday": "9 PM–4 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$$"
  },
  {
@@ -5478,13 +5820,14 @@
    "lon": -73.9528103,
    "link": "https://www.instagram.com/goodroombk/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "Closed",
    "Friday": "10 PM–4 AM",
    "Saturday": "10 PM–4 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$"
  },
  {
@@ -5494,13 +5837,14 @@
    "lon": -73.9673794,
    "link": "https://www.instagram.com/barmilagrobk/",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "Closed",
    "Friday": "7 PM–1 AM",
    "Saturday": "7 PM–1 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "N/A"
  },
  {
@@ -5510,13 +5854,14 @@
    "lon": -73.99573195,
    "link": "https://www.instagram.com/pipsbrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "3–10 PM",
    "Saturday": "3–10 PM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$$$"
  },
  {
@@ -5526,13 +5871,14 @@
    "lon": -73.9865349,
    "link": "https://www.instagram.com/grandarmybar/?hl=en",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "4 PM–1 AM",
    "Saturday": "2 PM–1 AM",
-   "Sunday": "2–10 PM",
+   "Sunday": "2–10 PM"],
    "price": "$$"
  },
  {
@@ -5542,13 +5888,14 @@
    "lon": -73.9869318,
    "link": "https://www.instagram.com/liarliarbk/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–12 AM",
+   "hours": [
+    "Monday: "4 PM–12 AM",
    "Tuesday": "4 PM–12 AM",
    "Wednesday": "4 PM–12 AM",
    "Thursday": "4 PM–12 AM",
    "Friday": "4 PM–12 AM",
    "Saturday": "4 PM–12 AM",
-   "Sunday": "4 PM–12 AM",
+   "Sunday": "4 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -5558,13 +5905,14 @@
    "lon": -73.99534426,
    "link": "https://www.instagram.com/elsabarnyc/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "2 PM–2 AM",
-   "Sunday": "3–11 PM",
+   "Sunday": "3–11 PM"],
    "price": "$$"
  },
  {
@@ -5574,13 +5922,14 @@
    "lon": -73.995709,
    "link": "https://www.instagram.com/saintjulivertbk/?hl=en",
    "openNow": true,
-   "Monday": "5–9:30 PM",
+   "hours": [
+    "Monday: "5–9:30 PM",
    "Tuesday": "5–9:30 PM",
    "Wednesday": "5–9:30 PM",
    "Thursday": "5–9:30 PM",
    "Friday": "5–9:30 PM",
    "Saturday": "5–9:30 PM",
-   "Sunday": "5–9:30 PM",
+   "Sunday": "5–9:30 PM"],
    "price": "$$$"
  },
  {
@@ -5590,13 +5939,14 @@
    "lon": -74.0080378,
    "link": "https://www.instagram.com/theotheroomnyc/?hl=en",
    "openNow": true,
-   "Monday": "5 PM–12 AM",
+   "hours": [
+    "Monday: "5 PM–12 AM",
    "Tuesday": "5 PM–12 AM",
    "Wednesday": "5 PM–12 AM",
    "Thursday": "5 PM–2 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "3 PM–2 AM",
-   "Sunday": "3 PM–12 AM",
+   "Sunday": "3 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -5606,13 +5956,14 @@
    "lon": -73.966171,
    "link": "https://www.instagram.com/opheliany/?hl=en",
    "openNow": true,
-   "Monday": "5–11 PM",
+   "hours": [
+    "Monday: "5–11 PM",
    "Tuesday": "5–11 PM",
    "Wednesday": "5–11 PM",
    "Thursday": "5 PM–12 AM",
    "Friday": "5 PM–2 AM",
    "Saturday": "5 PM–2 AM",
-   "Sunday": "12–11 PM",
+   "Sunday": "12–11 PM"],
    "price": "$$$"
  },
  {
@@ -5622,13 +5973,14 @@
    "lon": -73.961364,
    "link": "https://www.instagram.com/koibabrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "6 PM–12 AM",
    "Thursday": "6 PM–12 AM",
    "Friday": "6 PM–12 AM",
    "Saturday": "6 PM–12 AM",
-   "Sunday": "6–11 PM",
+   "Sunday": "6–11 PM"],
    "price": "$$"
  },
  {
@@ -5638,13 +5990,14 @@
    "lon": -73.9980719,
    "link": "https://www.instagram.com/bridges.nyc/?hl=en",
    "openNow": true,
-   "Monday": "5:30–10 PM",
+   "hours": [
+    "Monday: "5:30–10 PM",
    "Tuesday": "5:30–10 PM",
    "Wednesday": "5:30–10 PM",
    "Thursday": "5:30–10 PM",
    "Friday": "5:30–10 PM",
    "Saturday": "5:30–10 PM",
-   "Sunday": "5:30–10 PM",
+   "Sunday": "5:30–10 PM"],
    "price": "$$$$"
  },
  {
@@ -5654,13 +6007,14 @@
    "lon": -73.9931263,
    "link": "https://www.instagram.com/hildur.brooklyn/?hl=en",
    "openNow": true,
-   "Monday": "5–10 PM",
+   "hours": [
+    "Monday: "5–10 PM",
    "Tuesday": "5–10 PM",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "5–11 PM",
    "Saturday": "11 AM–11 PM",
-   "Sunday": "11 AM–10 PM",
+   "Sunday": "11 AM–10 PM"],
    "price": "$$$"
  },
  {
@@ -5670,13 +6024,14 @@
    "lon": -73.9136706,
    "link": "https://www.instagram.com/knockdowncenter/?hl=en",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "$$"
  },
  {
@@ -5686,13 +6041,14 @@
    "lon": -73.9457873,
    "link": "https://www.instagram.com/winonasbk/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "5–10 PM",
    "Thursday": "5–10 PM",
    "Friday": "5–11 PM",
    "Saturday": "10 AM–11 PM",
-   "Sunday": "10 AM–9 PM",
+   "Sunday": "10 AM–9 PM"],
    "price": "$$$"
  },
  {
@@ -5702,13 +6058,14 @@
    "lon": -73.934588,
    "link": "https://www.instagram.com/market.hotel/?hl=en",
    "openNow": true,
-   "Monday": "N/A",
+   "hours": [
+    "Monday: "N/A",
    "Tuesday": "N/A",
    "Wednesday": "N/A",
    "Thursday": "N/A",
    "Friday": "N/A",
    "Saturday": "N/A",
-   "Sunday": "N/A",
+   "Sunday": "N/A"],
    "price": "N/A"
  },
  {
@@ -5718,13 +6075,14 @@
    "lon": -73.9955872,
    "link": "https://www.instagram.com/leboudoirbrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "5–11 PM",
    "Friday": "7 PM–1:30 AM",
    "Saturday": "7 PM–1:30 AM",
-   "Sunday": "Closed",
+   "Sunday": "Closed"],
    "price": "$"
  },
  {
@@ -5734,13 +6092,14 @@
    "lon": -73.9070274,
    "link": "https://www.instagram.com/fathersbk/?hl=en",
    "openNow": true,
-   "Monday": "9 AM–12 AM",
+   "hours": [
+    "Monday: "9 AM–12 AM",
    "Tuesday": "9 AM–12 AM",
    "Wednesday": "9 AM–12 AM",
    "Thursday": "9 AM–12 AM",
    "Friday": "9 AM–2 AM",
    "Saturday": "9 AM–2 AM",
-   "Sunday": "9 AM–12 AM",
+   "Sunday": "9 AM–12 AM"],
    "price": "$$"
  },
  {
@@ -5750,13 +6109,14 @@
    "lon": -73.9238807,
    "link": "https://www.instagram.com/umbrabrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "6 PM–1 AM",
    "Thursday": "6 PM–1 AM",
    "Friday": "6 PM–1 AM",
    "Saturday": "6 PM–1 AM",
-   "Sunday": "6 PM–12 AM",
+   "Sunday": "6 PM–12 AM"],
    "price": "$$"
  },
  {
@@ -5766,13 +6126,14 @@
    "lon": -73.9235714,
    "link": "https://www.instagram.com/jupiter_disco/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "7 PM–2 AM",
    "Thursday": "7 PM–2 AM",
    "Friday": "7 PM–4 AM",
    "Saturday": "7 PM–4 AM",
-   "Sunday": "7 PM–2 AM",
+   "Sunday": "7 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -5782,13 +6143,14 @@
    "lon": -73.9335894,
    "link": "https://www.instagram.com/robertaspizza/?hl=en",
    "openNow": true,
-   "Monday": "12–10 PM",
+   "hours": [
+    "Monday: "12–10 PM",
    "Tuesday": "12–10 PM",
    "Wednesday": "12–10 PM",
    "Thursday": "12–10 PM",
    "Friday": "12–11 PM",
    "Saturday": "11 AM–11 PM",
-   "Sunday": "11 AM–10 PM",
+   "Sunday": "11 AM–10 PM"],
    "price": "$$"
  },
  {
@@ -5798,13 +6160,14 @@
    "lon": -73.9269769,
    "link": "https://www.instagram.com/moodringnyc/?hl=en",
    "openNow": true,
-   "Monday": "6 PM–2 AM",
+   "hours": [
+    "Monday: "6 PM–2 AM",
    "Tuesday": "6 PM–2 AM",
    "Wednesday": "6 PM–2 AM",
    "Thursday": "6 PM–3 AM",
    "Friday": "6 PM–4 AM",
    "Saturday": "6 PM–4 AM",
-   "Sunday": "6 PM–2 AM",
+   "Sunday": "6 PM–2 AM"],
    "price": "$$"
  },
  {
@@ -5814,13 +6177,14 @@
    "lon": -73.9451403,
    "link": "https://www.instagram.com/goldiesbrooklyn/?hl=en",
    "openNow": true,
-   "Monday": "4 PM–3 AM",
+   "hours": [
+    "Monday: "4 PM–3 AM",
    "Tuesday": "4 PM – 3 AM",
    "Wednesday": "4 PM–3 AM",
    "Thursday": "4 PM–4 AM",
    "Friday": "3 PM–4 AM",
    "Saturday": "2 PM–4 AM",
-   "Sunday": "2 PM–3 AM",
+   "Sunday": "2 PM–3 AM"],
    "price": "$"
  },
  {
@@ -5830,13 +6194,14 @@
    "lon": -73.95230534,
    "link": "https://www.instagram.com/razorntape/?hl=en",
    "openNow": true,
-   "Monday": "Closed",
+   "hours": [
+    "Monday: "Closed",
    "Tuesday": "Closed",
    "Wednesday": "Closed",
    "Thursday": "3–8 PM",
    "Friday": "12–8 PM",
    "Saturday": "12–8 PM",
-   "Sunday": "12–6 PM",
+   "Sunday": "12–6 PM"],
    "price": "$"
  }
-]
+],
