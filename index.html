@@ -167,14 +167,6 @@ function applyFilters() {
     if (vibe && vibeMap[vibe]) {
       vibeMatch = vibeMap[vibe].some(keyword => marker.vibe.includes(keyword));
     }
-
-   let priceMatch = true;
-if (price && marker.price !== undefined && marker.price !== null) {
-  const normalizedMarkerPrice = String(marker.price).trim();
-  priceMatch = normalizedMarkerPrice === price;
-} else if (price) {
-  priceMatch = false;
-}
     
     const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
 
