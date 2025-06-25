@@ -156,7 +156,9 @@ document.getElementById('vibeFilter').addEventListener('change', applyFilters);
 
 function applyFilters() {
   const vibe = document.getElementById('vibeFilter').value.toLowerCase();
+  const price = document.getElementById('priceFilter').value;
   const query = document.getElementById('map-search').value.toLowerCase();
+
   markerCluster.clearLayers();
 
   allMarkers.forEach(marker => {
@@ -164,12 +166,16 @@ function applyFilters() {
     if (vibe && vibeMap[vibe]) {
       vibeMatch = vibeMap[vibe].some(keyword => marker.vibe.includes(keyword));
     }
+
     const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
-    if (vibeMatch && searchMatch) {
+    const priceMatch = !price || (marker.price && marker.price.trim() === price);
+
+    if (vibeMatch && searchMatch && priceMatch) {
       markerCluster.addLayer(marker);
     }
   });
 }
+
 
 function enlargeMarker(marker) {
   marker.setIcon(enlargedIcon);
@@ -373,6 +379,7 @@ function findMarkerByLatLng(latlng) {
 }
 
 document.getElementById('vibeFilter').addEventListener('change', applyFilters);
+document.getElementById('priceFilter').addEventListener('change', applyFilters);
 document.getElementById('map-search').addEventListener('input', applyFilters);
 
 function applyFilters() {
