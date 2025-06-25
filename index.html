@@ -177,6 +177,13 @@ function resetMarker(marker) {
 function resetAllEnlargedMarkers() {
   enlargedMarkers.forEach(m => resetMarker(m));
 }
+  
+function getTodayHours(hoursArray) {
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const today = days[new Date().getDay()];
+  const todayEntry = hoursArray.find(entry => entry.startsWith(today));
+  return todayEntry || "Hours not available";
+}
 
 function showDetails(ev, latlng) {
   const details = document.getElementById('details');
@@ -185,17 +192,19 @@ function showDetails(ev, latlng) {
     ? `<strong>Also could be the move:</strong><ul>${suggestions.map(s => `<li>${s.name}</li>`).join('')}</ul>`
     : '<em>No similar spots nearby</em>';
 
-  details.innerHTML = `
-    <strong>${ev.name}</strong><br>
-    Vibe: ${ev.vibe}<br>
-    Price: ${ev.price || "N/A"}<br>
-    Hours: ${ev.hours || "N/A"}<br>
-    <a href="${ev.link}" target="_blank">View More</a><br>
-    <button id="addToRoute">Add to Route</button>
-    <button id="exportGooglePopup">Export Route to Google Maps</button>
-    <button id="closeDetails">Close</button>
-    ${suggestionHtml}
-  `;
+ const todayHours = ev.hours ? getTodayHours(ev.hours) : "No hours available";
+
+details.innerHTML = `
+  <strong>${ev.name}</strong><br>
+  Vibe: ${ev.vibe}<br>
+  Price: ${ev.price || "N/A"}<br>
+  Today's Hours: ${todayHours}<br>
+  <a href="${ev.link}" target="_blank">View More</a><br>
+  <button id="addToRoute">Add to Route</button>
+  <button id="exportGooglePopup">Export Route to Google Maps</button>
+  <button id="closeDetails">Close</button>
+`;
+
   details.style.display = 'block';
 
   document.getElementById('addToRoute').addEventListener('click', () => {
