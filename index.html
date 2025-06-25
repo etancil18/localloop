@@ -158,7 +158,7 @@ document.getElementById('vibeFilter').addEventListener('change', applyFilters);
 function applyFilters() {
   const vibe = document.getElementById('vibeFilter').value.toLowerCase();
   const query = document.getElementById('map-search').value.toLowerCase();
-  const price = document.getElementById('priceFilter').value.trim();
+  const price = document.getElementById('priceFilter').value.trim().toUpperCase();
 
   markerCluster.clearLayers();
 
