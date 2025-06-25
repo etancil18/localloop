@@ -157,8 +157,8 @@ document.getElementById('vibeFilter').addEventListener('change', applyFilters);
 
 function applyFilters() {
   const vibe = document.getElementById('vibeFilter').value.toLowerCase();
-  const price = document.getElementById('priceFilter').value;
   const query = document.getElementById('map-search').value.toLowerCase();
+  const price = document.getElementById('priceFilter').value;
 
   markerCluster.clearLayers();
 
@@ -169,6 +169,7 @@ function applyFilters() {
     }
 
     const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
+
     const priceMatch = !price || (marker.price && marker.price.trim() === price);
 
     if (vibeMatch && searchMatch && priceMatch) {
