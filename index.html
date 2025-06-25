@@ -395,8 +395,8 @@ function applyFilters() {
       vibeMatch = vibeMap[vibe].some(keyword => marker.vibe.includes(keyword));
     }
     const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
-    const priceMatch = !price || (marker.price && marker.price.trim() === price);
-
+    const markerPrice = marker.price ? marker.price.trim() : '';
+    const priceMatch = !price || markerPrice === price;
     if (vibeMatch && searchMatch && priceMatch) {
       markerCluster.addLayer(marker);
     }
