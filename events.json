@@ -14,7 +14,7 @@
    "Friday: 5 PM–12 AM",
    "Saturday: 5 PM–12 AM",
    "Sunday: 5 PM–12 AM"],
-   "price": "$$"
+   "price": ["$$"]
  },
  {
    "name": "Doris",
@@ -31,7 +31,7 @@
    "Friday: 5 PM–3 AM",
    "Saturday: 4 PM–3 AM",
    "Sunday: 4 PM–1 AM"],
-   "price": "$$"
+   "price": ["$$"]
  },
  {
    "name": "Abe's Pagoda Bar",
@@ -48,7 +48,7 @@
    "Friday: 4 PM–4 AM",
    "Saturday: 4 PM–4 AM",
    "Sunday: 4 PM–2 AM"],
-   "price": "$$"
+   "price": ["$$"]
  },
  {
    "name": "Carmelo’s",
