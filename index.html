@@ -168,6 +168,12 @@ function applyFilters() {
       vibeMatch = vibeMap[vibe].some(keyword => marker.vibe.includes(keyword));
     }
 
+    let priceMatch = !price; 
+if (price) {
+  const normalizedMarkerPrice = (marker.price || "").trim();
+  priceMatch = normalizedMarkerPrice === price;
+}
+    
     const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
 
     const priceMatch = !price || (marker.price && marker.price.trim() === price);
