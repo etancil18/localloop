@@ -386,7 +386,7 @@ document.getElementById('map-search').addEventListener('input', applyFilters);
 function applyFilters() {
   const vibe = document.getElementById('vibeFilter').value.toLowerCase();
   const query = document.getElementById('map-search').value.toLowerCase();
-  const price = document.getElementById('priceFilter').value;
+  const price = document.getElementById('priceFilter').value.trim();
   markerCluster.clearLayers();
 
   allMarkers.forEach(marker => {
@@ -395,7 +395,7 @@ function applyFilters() {
       vibeMatch = vibeMap[vibe].some(keyword => marker.vibe.includes(keyword));
     }
     const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
-    const priceMatch = !price || (marker.price && marker.price === price);
+    const priceMatch = !price || (marker.price && marker.price.trim() === price);
 
     if (vibeMatch && searchMatch && priceMatch) {
       markerCluster.addLayer(marker);
