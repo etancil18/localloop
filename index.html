@@ -364,7 +364,13 @@ function updateRoute() {
     }).addTo(map);
   }
 }
-  
+
+  function generateShareURL(points) {
+  const base = window.location.origin + window.location.pathname;
+  const params = points.map(p => `${p.lat.toFixed(5)},${p.lng.toFixed(5)}`).join('|');
+  return `${base}?crawl=${encodeURIComponent(params)}`;
+}
+
 function findMarkerByLatLng(latlng) {
   return allMarkers.find(m => m.getLatLng().equals(latlng));
 }
