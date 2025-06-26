@@ -259,6 +259,12 @@ fetch('events.json')
     }
 
     parseSharedCrawl();
+    if (selectedPoints.length > 1) {
+  updateRoute();
+  showOnlySelectedMarkers(); 
+  map.fitBounds(L.featureGroup(
+    selectedPoints.map(latlng => L.marker(latlng))
+  ).getBounds());
   });
 
 const vibeMap = {
@@ -287,10 +293,11 @@ function resetMarker(marker) {
 function resetAllEnlargedMarkers() {
   enlargedMarkers.forEach(m => resetMarker(m));
 }
-  function showOnlySelectedMarkers() {
+function showOnlySelectedMarkers() {
   markerCluster.clearLayers();
   allMarkers.forEach(marker => {
-    if (selectedPoints.some(p => marker.getLatLng().equals(p))) {
+    const markerLatLng = marker.getLatLng();
+    if (selectedPoints.some(p => markerLatLng.equals(p))) {
       markerCluster.addLayer(marker);
     }
   });
@@ -435,8 +442,9 @@ crawlPoints.forEach(m => {
   selectedPoints.push(m.getLatLng());
   enlargeMarker(m);
 });
-
+showOnlySelectedMarkers();
 updateRoute();
+
 map.fitBounds(L.featureGroup(crawlPoints).getBounds());
 
 const details = document.getElementById('details');
