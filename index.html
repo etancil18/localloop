@@ -128,7 +128,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
   if (selectedPoints.length > 1) {
     updateRoute();
-    map.fitBounds(L.featureGroup(selectedPoints.map(findMarkerByLatLng)).getBounds());
+    map.fitBounds(L.featureGroup(
+  selectedPoints.map(latlng => L.marker(latlng))
+).getBounds());
   }
 }
   
