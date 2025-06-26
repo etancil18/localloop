@@ -331,7 +331,7 @@ details.innerHTML = `<strong>Your Mini Crawl:</strong><ul>${
 <button id="exportGooglePopup">Export Route to Google Maps</button>
 <button id="copyLinkBtn">Copy Shareable Link</button>
 <input id="shareLinkInput" type="text" readonly value="${shareLink}" style="width:100%; margin-top:5px;" />
-<a id="smsShare" href="sms:&body=Check out this crawl: ${encodeURIComponent(shareLink)}" target="_blank">📲 Text This Crawl</a>
+<a id="smsShare" href="sms:?body=Check out this crawl: ${encodeURIComponent(shareLink)}" target="_blank">📲 Text This Crawl</a>
 <button id="closeDetails">Close</button>`;
 
 details.style.display = 'block';
