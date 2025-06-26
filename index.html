@@ -401,12 +401,18 @@ function updateRoute() {
     }).addTo(map);
   }
 }
-
-  function generateShareURL(points) {
+function generateShareURL(points) {
   const base = window.location.origin + window.location.pathname;
-  const params = points.map(p => `${p.lat.toFixed(5)},${p.lng.toFixed(5)}`).join('|');
+  const params = points
+    .map(p => {
+      const lat = p.lat || p[0];  // supports L.LatLng or raw array
+      const lng = p.lng || p[1];
+      return `${lat.toFixed(5)},${lng.toFixed(5)}`;
+    })
+    .join('|');
   return `${base}?crawl=${encodeURIComponent(params)}`;
 }
+
 
 document.getElementById('vibeFilter').addEventListener('change', applyFilters);
 document.getElementById('priceFilter').addEventListener('change', applyFilters);
