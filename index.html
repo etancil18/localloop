@@ -164,36 +164,6 @@ const vibeMap = {
   rooftop: ["rooftop", "scenic", "views", "skyline"]
 };
 
-document.getElementById('vibeFilter').addEventListener('change', applyFilters);
-
-function applyFilters() {
-  const vibe = document.getElementById('vibeFilter').value.toLowerCase();
-  const query = document.getElementById('map-search').value.toLowerCase();
-  const price = document.getElementById('priceFilter').value.trim();
-  
-  markerCluster.clearLayers();
-
-  allMarkers.forEach(marker => {
-    let vibeMatch = !vibe;
-    if (vibe && vibeMap[vibe]) {
-      vibeMatch = vibeMap[vibe].some(keyword => marker.vibe.includes(keyword));
-    }
-
-    const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
-
-    let priceMatch = true;
-    if (price) {
-      const normalizedPrice = (marker.price || "").trim();
-      priceMatch = normalizedPrice === price;
-    }
-
-    if (vibeMatch && searchMatch && priceMatch) {
-      markerCluster.addLayer(marker);
-    }
-  });
-}
-
-
 
 function enlargeMarker(marker) {
   marker.setIcon(enlargedIcon);
