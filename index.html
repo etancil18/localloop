@@ -104,6 +104,30 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
+  function parseSharedCrawl() {
+  const params = new URLSearchParams(window.location.search);
+  const crawlData = params.get('crawl');
+  if (!crawlData) return;
+
+  const coords = crawlData.split('|').map(p => {
+    const [lat, lng] = p.split(',').map(Number);
+    return L.latLng(lat, lng);
+  });
+
+  coords.forEach(latlng => {
+    const marker = findMarkerByLatLng(latlng);
+    if (marker) {
+      selectedPoints.push(marker.getLatLng());
+      enlargeMarker(marker);
+    }
+  });
+
+  if (selectedPoints.length > 1) {
+    updateRoute();
+    map.fitBounds(L.featureGroup(selectedPoints.map(findMarkerByLatLng)).getBounds());
+  }
+}
+  
 const markerCluster = L.markerClusterGroup({
   spiderfyOnMaxZoom: true,
   showCoverageOnHover: false,
@@ -149,6 +173,7 @@ fetch('events.json')
       allMarkers.push(marker);
       markerCluster.addLayer(marker);
     });
+    parseSharedCrawl();
   });
 const vibeMap = {
   jazz: ["jazz"],
