@@ -185,17 +185,11 @@ function parseSharedCrawl() {
     return L.latLng(lat, lng);
   });
 
-  selectedPoints = [];
-  resetAllEnlargedMarkers();
-  markerCluster.clearLayers(); // Hide all markers initially
+  selectedPoints = coords;
 
   coords.forEach(latlng => {
     const marker = findMarkerByLatLng(latlng);
-    if (marker) {
-      selectedPoints.push(marker.getLatLng());
-      enlargeMarker(marker);
-      markerCluster.addLayer(marker); // Show only crawl markers
-    }
+    if (marker) enlargeMarker(marker);
   });
 
   if (selectedPoints.length > 1) {
@@ -232,8 +226,6 @@ const enlargedIcon = L.icon({
   iconSize: [50, 50],
   iconAnchor: [25, 50]
 });
-const urlParams = new URLSearchParams(window.location.search);
-const crawlParam = urlParams.get('crawl');
 
 fetch('events.json')
   .then(res => res.json())
@@ -252,21 +244,10 @@ fetch('events.json')
       });
 
       allMarkers.push(marker);
+      markerCluster.addLayer(marker);
     });
-
-    if (!crawlParam) {
-      allMarkers.forEach(marker => markerCluster.addLayer(marker));
-    }
-
     parseSharedCrawl();
-    if (selectedPoints.length > 1) {
-  updateRoute();
-  showOnlySelectedMarkers(); 
-  map.fitBounds(L.featureGroup(
-    selectedPoints.map(latlng => L.marker(latlng))
-  ).getBounds());
   });
-
 const vibeMap = {
   jazz: ["jazz"],
   artsy: ["art", "artsy", "gallery", "museum"],
@@ -293,16 +274,7 @@ function resetMarker(marker) {
 function resetAllEnlargedMarkers() {
   enlargedMarkers.forEach(m => resetMarker(m));
 }
-function showOnlySelectedMarkers() {
-  markerCluster.clearLayers();
-  allMarkers.forEach(marker => {
-    const markerLatLng = marker.getLatLng();
-    if (selectedPoints.some(p => markerLatLng.equals(p))) {
-      markerCluster.addLayer(marker);
-    }
-  });
-}
-
+  
 function getTodayHours(hoursArray) {
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   const today = days[new Date().getDay()];
@@ -442,9 +414,8 @@ crawlPoints.forEach(m => {
   selectedPoints.push(m.getLatLng());
   enlargeMarker(m);
 });
-showOnlySelectedMarkers();
-updateRoute();
 
+updateRoute();
 map.fitBounds(L.featureGroup(crawlPoints).getBounds());
 
 const details = document.getElementById('details');
