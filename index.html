@@ -22,12 +22,13 @@
       display: block; margin-top: 5px; background: #ccc;
       border: none; padding: 5px; cursor: pointer;
     }
-    #vibeFilter, #map-search, #priceFilter, #clearRoute, #removeLastPoint, #neighborhood-input, #generateRoute {
+    #vibeFilter, #map-search, #priceFilter, #durationFilter, #clearRoute, #removeLastPoint, #neighborhood-input, #generateRoute {
       position: absolute; z-index: 1000; font-size: 14px; padding: 5px;
     }
     #map-search { top: 10px; left: 50px; width: 150px; }
     #vibeFilter { top: 10px; left: 220px; }
     #priceFilter { top: 10px; left: 347px; }
+    #durationFilter { top: 10px; left: 475px; }
     #removeLastPoint { top: 10px; right: 450px; }
     #clearRoute { top: 10px; right: 350px; }
     #neighborhood-input { top: 50px; left: 50px; }
@@ -55,6 +56,12 @@
   <option value="$$">$$</option>
   <option value="$$$">$$$</option>
   <option value="$$$$">$$$$</option>
+</select>
+  <select id="durationFilter">
+  <option value="">Select Crawl Length</option>
+  <option value="quick">Quick Hop (<1.5h)</option>
+  <option value="classic">Classic Loop (1.5–3h)</option>
+  <option value="long">All-Night Crawl (3h+)</option>
 </select>
 <select id="neighborhood-input">
   <option value="">Select Neighborhood</option>
@@ -131,6 +138,7 @@ fetch('events.json')
       marker.vibe = ev.vibe.toLowerCase();
       marker.name = ev.name.toLowerCase();
       marker.price = ev.price;
+      marker.duration = ev.duration || 0;
 
       marker.on('click', () => {
         resetAllEnlargedMarkers();
