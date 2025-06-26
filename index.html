@@ -108,7 +108,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   return allMarkers.find(m => m.getLatLng().equals(latlng));
 }
   
-  function parseSharedCrawl() {
+function parseSharedCrawl() {
   const params = new URLSearchParams(window.location.search);
   const crawlData = params.get('crawl');
   if (!crawlData) return;
@@ -118,21 +118,21 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     return L.latLng(lat, lng);
   });
 
+  selectedPoints = coords;
+
   coords.forEach(latlng => {
     const marker = findMarkerByLatLng(latlng);
-    if (marker) {
-      selectedPoints.push(marker.getLatLng());
-      enlargeMarker(marker);
-    }
+    if (marker) enlargeMarker(marker);
   });
 
   if (selectedPoints.length > 1) {
     updateRoute();
     map.fitBounds(L.featureGroup(
-  selectedPoints.map(latlng => L.marker(latlng))
-).getBounds());
+      selectedPoints.map(latlng => L.marker(latlng))
+    ).getBounds());
   }
 }
+
   
 const markerCluster = L.markerClusterGroup({
   spiderfyOnMaxZoom: true,
