@@ -185,20 +185,25 @@ function parseSharedCrawl() {
     return L.latLng(lat, lng);
   });
 
-  selectedPoints = coords;
+  selectedPoints = [];
+  markerCluster.clearLayers();
+  resetAllEnlargedMarkers();
 
   coords.forEach(latlng => {
     const marker = findMarkerByLatLng(latlng);
-    if (marker) enlargeMarker(marker);
+    if (marker) {
+      selectedPoints.push(marker.getLatLng());
+      enlargeMarker(marker);
+      markerCluster.addLayer(marker);
+    }
   });
 
   if (selectedPoints.length > 1) {
     updateRoute();
-    map.fitBounds(L.featureGroup(
-      selectedPoints.map(latlng => L.marker(latlng))
-    ).getBounds());
+    map.fitBounds(L.featureGroup(selectedPoints.map(latlng => L.marker(latlng))).getBounds());
   }
 }
+
 
   
 const markerCluster = L.markerClusterGroup({
@@ -226,6 +231,8 @@ const enlargedIcon = L.icon({
   iconSize: [50, 50],
   iconAnchor: [25, 50]
 });
+const urlParams = new URLSearchParams(window.location.search);
+const crawlParam = urlParams.get('crawl');
 
 fetch('events.json')
   .then(res => res.json())
@@ -244,10 +251,15 @@ fetch('events.json')
       });
 
       allMarkers.push(marker);
-      markerCluster.addLayer(marker);
     });
+
+    if (!crawlParam) {
+      allMarkers.forEach(marker => markerCluster.addLayer(marker));
+    }
+
     parseSharedCrawl();
   });
+
 const vibeMap = {
   jazz: ["jazz"],
   artsy: ["art", "artsy", "gallery", "museum"],
