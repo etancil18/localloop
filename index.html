@@ -301,6 +301,18 @@ document.getElementById('generateRoute').addEventListener('click', () => {
     return;
   }
 
+  const crawlType = document.getElementById('durationFilter').value;
+let minDuration = 0, maxDuration = Infinity;
+
+if (crawlType === 'quick') {
+  maxDuration = 1.5;
+} else if (crawlType === 'classic') {
+  minDuration = 1.5;
+  maxDuration = 3;
+} else if (crawlType === 'long') {
+  minDuration = 3;
+}
+
   const candidates = allMarkers.filter(marker =>
     center.distanceTo(marker.getLatLng()) < 1500 // 1.5 km neighborhood radius
   );
@@ -310,47 +322,40 @@ document.getElementById('generateRoute').addEventListener('click', () => {
     return;
   }
 
-  const base = candidates[Math.floor(Math.random() * candidates.length)];
-  const baseVibes = base.vibe.split(',').map(v => v.trim());
+  let totalDuration = 0;
+const crawlPoints = [];
 
-  const similar = candidates.filter(m => {
-    if (m.getLatLng().equals(base.getLatLng())) return false;
-    const dist = base.getLatLng().distanceTo(m.getLatLng());
-    if (dist > 700) return false;
-    return baseVibes.some(v => m.vibe.includes(v));
-  });
+for (let marker of candidates.sort(() => 0.5 - Math.random())) {
+  const dur = marker.duration || 0;
+  if (dur === 0 || crawlPoints.includes(marker)) continue;
+  if (totalDuration + dur > maxDuration) break;
+  totalDuration += dur;
+  crawlPoints.push(marker);
+  if (totalDuration >= minDuration) break;
+}
 
-  const different = candidates.filter(m => {
-    if (m.getLatLng().equals(base.getLatLng())) return false;
-    const dist = base.getLatLng().distanceTo(m.getLatLng());
-    if (dist > 305) return false;
-    return !baseVibes.some(v => m.vibe.includes(v));
-  });
+if (crawlPoints.length < 2) {
+  alert('Not enough places to build a crawl within this duration.');
+  return;
+}
 
-  if (similar.length < 1 || different.length < 1) {
-    alert('Not enough diverse nearby places found for a mini crawl.');
-    return;
-  }
+selectedPoints = [];
+resetAllEnlargedMarkers();
 
-  const selectedSimilar = similar[Math.floor(Math.random() * similar.length)];
-  const selectedDifferent = different[Math.floor(Math.random() * different.length)];
+crawlPoints.forEach(m => {
+  selectedPoints.push(m.getLatLng());
+  enlargeMarker(m);
+});
 
-  selectedPoints = [];
-  resetAllEnlargedMarkers();
+updateRoute();
+map.fitBounds(L.featureGroup(crawlPoints).getBounds());
 
-  [base, selectedSimilar, selectedDifferent].forEach(m => {
-    selectedPoints.push(m.getLatLng());
-    enlargeMarker(m);
-  });
+const details = document.getElementById('details');
+details.innerHTML = `<strong>Your Mini Crawl:</strong><ul>${
+  crawlPoints.map(m => `<li>${m.name}</li>`).join('')
+}</ul><button id="exportGooglePopup">Export Route to Google Maps</button><button id="closeDetails">Close</button>`;
+details.style.display = 'block';
 
-  updateRoute();
-  map.fitBounds(L.featureGroup([base, selectedSimilar, selectedDifferent]).getBounds());
-
-  const details = document.getElementById('details');
-  details.innerHTML = `<strong>Mini Crawl Locations:</strong><ul>${
-    [base, selectedSimilar, selectedDifferent].map(m => `<li>${m.name}</li>`).join('')
-  }</ul><button id="exportGooglePopup">Export Route to Google Maps</button><button id="closeDetails">Close</button>`;
-  details.style.display = 'block';
 
   document.getElementById('exportGooglePopup').addEventListener('click', () => {
     const baseUrl = "https://www.google.com/maps/dir/";
