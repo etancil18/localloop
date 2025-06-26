@@ -149,9 +149,7 @@ fetch('events.json')
       allMarkers.push(marker);
       markerCluster.addLayer(marker);
     });
-    parseSharedCrawl();
   });
-  
 const vibeMap = {
   jazz: ["jazz"],
   artsy: ["art", "artsy", "gallery", "museum"],
@@ -163,6 +161,36 @@ const vibeMap = {
   wine: ["wine", "natural wine", "craft wine"],
   rooftop: ["rooftop", "scenic", "views", "skyline"]
 };
+
+document.getElementById('vibeFilter').addEventListener('change', applyFilters);
+
+function applyFilters() {
+  const vibe = document.getElementById('vibeFilter').value.toLowerCase();
+  const query = document.getElementById('map-search').value.toLowerCase();
+  const price = document.getElementById('priceFilter').value.trim();
+  
+  markerCluster.clearLayers();
+
+  allMarkers.forEach(marker => {
+    let vibeMatch = !vibe;
+    if (vibe && vibeMap[vibe]) {
+      vibeMatch = vibeMap[vibe].some(keyword => marker.vibe.includes(keyword));
+    }
+
+    const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
+
+    let priceMatch = true;
+    if (price) {
+      const normalizedPrice = (marker.price || "").trim();
+      priceMatch = normalizedPrice === price;
+    }
+
+    if (vibeMatch && searchMatch && priceMatch) {
+      markerCluster.addLayer(marker);
+    }
+  });
+}
+
 
 
 function enlargeMarker(marker) {
@@ -322,36 +350,25 @@ crawlPoints.forEach(m => {
 updateRoute();
 map.fitBounds(L.featureGroup(crawlPoints).getBounds());
 
-selectedPoints = crawlPoints.map(m => m.getLatLng());
-const shareLink = generateShareURL(selectedPoints);
-
+const details = document.getElementById('details');
 details.innerHTML = `<strong>Your Mini Crawl:</strong><ul>${
   crawlPoints.map(m => `<li>${m.name}</li>`).join('')
-}</ul>
-<button id="exportGooglePopup">Export Route to Google Maps</button>
-<button id="copyLinkBtn">Copy Shareable Link</button>
-<input id="shareLinkInput" type="text" readonly value="${shareLink}" style="width:100%; margin-top:5px;" />
-<a id="smsShare" href="sms:?body=Check out this crawl: ${encodeURIComponent(shareLink)}" target="_blank">📲 Text This Crawl</a>
-<button id="closeDetails">Close</button>`;
-
+}</ul><button id="exportGooglePopup">Export Route to Google Maps</button><button id="closeDetails">Close</button>`;
 details.style.display = 'block';
 
-document.getElementById('exportGooglePopup').addEventListener('click', () => {
-  const baseUrl = "https://www.google.com/maps/dir/";
-  const path = selectedPoints.map(p => `${p.lat},${p.lng}`).join('/');
-  window.open(baseUrl + path, '_blank');
+
+  document.getElementById('exportGooglePopup').addEventListener('click', () => {
+    const baseUrl = "https://www.google.com/maps/dir/";
+    const path = selectedPoints.map(p => `${p.lat},${p.lng}`).join('/');
+    window.open(baseUrl + path, '_blank');
+  });
+
+  document.getElementById('closeDetails').addEventListener('click', () => {
+    details.style.display = 'none';
+  });
 });
 
-document.getElementById('copyLinkBtn').addEventListener('click', () => {
-  const input = document.getElementById('shareLinkInput');
-  input.select();
-  document.execCommand('copy');
-  alert('Link copied!');
-});
 
-document.getElementById('closeDetails').addEventListener('click', () => {
-  details.style.display = 'none';
-});
 
 
 
@@ -377,42 +394,11 @@ function updateRoute() {
     }).addTo(map);
   }
 }
-
-  function generateShareURL(points) {
-  const base = window.location.origin + window.location.pathname;
-  const params = points.map(p => `${p.lat.toFixed(5)},${p.lng.toFixed(5)}`).join('|');
-  return `${base}?crawl=${encodeURIComponent(params)}`;
-}
   
 function findMarkerByLatLng(latlng) {
   return allMarkers.find(m => m.getLatLng().equals(latlng));
 }
 
-  function parseSharedCrawl() {
-  const params = new URLSearchParams(window.location.search);
-  const crawlData = params.get('crawl');
-  if (!crawlData) return;
-
-  const coords = crawlData.split('|').map(p => {
-    const [lat, lng] = p.split(',').map(Number);
-    return L.latLng(lat, lng);
-  });
-
-  coords.forEach(latlng => {
-    const marker = findMarkerByLatLng(latlng);
-    if (marker) {
-      selectedPoints.push(marker.getLatLng());
-      enlargeMarker(marker);
-    }
-  });
-
-  if (selectedPoints.length > 1) {
-    updateRoute();
-    map.fitBounds(L.featureGroup(selectedPoints.map(findMarkerByLatLng)).getBounds());
-  }
-}
-
-  
 document.getElementById('vibeFilter').addEventListener('change', applyFilters);
 document.getElementById('priceFilter').addEventListener('change', applyFilters);
 document.getElementById('map-search').addEventListener('input', applyFilters);
