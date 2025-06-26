@@ -274,15 +274,6 @@ function resetMarker(marker) {
 function resetAllEnlargedMarkers() {
   enlargedMarkers.forEach(m => resetMarker(m));
 }
-  function showOnlySelectedMarkers() {
-  markerCluster.clearLayers();
-  allMarkers.forEach(marker => {
-    if (selectedPoints.some(p => marker.getLatLng().equals(p))) {
-      markerCluster.addLayer(marker);
-    }
-  });
-}
-
   
 function getTodayHours(hoursArray) {
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -419,11 +410,10 @@ if (crawlPoints.length < 2) {
 selectedPoints = [];
 resetAllEnlargedMarkers();
 
-crawlPoints.forEach(marker => {
-  selectedPoints.push(marker); 
-  enlargeMarker(marker);
+crawlPoints.forEach(m => {
+  selectedPoints.push(m.getLatLng());
+  enlargeMarker(m);
 });
-
 
 updateRoute();
 map.fitBounds(L.featureGroup(crawlPoints).getBounds());
@@ -454,7 +444,9 @@ details.style.display = 'block';
   });
 });
 
-  
+
+
+
 
 function addPointToRoute(latlng) {
   if (selectedPoints.length >= 5) {
@@ -470,7 +462,7 @@ function updateRoute() {
   if (currentRoute) map.removeControl(currentRoute);
   if (selectedPoints.length >= 2) {
     currentRoute = L.Routing.control({
-      waypoints: selectedPoints.map(m => m.getLatLng())
+      waypoints: selectedPoints,
       routeWhileDragging: false,
       show: false,                
       addWaypoints: false,        
