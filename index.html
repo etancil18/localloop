@@ -321,9 +321,17 @@ updateRoute();
 map.fitBounds(L.featureGroup(crawlPoints).getBounds());
 
 const details = document.getElementById('details');
+const shareLink = generateShareURL(selectedPoints);
+
 details.innerHTML = `<strong>Your Mini Crawl:</strong><ul>${
   crawlPoints.map(m => `<li>${m.name}</li>`).join('')
-}</ul><button id="exportGooglePopup">Export Route to Google Maps</button><button id="closeDetails">Close</button>`;
+}</ul>
+<button id="exportGooglePopup">Export Route to Google Maps</button>
+<button id="copyLinkBtn">Copy Shareable Link</button>
+<input id="shareLinkInput" type="text" readonly value="${shareLink}" style="width:100%; margin-top:5px;" />
+<a id="smsShare" href="sms:?body=Check out this crawl: ${encodeURIComponent(shareLink)}" target="_blank">📲 Text This Crawl</a>
+<button id="closeDetails">Close</button>`;
+
 details.style.display = 'block';
 
 
