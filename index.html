@@ -187,17 +187,18 @@ function parseSharedCrawl() {
 
   selectedPoints = [];
   resetAllEnlargedMarkers();
+  markerCluster.clearLayers(); // Hide all markers initially
 
   coords.forEach(latlng => {
     const marker = findMarkerByLatLng(latlng);
     if (marker) {
       selectedPoints.push(marker.getLatLng());
       enlargeMarker(marker);
+      markerCluster.addLayer(marker); // Show only crawl markers
     }
   });
 
   if (selectedPoints.length > 1) {
-    showOnlySelectedMarkers();
     updateRoute();
     map.fitBounds(L.featureGroup(
       selectedPoints.map(latlng => L.marker(latlng))
