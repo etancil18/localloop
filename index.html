@@ -8,88 +8,155 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
-  <style>
-    body { margin: 0; padding: 0; }
-    #map { height: 100vh; width: 100vw; }
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  #map {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #details {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+    font-size: 14px;
+    display: none;
+    z-index: 1000;
+  }
+
+  #details button {
+    display: block;
+    margin-top: 5px;
+    background: #ccc;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    background: rgba(255,255,255,0.9);
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .controls select,
+  .controls input,
+  .controls button {
+    font-size: 14px;
+    padding: 5px;
+    flex: 1 1 120px;
+  }
+
+  @media (min-width: 768px) {
     #details {
-      position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
-      width: 300px; background: white; padding: 10px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.3);
-      font-family: sans-serif; font-size: 14px;
-      display: none; z-index: 1000;
+      width: 300px;
+      left: 50%;
+      bottom: auto;
+      top: 10px;
+      transform: translateX(-50%);
     }
+
     #details button {
-      display: block; margin-top: 5px; background: #ccc;
-      border: none; padding: 5px; cursor: pointer;
+      width: auto;
     }
-    #vibeFilter, #map-search, #priceFilter, #durationFilter, #clearRoute, #removeLastPoint, #neighborhood-input, #generateRoute {
-      position: absolute; z-index: 1000; font-size: 14px; padding: 5px;
+
+    .controls {
+      flex-wrap: nowrap;
+      gap: 10px;
+      top: 10px;
+      left: 50px;
+      right: auto;
     }
-    #map-search { top: 10px; left: 50px; width: 150px; }
-    #vibeFilter { top: 10px; left: 220px; }
-    #priceFilter { top: 10px; left: 347px; }
-    #removeLastPoint { top: 10px; right: 450px; }
-    #clearRoute { top: 10px; right: 350px; }
-    #neighborhood-input { top: 50px; left: 50px; }
-    #durationFilter { top: 50px; left: 220px; }
-    #generateRoute { top: 50px; left: 395px; }
-  </style>
+
+    .controls select,
+    .controls input,
+    .controls button {
+      flex: unset;
+    }
+  }
+</style>
 </head>
 <body>
 
-<input id="map-search" type="text" placeholder="What's the vibe..." />
-<select id="vibeFilter">
-  <option value="">General Vibes</option>
-  <option value="rooftop">Rooftop</option>
-  <option value="jazz">Jazz</option>
-  <option value="artsy">Artsy</option>
-  <option value="coffee">Coffee</option>
-  <option value="hip">Hip</option>
-  <option value="date night">Date Night</option>
-  <option value="nightlife">Nightlife</option>
-  <option value="hidden gem">Hidden Gem</option>
-  <option value="wine">Wine</option>
-</select>
+<div class="controls">
+  <input id="map-search" type="text" placeholder="What's the vibe..." />
+  <select id="vibeFilter">
+    <option value="">General Vibes</option>
+    <option value="rooftop">Rooftop</option>
+    <option value="jazz">Jazz</option>
+    <option value="artsy">Artsy</option>
+    <option value="coffee">Coffee</option>
+    <option value="hip">Hip</option>
+    <option value="date night">Date Night</option>
+    <option value="nightlife">Nightlife</option>
+    <option value="hidden gem">Hidden Gem</option>
+    <option value="wine">Wine</option>
+  </select>
   <select id="priceFilter">
-  <option value="">Price</option>
-  <option value="$">$</option>
-  <option value="$$">$$</option>
-  <option value="$$$">$$$</option>
-  <option value="$$$$">$$$$</option>
-</select>
+    <option value="">Price</option>
+    <option value="$">$</option>
+    <option value="$$">$$</option>
+    <option value="$$$">$$$</option>
+    <option value="$$$$">$$$$</option>
+  </select>
   <select id="durationFilter">
-  <option value="">Select Crawl Length</option>
-  <option value="quick">Quick Hop (<1.5h)</option>
-  <option value="classic">Classic Loop (1.5–3h)</option>
-  <option value="long">All-Night Crawl (3h+)</option>
-</select>
-<select id="neighborhood-input">
-  <option value="">Select Neighborhood</option>
-  <option>Alphabet City</option>
-  <option>BedStuy</option>
-  <option>Bushwick</option>
-  <option>Chelsea</option>
-  <option>Chinatown</option>
-  <option>Clinton Hill</option>
-  <option>Downtown Brooklyn</option>
-  <option>Dumbo</option>
-  <option>East Village</option>
-  <option>Gramercy</option>
-  <option>Greenpoint</option>
-  <option>Greenwich Village</option>
-  <option>Lower East Side</option>
-  <option>Long Island City</option>
-  <option>Midtown</option>
-  <option>SoHo</option>
-  <option>Tribeca</option>
-  <option>Upper East Side</option>
-  <option>Upper West Side</option>
-  <option>West Village</option>
-  <option>Williamsburg</option>
-</select>
-<button id="generateRoute">Generate Mini Crawl</button>
-<button id="removeLastPoint">Remove Last Point</button>
-<button id="clearRoute">Clear Route</button>
+    <option value="">Select Crawl Length</option>
+    <option value="quick">Quick Hop (&lt;1.5h)</option>
+    <option value="classic">Classic Loop (1.5–3h)</option>
+    <option value="long">All-Night Crawl (3h+)</option>
+  </select>
+  <select id="neighborhood-input">
+    <option value="">Select Neighborhood</option>
+    <option>Alphabet City</option>
+    <option>BedStuy</option>
+    <option>Bushwick</option>
+    <option>Chelsea</option>
+    <option>Chinatown</option>
+    <option>Clinton Hill</option>
+    <option>Downtown Brooklyn</option>
+    <option>Dumbo</option>
+    <option>East Village</option>
+    <option>Gramercy</option>
+    <option>Greenpoint</option>
+    <option>Greenwich Village</option>
+    <option>Lower East Side</option>
+    <option>Long Island City</option>
+    <option>Midtown</option>
+    <option>SoHo</option>
+    <option>Tribeca</option>
+    <option>Upper East Side</option>
+    <option>Upper West Side</option>
+    <option>West Village</option>
+    <option>Williamsburg</option>
+  </select>
+  <button id="generateRoute">Generate Mini Crawl</button>
+  <button id="removeLastPoint">Remove Last Point</button>
+  <button id="clearRoute">Clear Route</button>
+</div>
+
 
 <div id="map"></div>
 <div id="details"><strong>Click a pin to see details</strong></div>
