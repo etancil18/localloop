@@ -186,7 +186,6 @@ function parseSharedCrawl() {
   });
 
   selectedPoints = [];
-  markerCluster.clearLayers();
   resetAllEnlargedMarkers();
 
   coords.forEach(latlng => {
@@ -194,16 +193,17 @@ function parseSharedCrawl() {
     if (marker) {
       selectedPoints.push(marker.getLatLng());
       enlargeMarker(marker);
-      markerCluster.addLayer(marker);
     }
   });
 
   if (selectedPoints.length > 1) {
+    showOnlySelectedMarkers();
     updateRoute();
-    map.fitBounds(L.featureGroup(selectedPoints.map(latlng => L.marker(latlng))).getBounds());
+    map.fitBounds(L.featureGroup(
+      selectedPoints.map(latlng => L.marker(latlng))
+    ).getBounds());
   }
 }
-
 
   
 const markerCluster = L.markerClusterGroup({
@@ -286,7 +286,15 @@ function resetMarker(marker) {
 function resetAllEnlargedMarkers() {
   enlargedMarkers.forEach(m => resetMarker(m));
 }
-  
+  function showOnlySelectedMarkers() {
+  markerCluster.clearLayers();
+  allMarkers.forEach(marker => {
+    if (selectedPoints.some(p => marker.getLatLng().equals(p))) {
+      markerCluster.addLayer(marker);
+    }
+  });
+}
+
 function getTodayHours(hoursArray) {
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   const today = days[new Date().getDay()];
