@@ -171,8 +171,12 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-  function findMarkerByLatLng(latlng) {
-  return allMarkers.find(m => m.getLatLng().equals(latlng));
+ function findMarkerByLatLng(latlng) {
+  return allMarkers.find(m => {
+    const mLatLng = m.getLatLng();
+    return Math.abs(mLatLng.lat - latlng.lat) < 0.0001 &&
+           Math.abs(mLatLng.lng - latlng.lng) < 0.0001;
+  });
 }
   
 function parseSharedCrawl() {
@@ -185,15 +189,26 @@ function parseSharedCrawl() {
     return L.latLng(lat, lng);
   });
 
-  selectedPoints = coords;
+  selectedPoints = [];
 
   coords.forEach(latlng => {
-    const marker = findMarkerByLatLng(latlng);
-    if (marker) enlargeMarker(marker);
+    let marker = findMarkerByLatLng(latlng);
+    
+    // Fallback if minor float precision breaks exact match
+    if (!marker && allMarkers.length > 0) {
+      marker = allMarkers.find(m => m.getLatLng().distanceTo(latlng) < 25);
+    }
+
+    if (marker) {
+      const position = marker.getLatLng();
+      selectedPoints.push(position);
+      enlargeMarker(marker);
+    }
   });
 
   if (selectedPoints.length > 1) {
     updateRoute();
+    showOnlySelectedMarkers();
     map.fitBounds(L.featureGroup(
       selectedPoints.map(latlng => L.marker(latlng))
     ).getBounds());
@@ -280,6 +295,15 @@ function getTodayHours(hoursArray) {
   const today = days[new Date().getDay()];
   const todayEntry = hoursArray.find(entry => entry.startsWith(today));
   return todayEntry || "Hours not available";
+}
+  
+function showOnlySelectedMarkers() {
+  markerCluster.clearLayers();
+  allMarkers.forEach(marker => {
+    if (selectedPoints.some(p => marker.getLatLng().equals(p))) {
+      markerCluster.addLayer(marker);
+    }
+  });
 }
 
 function showDetails(ev, latlng) {
