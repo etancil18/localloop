@@ -185,16 +185,20 @@ function parseSharedCrawl() {
   if (!crawlData) return;
 
   const coords = crawlData.split('|').map(p => {
-    const [lat, lng] = p.split(',').map(Number);
-    return L.latLng(lat, lng);
-  });
+  const [lat, lng, name, link, order] = p.split(',');
+  return {
+    latlng: L.latLng(parseFloat(lat), parseFloat(lng)),
+    name: decodeURIComponent(name || ''),
+    link: decodeURIComponent(link || '#'),
+    order: parseInt(order)
+  };
+});
 
   selectedPoints = [];
 
   coords.forEach(latlng => {
     let marker = findMarkerByLatLng(latlng);
     
-    // Fallback if minor float precision breaks exact match
     if (!marker && allMarkers.length > 0) {
       marker = allMarkers.find(m => m.getLatLng().distanceTo(latlng) < 25);
     }
@@ -214,6 +218,21 @@ function parseSharedCrawl() {
     ).getBounds());
   }
 }
+
+  const details = document.getElementById('details');
+details.innerHTML = `<strong>Your Route:</strong><ol>${
+  coords
+    .sort((a, b) => a.order - b.order)
+    .map(p => `<li><a href="${p.link}" target="_blank">${p.name}</a></li>`)
+    .join('')
+}</ol>
+<button id="closeDetails">Close</button>`;
+
+details.style.display = 'block';
+
+document.getElementById('closeDetails').addEventListener('click', () => {
+  details.style.display = 'none';
+});
 
   
 const markerCluster = L.markerClusterGroup({
