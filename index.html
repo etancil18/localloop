@@ -215,6 +215,24 @@ function parseSharedCrawl() {
   }
 }
 
+const details = document.getElementById('details');
+
+const crawlHtml = selectedPoints.map((latlng, idx) => {
+  const marker = findMarkerByLatLng(latlng);
+  if (!marker) return `<li>${idx + 1}. [Unknown spot]</li>`;
+  const name = marker.name || "Unnamed";
+  const link = marker.options.link || "#";
+  return `<li>${idx + 1}. <a href="${link}" target="_blank">${name}</a></li>`;
+}).join('');
+
+details.innerHTML = `<strong>Your Crawl:</strong><ol>${crawlHtml}</ol>
+<button id="closeDetails">Close</button>`;
+details.style.display = 'block';
+
+document.getElementById('closeDetails').addEventListener('click', () => {
+  details.style.display = 'none';
+});
+
   
 const markerCluster = L.markerClusterGroup({
   spiderfyOnMaxZoom: true,
@@ -246,9 +264,11 @@ fetch('events.json')
   .then(res => res.json())
   .then(events => {
     events.forEach(ev => {
-      const marker = L.marker([ev.lat, ev.lon], { icon: defaultIcon });
+     const marker = L.marker([ev.lat, ev.lon], {
+        icon: defaultIcon,
+        link: ev.link
       marker.vibe = ev.vibe.toLowerCase();
-      marker.name = ev.name.toLowerCase();
+      marker.name = ev.name.;
       marker.price = ev.price;
       marker.duration = ev.duration || 0;
 
