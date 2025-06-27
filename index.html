@@ -445,11 +445,7 @@ selectedPoints = [];
 resetAllEnlargedMarkers();
 
 crawlPoints.forEach(m => {
-  selectedPoints.push({
-    latlng: m.getLatLng(),
-    name: m.name || "Unnamed",
-    link: m.link || m.options.link || "#"
-  });
+  selectedPoints.push(m.getLatLng());
   enlargeMarker(m);
 });
 
@@ -482,17 +478,16 @@ details.style.display = 'block';
   });
 });
 
+
+
+
+
 function addPointToRoute(latlng) {
   if (selectedPoints.length >= 5) {
     alert('Maximum 5 points allowed. Clear or remove a point to add new.');
     return;
   }
-  const marker = findMarkerByLatLng(latlng);
-selectedPoints.push({
-  latlng,
-  name: marker.name || "Unnamed",
-  link: marker.options.link || "#"
-});
+  selectedPoints.push(latlng);
   enlargeMarker(findMarkerByLatLng(latlng));
   updateRoute();
 }
