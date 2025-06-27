@@ -268,8 +268,6 @@ let selectedPoints = [];
 let currentRoute = null;
 let enlargedMarkers = new Set();
 
-const isSharedCrawl = new URLSearchParams(window.location.search).has('crawl');
-
 const defaultIcon = L.icon({
   iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/RedDot.svg',
   iconSize: [30, 30],
@@ -282,19 +280,13 @@ const enlargedIcon = L.icon({
   iconAnchor: [25, 50]
 });
 
-const isSharedCrawl = new URLSearchParams(window.location.search).has('crawl');
-
 fetch('events.json')
   .then(res => res.json())
   .then(events => {
     events.forEach(ev => {
-      const marker = L.marker([ev.lat, ev.lon], {
-        icon: defaultIcon,
-        link: ev.link 
-      });
-
+      const marker = L.marker([ev.lat, ev.lon], { icon: defaultIcon });
       marker.vibe = ev.vibe.toLowerCase();
-      marker.name = ev.name; 
+      marker.name = ev.name.toLowerCase();
       marker.price = ev.price;
       marker.duration = ev.duration || 0;
 
@@ -307,13 +299,8 @@ fetch('events.json')
       allMarkers.push(marker);
       markerCluster.addLayer(marker);
     });
-
-    if (isSharedCrawl) {
-      parseSharedCrawl();
-    }
+    parseSharedCrawl();
   });
-
-  
 const vibeMap = {
   jazz: ["jazz"],
   artsy: ["art", "artsy", "gallery", "museum"],
