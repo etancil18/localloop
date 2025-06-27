@@ -275,9 +275,12 @@ const defaultIcon = L.icon({
 });
 
 const enlargedIcon = L.icon({
-  iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/55/PurpleDot.svg',
-  iconSize: [50, 50],
-  iconAnchor: [25, 50]
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
 });
 
 const isSharedCrawl = new URLSearchParams(window.location.search).has('crawl');
