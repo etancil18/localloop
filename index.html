@@ -179,6 +179,107 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   });
 }
   
+function parseSharedCrawl() {
+  const params = new URLSearchParams(window.location.search);
+  const crawlData = params.get('crawl');
+  if (!crawlData) return;
+
+  const coords = crawlData.split('|').map(p => {
+    const [lat, lng] = p.split(',').map(Number);
+    return {
+      latlng: L.latLng(lat, lng)
+    };
+  });
+
+  selectedPoints = coords.map(p => p.latlng);
+
+  coords.forEach(p => {
+    const marker = findMarkerByLatLng(p.latlng);
+    if (marker) enlargeMarker(marker);
+  });
+
+  if (selectedPoints.length > 1) {
+    updateRoute();
+    map.fitBounds(L.featureGroup(
+      selectedPoints.map(latlng => L.marker(latlng))
+    ).getBounds());
+  }
+
+  const details = document.getElementById('details');
+  const crawlPoints = coords.map(p => findMarkerByLatLng(p.latlng)).filter(Boolean);
+  const shareLink = generateShareURL(selectedPoints);
+
+  details.innerHTML = `<strong>Your Mini Crawl:</strong><ul>${
+    crawlPoints.map((m, i) => `<li>${i + 1}. <a href="${m.options.link || '#'}" target="_blank">${m.name}</a></li>`).join('')
+  }</ul>
+  <button id="exportGooglePopup">Export Route to Google Maps</button>
+  <button id="copyLinkBtn">Copy Shareable Link</button>
+  <input id="shareLinkInput" type="text" readonly value="${shareLink}" style="width:100%; margin-top:5px;" />
+  <a id="smsShare" href="sms:?body=Check out this crawl: ${encodeURIComponent(shareLink)}" target="_blank">📲 Text This Crawl</a>
+  <button id="closeDetails">Close</button>`;
+
+  details.style.display = 'block';
+
+  document.getElementById('exportGooglePopup').addEventListener('click', () => {
+    const baseUrl = "https://www.google.com/maps/dir/";
+    const path = selectedPoints.map(p => `${p.lat},${p.lng}`).join('/');
+    window.open(baseUrl + path, '_blank');
+  });
+
+  document.getElementById('copyLinkBtn').addEventListener('click', () => {
+    const input = document.getElementById('shareLinkInput');
+    input.select();
+    document.execCommand('copy');
+    alert('Link copied to clipboard!');
+  });
+
+  document.getElementById('closeDetails').addEventListener('click', () => {
+    details.style.display = 'none';
+  });
+  function showOnlySharedMarkers(latlngArray) {
+  markerCluster.clearLayers();
+  allMarkers.forEach(marker => {
+    const mLatLng = marker.getLatLng();
+    const match = latlngArray.some(p =>
+      Math.abs(mLatLng.lat - p.lat) < 0.0001 &&
+      Math.abs(mLatLng.lng - p.lng) < 0.0001
+    );
+    if (match) {
+      markerCluster.addLayer(marker);
+    }
+  });
+}
+}
+
+
+
+  
+const markerCluster = L.markerClusterGroup({
+  spiderfyOnMaxZoom: true,
+  showCoverageOnHover: false,
+  zoomToBoundsOnClick: true,
+  maxClusterRadius: 40,
+  disableClusteringAtZoom: 17
+});
+map.addLayer(markerCluster);
+
+const allMarkers = [];
+let selectedPoints = [];
+let currentRoute = null;
+let enlargedMarkers = new Set();
+
+const defaultIcon = L.icon({
+  iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/RedDot.svg',
+  iconSize: [30, 30],
+  iconAnchor: [15, 30]
+});
+
+const enlargedIcon = L.icon({
+  iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/RedDot.svg',
+  iconSize: [50, 50],
+  iconAnchor: [25, 50]
+});
+
 <script>
 const isSharedCrawl = new URLSearchParams(window.location.search).has('crawl');
 
@@ -205,10 +306,17 @@ fetch('events.json')
     if (isSharedCrawl) {
       parseSharedCrawl();
 
+      const sharedKeys = new Set(selectedPoints.map(p => `${p.lat.toFixed(5)},${p.lng.toFixed(5)}`));
+      allMarkers.forEach(marker => {
+        const { lat, lng } = marker.getLatLng();
+        const key = `${lat.toFixed(5)},${lng.toFixed(5)}`;
+        if (!sharedKeys.has(key)) {
+          markerCluster.removeLayer(marker);
+        }
+      });
     }
   });
 </script>
-
 
 const vibeMap = {
   jazz: ["jazz"],
