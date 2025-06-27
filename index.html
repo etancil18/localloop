@@ -239,7 +239,12 @@ function parseSharedCrawl() {
   function showOnlySharedMarkers(latlngArray) {
   markerCluster.clearLayers();
   allMarkers.forEach(marker => {
-    if (latlngArray.some(p => marker.getLatLng().equals(p))) {
+    const mLatLng = marker.getLatLng();
+    const match = latlngArray.some(p =>
+      Math.abs(mLatLng.lat - p.lat) < 0.0001 &&
+      Math.abs(mLatLng.lng - p.lng) < 0.0001
+    );
+    if (match) {
       markerCluster.addLayer(marker);
     }
   });
