@@ -256,7 +256,10 @@ fetch('events.json')
   .then(res => res.json())
   .then(events => {
     events.forEach(ev => {
-      const marker = L.marker([ev.lat, ev.lon], { icon: defaultIcon });
+      const marker = L.marker([ev.lat, ev.lon], {
+  icon: defaultIcon,
+  link: ev.link
+});
       marker.vibe = ev.vibe.toLowerCase();
       marker.name = ev.name.toLowerCase();
       marker.price = ev.price;
