@@ -282,13 +282,19 @@ const enlargedIcon = L.icon({
   iconAnchor: [25, 50]
 });
 
+const isSharedCrawl = new URLSearchParams(window.location.search).has('crawl');
+
 fetch('events.json')
   .then(res => res.json())
   .then(events => {
     events.forEach(ev => {
-      const marker = L.marker([ev.lat, ev.lon], { icon: defaultIcon });
+      const marker = L.marker([ev.lat, ev.lon], {
+        icon: defaultIcon,
+        link: ev.link 
+      });
+
       marker.vibe = ev.vibe.toLowerCase();
-      marker.name = ev.name.toLowerCase();
+      marker.name = ev.name; 
       marker.price = ev.price;
       marker.duration = ev.duration || 0;
 
@@ -301,9 +307,13 @@ fetch('events.json')
       allMarkers.push(marker);
       markerCluster.addLayer(marker);
     });
+
     if (isSharedCrawl) {
       parseSharedCrawl();
+    }
   });
+
+  
 const vibeMap = {
   jazz: ["jazz"],
   artsy: ["art", "artsy", "gallery", "museum"],
