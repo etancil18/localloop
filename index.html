@@ -236,6 +236,14 @@ function parseSharedCrawl() {
   document.getElementById('closeDetails').addEventListener('click', () => {
     details.style.display = 'none';
   });
+  function showOnlySharedMarkers(latlngArray) {
+  markerCluster.clearLayers();
+  allMarkers.forEach(marker => {
+    if (latlngArray.some(p => marker.getLatLng().equals(p))) {
+      markerCluster.addLayer(marker);
+    }
+  });
+}
 }
 
 
@@ -314,6 +322,16 @@ function resetMarker(marker) {
 function resetAllEnlargedMarkers() {
   enlargedMarkers.forEach(m => resetMarker(m));
 }
+
+  function showOnlySharedMarkers(latlngArray) {
+  markerCluster.clearLayers();
+  allMarkers.forEach(marker => {
+    if (latlngArray.some(p => marker.getLatLng().equals(p))) {
+      markerCluster.addLayer(marker);
+    }
+  });
+}
+
   
 function getTodayHours(hoursArray) {
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
