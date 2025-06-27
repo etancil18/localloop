@@ -286,6 +286,9 @@ fetch('events.json')
       marker.price = ev.price;
       marker.duration = ev.duration || 0;
 
+      document.getElementById('closeDetails').addEventListener('click', () => {
+  details.style.display = 'none';
+});
       if (isSharedCrawl) {
   const sharedKeys = new Set(selectedPoints.map(p => `${p.lat.toFixed(5)},${p.lng.toFixed(5)}`));
 
