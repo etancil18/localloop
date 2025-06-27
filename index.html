@@ -236,21 +236,17 @@ function parseSharedCrawl() {
   document.getElementById('closeDetails').addEventListener('click', () => {
     details.style.display = 'none';
   });
-  function showOnlySharedMarkers(latlngArray) {
-  markerCluster.clearLayers();
-  allMarkers.forEach(marker => {
-    const mLatLng = marker.getLatLng();
-    const match = latlngArray.some(p =>
-      Math.abs(mLatLng.lat - p.lat) < 0.0001 &&
-      Math.abs(mLatLng.lng - p.lng) < 0.0001
-    );
-    if (match) {
-      markerCluster.addLayer(marker);
-    }
-  });
-}
-}
+ // ✅ Remove all non-route markers from the map
+const sharedKeys = new Set(selectedPoints.map(p => `${p.lat.toFixed(5)},${p.lng.toFixed(5)}`));
 
+allMarkers.forEach(marker => {
+  const { lat, lng } = marker.getLatLng();
+  const key = `${lat.toFixed(5)},${lng.toFixed(5)}`;
+  if (!sharedKeys.has(key)) {
+    markerCluster.removeLayer(marker);
+  }
+});
+}
 
 
   
