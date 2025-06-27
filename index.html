@@ -280,6 +280,8 @@ const enlargedIcon = L.icon({
   iconAnchor: [25, 50]
 });
 
+const isSharedCrawl = new URLSearchParams(window.location.search).has('crawl');
+
 fetch('events.json')
   .then(res => res.json())
   .then(events => {
@@ -289,6 +291,7 @@ fetch('events.json')
       marker.name = ev.name.toLowerCase();
       marker.price = ev.price;
       marker.duration = ev.duration || 0;
+      marker.options.link = ev.link;
 
       marker.on('click', () => {
         resetAllEnlargedMarkers();
@@ -297,10 +300,28 @@ fetch('events.json')
       });
 
       allMarkers.push(marker);
-      markerCluster.addLayer(marker);
     });
-    parseSharedCrawl();
+
+    if (isSharedCrawl) {
+      parseSharedCrawl();
+
+      // Filter: show only shared markers
+      const sharedKeys = new Set(selectedPoints.map(p => `${p.lat.toFixed(5)},${p.lng.toFixed(5)}`));
+      allMarkers.forEach(marker => {
+        const { lat, lng } = marker.getLatLng();
+        const key = `${lat.toFixed(5)},${lng.toFixed(5)}`;
+        if (sharedKeys.has(key)) {
+          markerCluster.addLayer(marker);
+        }
+      });
+    } else {
+      // Normal: show all markers
+      allMarkers.forEach(marker => {
+        markerCluster.addLayer(marker);
+      });
+    }
   });
+
 const vibeMap = {
   jazz: ["jazz"],
   artsy: ["art", "artsy", "gallery", "museum"],
