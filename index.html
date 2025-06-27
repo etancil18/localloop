@@ -201,8 +201,7 @@ function parseSharedCrawl() {
 
     if (marker) {
       const position = marker.getLatLng();
-      const marker = findMarkerByLatLng(latlng);
-selectedPoints.push({ latlng, name: marker.name, link: marker.options.link });
+      selectedPoints.push(position);
       enlargeMarker(marker);
     }
   });
@@ -436,11 +435,7 @@ selectedPoints = [];
 resetAllEnlargedMarkers();
 
 crawlPoints.forEach(m => {
-  selectedPoints.push({
-    latlng: m.getLatLng(),
-    name: m.name || "Unnamed",
-    link: m.options.link || "#"
-  });
+  selectedPoints.push(m.getLatLng());
   enlargeMarker(m);
 });
 
@@ -482,8 +477,7 @@ function addPointToRoute(latlng) {
     alert('Maximum 5 points allowed. Clear or remove a point to add new.');
     return;
   }
-  const marker = findMarkerByLatLng(latlng);
-selectedPoints.push({ latlng, name: marker.name, link: marker.options.link });
+  selectedPoints.push(latlng);
   enlargeMarker(findMarkerByLatLng(latlng));
   updateRoute();
 }
@@ -503,10 +497,10 @@ function updateRoute() {
 function generateShareURL(points) {
   const base = window.location.origin + window.location.pathname;
   const params = points
-    .map((p, idx) => {
-      const lat = p.latlng.lat || p.latlng[0];
-      const lng = p.latlng.lng || p.latlng[1];
-      return `${lat.toFixed(5)},${lng.toFixed(5)},${encodeURIComponent(p.name || '')},${encodeURIComponent(p.link || '')},${idx}`;
+    .map(p => {
+      const lat = p.lat || p[0];  // supports L.LatLng or raw array
+      const lng = p.lng || p[1];
+      return `${lat.toFixed(5)},${lng.toFixed(5)}`;
     })
     .join('|');
   return `${base}?crawl=${encodeURIComponent(params)}`;
