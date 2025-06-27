@@ -290,6 +290,18 @@ fetch('events.json')
       marker.price = ev.price;
       marker.duration = ev.duration || 0;
 
+      if (isSharedCrawl) {
+  const sharedKeys = new Set(selectedPoints.map(p => `${p.lat.toFixed(5)},${p.lng.toFixed(5)}`));
+
+  allMarkers.forEach(marker => {
+    const { lat, lng } = marker.getLatLng();
+    const key = `${lat.toFixed(5)},${lng.toFixed(5)}`;
+    if (!sharedKeys.has(key)) {
+      markerCluster.removeLayer(marker);
+    }
+  });
+}
+
       marker.on('click', () => {
         resetAllEnlargedMarkers();
         enlargeMarker(marker);
