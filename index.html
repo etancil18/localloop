@@ -185,54 +185,45 @@ function parseSharedCrawl() {
   if (!crawlData) return;
 
   const coords = crawlData.split('|').map(p => {
-  const [lat, lng, name, link, order] = p.split(',');
-  return {
-    latlng: L.latLng(parseFloat(lat), parseFloat(lng)),
-    name: decodeURIComponent(name || ''),
-    link: decodeURIComponent(link || '#'),
-    order: parseInt(order)
-  };
-});
+    const [lat, lng, name, link, order] = p.split(',');
+    return {
+      latlng: L.latLng(parseFloat(lat), parseFloat(lng)),
+      name: decodeURIComponent(name || ''),
+      link: decodeURIComponent(link || '#'),
+      order: parseInt(order)
+    };
+  });
 
-  selectedPoints = [];
+  selectedPoints = coords;
 
-  coords.forEach(latlng => {
-    let marker = findMarkerByLatLng(latlng);
-    
-    if (!marker && allMarkers.length > 0) {
-      marker = allMarkers.find(m => m.getLatLng().distanceTo(latlng) < 25);
-    }
-
-    if (marker) {
-      const position = marker.getLatLng();
-      selectedPoints.push(position);
-      enlargeMarker(marker);
-    }
+  coords.forEach(p => {
+    const marker = findMarkerByLatLng(p.latlng);
+    if (marker) enlargeMarker(marker);
   });
 
   if (selectedPoints.length > 1) {
     updateRoute();
-    showOnlySelectedMarkers();
     map.fitBounds(L.featureGroup(
-      selectedPoints.map(latlng => L.marker(latlng))
+      selectedPoints.map(p => L.marker(p.latlng))
     ).getBounds());
   }
-}
 
   const details = document.getElementById('details');
-details.innerHTML = `<strong>Your Route:</strong><ol>${
-  coords
-    .sort((a, b) => a.order - b.order)
-    .map(p => `<li><a href="${p.link}" target="_blank">${p.name}</a></li>`)
-    .join('')
-}</ol>
-<button id="closeDetails">Close</button>`;
+  details.innerHTML = `<strong>Your Route:</strong><ol>${
+    coords
+      .sort((a, b) => a.order - b.order)
+      .map(p => `<li><a href="${p.link}" target="_blank">${p.name}</a></li>`)
+      .join('')
+  }</ol>
+  <button id="closeDetails">Close</button>`;
 
-details.style.display = 'block';
+  details.style.display = 'block';
 
-document.getElementById('closeDetails').addEventListener('click', () => {
-  details.style.display = 'none';
-});
+  document.getElementById('closeDetails').addEventListener('click', () => {
+    details.style.display = 'none';
+  });
+}
+
 
   
 const markerCluster = L.markerClusterGroup({
