@@ -185,53 +185,45 @@ function parseSharedCrawl() {
   if (!crawlData) return;
 
   const coords = crawlData.split('|').map(p => {
-    const [lat, lng] = p.split(',').map(Number);
-    return L.latLng(lat, lng);
+    const [lat, lng, name, link, order] = p.split(',');
+    return {
+      latlng: L.latLng(parseFloat(lat), parseFloat(lng)),
+      name: decodeURIComponent(name || ''),
+      link: decodeURIComponent(link || '#'),
+      order: parseInt(order)
+    };
   });
 
-  selectedPoints = [];
+  selectedPoints = coords;
 
-  coords.forEach(latlng => {
-    let marker = findMarkerByLatLng(latlng);
-    
-    // Fallback if minor float precision breaks exact match
-    if (!marker && allMarkers.length > 0) {
-      marker = allMarkers.find(m => m.getLatLng().distanceTo(latlng) < 25);
-    }
-
-    if (marker) {
-      const position = marker.getLatLng();
-      selectedPoints.push(position);
-      enlargeMarker(marker);
-    }
+  coords.forEach(p => {
+    const marker = findMarkerByLatLng(p.latlng);
+    if (marker) enlargeMarker(marker);
   });
 
   if (selectedPoints.length > 1) {
     updateRoute();
-    showOnlySelectedMarkers();
     map.fitBounds(L.featureGroup(
-      selectedPoints.map(latlng => L.marker(latlng))
+      selectedPoints.map(p => L.marker(p.latlng))
     ).getBounds());
   }
+
+  const details = document.getElementById('details');
+  details.innerHTML = `<strong>Your Route:</strong><ol>${
+    coords
+      .sort((a, b) => a.order - b.order)
+      .map(p => `<li><a href="${p.link}" target="_blank">${p.name}</a></li>`)
+      .join('')
+  }</ol>
+  <button id="closeDetails">Close</button>`;
+
+  details.style.display = 'block';
+
+  document.getElementById('closeDetails').addEventListener('click', () => {
+    details.style.display = 'none';
+  });
 }
 
-const details = document.getElementById('details');
-
-const crawlHtml = selectedPoints.map((latlng, idx) => {
-  const marker = findMarkerByLatLng(latlng);
-  if (!marker) return `<li>${idx + 1}. [Unknown spot]</li>`;
-  const name = marker.name || "Unnamed";
-  const link = marker.options.link || "#";
-  return `<li>${idx + 1}. <a href="${link}" target="_blank">${name}</a></li>`;
-}).join('');
-
-details.innerHTML = `<strong>Your Crawl:</strong><ol>${crawlHtml}</ol>
-<button id="closeDetails">Close</button>`;
-details.style.display = 'block';
-
-document.getElementById('closeDetails').addEventListener('click', () => {
-  details.style.display = 'none';
-});
 
   
 const markerCluster = L.markerClusterGroup({
@@ -264,11 +256,9 @@ fetch('events.json')
   .then(res => res.json())
   .then(events => {
     events.forEach(ev => {
-     const marker = L.marker([ev.lat, ev.lon], {
-        icon: defaultIcon,
-        link: ev.link
+      const marker = L.marker([ev.lat, ev.lon], { icon: defaultIcon });
       marker.vibe = ev.vibe.toLowerCase();
-      marker.name = ev.name.;
+      marker.name = ev.name.toLowerCase();
       marker.price = ev.price;
       marker.duration = ev.duration || 0;
 
@@ -455,7 +445,11 @@ selectedPoints = [];
 resetAllEnlargedMarkers();
 
 crawlPoints.forEach(m => {
-  selectedPoints.push(m.getLatLng());
+  selectedPoints.push({
+    latlng: m.getLatLng(),
+    name: m.name || "Unnamed",
+    link: m.link || m.options.link || "#"
+  });
   enlargeMarker(m);
 });
 
@@ -488,16 +482,17 @@ details.style.display = 'block';
   });
 });
 
-
-
-
-
 function addPointToRoute(latlng) {
   if (selectedPoints.length >= 5) {
     alert('Maximum 5 points allowed. Clear or remove a point to add new.');
     return;
   }
-  selectedPoints.push(latlng);
+  const marker = findMarkerByLatLng(latlng);
+selectedPoints.push({
+  latlng,
+  name: marker.name || "Unnamed",
+  link: marker.options.link || "#"
+});
   enlargeMarker(findMarkerByLatLng(latlng));
   updateRoute();
 }
