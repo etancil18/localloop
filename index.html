@@ -436,7 +436,7 @@ details.innerHTML = `
 function findNearbySimilar(latlng, vibeText = '', radius = 350) {
   const tags = vibeText.split(',').map(t => t.trim().toLowerCase()).filter(Boolean);
 
-  return allMarkers.filter(marker => {
+  const matches = allMarkers.filter(marker => {
     const markerVibe = (marker.vibe || '').toLowerCase();
     const distance = latlng.distanceTo(marker.getLatLng());
 
@@ -445,8 +445,17 @@ function findNearbySimilar(latlng, vibeText = '', radius = 350) {
       : markerVibe.includes(vibeText.toLowerCase());
 
     return distance <= radius && vibeMatch && !latlng.equals(marker.getLatLng());
-  }).slice(0, 3);
+  });
+
+  console.log({
+    vibeText,
+    tags,
+    matchingMarkers: matches.map(m => m.name)
+  });
+
+  return matches.slice(0, 3);
 }
+
 
 
 const neighborhoodCenters = {
