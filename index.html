@@ -433,14 +433,21 @@ details.innerHTML = `
   });
 }
 
-function findNearbySimilar(latlng, vibeText, radius = 350) {
-  const vibeTags = vibeText.split(',').map(v => v.trim());
+function findNearbySimilar(latlng, vibeText = '', radius = 350) {
+  const tags = vibeText.split(',').map(t => t.trim().toLowerCase()).filter(Boolean);
+
   return allMarkers.filter(marker => {
+    const markerVibe = (marker.vibe || '').toLowerCase();
     const distance = latlng.distanceTo(marker.getLatLng());
-    const vibeMatch = vibeTags.some(tag => marker.vibe.includes(tag));
+
+    const vibeMatch = tags.length > 0
+      ? tags.some(tag => markerVibe.includes(tag))
+      : markerVibe.includes(vibeText.toLowerCase());
+
     return distance <= radius && vibeMatch && !latlng.equals(marker.getLatLng());
   }).slice(0, 3);
 }
+
 
 const neighborhoodCenters = {
   "alphabet city": L.latLng(40.7265, -73.9815),
