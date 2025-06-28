@@ -394,23 +394,26 @@ function showOnlySelectedMarkers() {
 
 function showDetails(ev, latlng) {
   const details = document.getElementById('details');
-  const suggestions = findNearbySimilar(latlng, ev.vibe.toLowerCase(), 350);
+  const suggestions = findNearbySimilar(latlng, (ev.vibe || '').toLowerCase(), 350);
+
   let suggestionHtml = suggestions.length > 0
     ? `<strong>Also could be the move:</strong><ul>${suggestions.map(s => `<li>${s.name}</li>`).join('')}</ul>`
     : '<em>No similar spots nearby</em>';
 
- const todayHours = ev.hours ? getTodayHours(ev.hours) : "No hours available";
+  const todayHours = ev.hours ? getTodayHours(ev.hours) : "No hours available";
 
-details.innerHTML = `
-  <strong>${ev.name}</strong><br>
-  Vibe: ${ev.vibe}<br>
-  Price: ${ev.price || "N/A"}<br>
-  Today's Hours: ${todayHours}<br>
-  <a href="${ev.link}" target="_blank">View More</a><br>
-  <button id="addToRoute">Add to Route</button>
-  <button id="exportGooglePopup">Export Route to Google Maps</button>
-  <button id="closeDetails">Close</button>
-`;
+  details.innerHTML = `
+    <strong>${ev.name}</strong><br>
+    Vibe: ${ev.vibe}<br>
+    Price: ${ev.price || "N/A"}<br>
+    Today's Hours: ${todayHours}<br>
+    <a href="${ev.link}" target="_blank">View More</a><br>
+    <button id="addToRoute">Add to Route</button>
+    <button id="exportGooglePopup">Export Route to Google Maps</button>
+    <button id="closeDetails">Close</button>
+    <hr>
+    ${suggestionHtml}
+  `;
 
   details.style.display = 'block';
 
@@ -432,6 +435,7 @@ details.innerHTML = `
     details.style.display = 'none';
   });
 }
+
 
 function findNearbySimilar(latlng, vibeText = '', radius = 350) {
   const tags = vibeText.split(',').map(t => t.trim().toLowerCase()).filter(Boolean);
