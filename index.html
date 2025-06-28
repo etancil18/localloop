@@ -382,13 +382,7 @@ function getTodayHours(hoursArray) {
   const todayEntry = hoursArray.find(entry => entry.startsWith(today));
   return todayEntry || "Hours not available";
 }
-  function showDetails(ev, latlng) {
-  const details = document.getElementById('details');
-  const suggestions = findNearbySimilar(latlng, ev.vibe.toLowerCase(), 350);
-  let suggestionHtml = suggestions.length > 0
-    ? `<strong>Also could be the move:</strong><ul>${suggestions.map(s => `<li>${s.name}</li>`).join('')}</ul>`
-    : '<em>No similar spots nearby</em>';
-    
+  
 function showOnlySelectedMarkers() {
   markerCluster.clearLayers();
   allMarkers.forEach(marker => {
