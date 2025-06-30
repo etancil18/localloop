@@ -391,7 +391,7 @@ function getTodayHours(hoursArray) {
   const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   const today = dayNames[now.getDay()];
 
-  const todayHoursEntry = hoursArray.find(h => h.toLowerCase().startsWith(today.toLowerCase()));
+  const todayHoursEntry = hoursArray.find(h => h.toUpperCase().startsWith(today.toUpperCase()));
   if (!todayHoursEntry) return false;
 
   const cleanHours = todayHoursEntry.replace(/\u2013|\u2014|\u2212/g, "-").replace(/\u202F|\u00A0/g, " ");
