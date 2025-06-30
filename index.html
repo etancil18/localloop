@@ -180,10 +180,7 @@
 
 <script>
 const map = L.map('map').setView([40.72, -73.98], 12);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; OpenStreetMap contributors & Carto',
-  subdomains: 'abcd',
-  maxZoom: 19
+L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg')
 }).addTo(map);
 
  function findMarkerByLatLng(latlng) {
