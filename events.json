@@ -6550,5 +6550,729 @@
    "Sunday: 12–6 PM"],
    "price": "$",
    "duration": 0.5
- }
+ },
+  {
+    "name": "Dolly's Swing and Dive",
+    "vibe": "Dive Bar, Late Night, Cheap Drinks, Punk",
+    "lat": 40.7207181,
+    "lon": -73.9611056,
+    "link": "https://www.instagram.com/dollysbk/",
+    "openNow": true,
+    "hours": [
+      "Monday: 2 PM–3 AM",
+      "Tuesday: 2 PM–3 AM",
+      "Wednesday: 2 PM–3 AM",
+      "Thursday: 2 PM–4 AM",
+      "Friday: 2 PM–4 AM",
+      "Saturday: 2 PM–4 AM",
+      "Sunday: 2 PM–3 AM"
+    ],
+    "price": "$",
+    "duration": 0.9
+  },
+  {
+    "name": "Rocka Rolla",
+    "vibe": "Rock Bar, Divey, Casual Hangout, Locals",
+    "lat": 40.7139355,
+    "lon": -73.952822,
+    "link": "https://www.instagram.com/rockarolla_bk/",
+    "openNow": true,
+    "hours": [
+      "Monday: 12 PM–4 AM",
+      "Tuesday: 12 PM–4 AM",
+      "Wednesday: 12 PM–4 AM",
+      "Thursday: 12 PM–4 AM",
+      "Friday: 12 PM–4 AM",
+      "Saturday: 12 PM–4 AM",
+      "Sunday: 12 PM–4 AM"
+    ],
+    "price": "$",
+    "duration": 0.9
+  },
+  {
+    "name": "Duff's",
+    "vibe": "Metal Bar, Hardcore, Niche Crowd, Themed",
+    "lat": 40.70885025,
+    "lon": -73.95788102,
+    "link": "https://www.instagram.com/duffsbrooklyn/",
+    "openNow": true,
+    "hours": [
+      "Monday: 6 PM–4 AM",
+      "Tuesday: 6 PM–4 AM",
+      "Wednesday: 6 PM–4 AM",
+      "Thursday: 6 PM–4 AM",
+      "Friday: 6 PM–4 AM",
+      "Saturday: 6 PM–4 AM",
+      "Sunday: 6 PM–4 AM"
+    ],
+    "price": "$",
+    "duration": 0.9
+  },
+  {
+    "name": "TØRST",
+    "vibe": "Craft Beer, Scandinavian, Date Night, Upscale Chill",
+    "lat": 40.7233997,
+    "lon": -73.95081892,
+    "link": "https://www.instagram.com/torst_nyc/",
+    "openNow": true,
+    "hours": [
+      "Monday: 12 PM–12 AM",
+      "Tuesday: 3 PM–12 AM",
+      "Wednesday: 3 PM–12 AM",
+      "Thursday: 3 PM–12 AM",
+      "Friday: 3 PM–1 AM",
+      "Saturday: 12 PM–1 AM",
+      "Sunday: 12 PM–12 AM"
+    ],
+    "price": "$$",
+    "duration": 1.33
+  },
+  {
+    "name": "Ray's Hometown Bar",
+    "vibe": "Classic NYC Bar, Casual Date, Dive Bar",
+    "lat": 40.7235334,
+    "lon": -73.9518146,
+    "link": "https://www.instagram.com/raysbarbk/",
+    "openNow": true,
+    "hours": [
+      "Monday: 12 PM–1 AM",
+      "Tuesday: 4 PM–1 AM",
+      "Wednesday: 4 PM–1 AM",
+      "Thursday: 4 PM–1 AM",
+      "Friday: 2 PM–2 AM",
+      "Saturday: 12 PM–2 AM",
+      "Sunday: 12 PM–1 AM"
+    ],
+    "price": "$$",
+    "duration": 1.25
+  },
+  {
+    "name": "Good Bar",
+    "vibe": "Sports Bar, Laid-Back, Social Games",
+    "lat": 40.7238537,
+    "lon": -73.9510984,
+    "link": "https://www.instagram.com/goodbarbk/",
+    "openNow": true,
+    "hours": [
+      "Monday: 3 PM–12 AM",
+      "Tuesday: 5 PM–12 AM",
+      "Wednesday: 5 PM–12 AM",
+      "Thursday: 5 PM–12 AM",
+      "Friday: 5 PM–2 AM",
+      "Saturday: 3 PM–2 AM",
+      "Sunday: 3 PM–12 AM"
+    ],
+    "price": "$",
+    "duration": 1.25
+  },
+  {
+    "name": "Berry Park",
+    "vibe": "Rooftop, Sports Bar, Euro Vibes, Brunch",
+    "lat": 40.7224689,
+    "lon": -73.95525274,
+    "link": "https://www.instagram.com/berryparkbk/",
+    "openNow": true,
+    "hours": [
+      "Monday: 11 AM–12 AM",
+      "Tuesday: Closed",
+      "Wednesday: 4 PM–12 AM",
+      "Thursday: 4 PM–12 AM",
+      "Friday: 4 PM–12 AM",
+      "Saturday: 3 PM–2 AM",
+      "Sunday: 11 AM–12 AM"
+    ],
+    "price": "$$",
+    "duration": 1.75
+  },
+  {
+    "name": "The Gutter",
+    "vibe": "Bowling Bar, Retro, Group Hang, Divey",
+    "lat": 40.7227408,
+    "lon": -73.9554759,
+    "link": "https://www.instagram.com/gutterbar/",
+    "openNow": true,
+    "hours": [
+      "Monday: 12 PM–4 AM",
+      "Tuesday: 4 PM–4 AM",
+      "Wednesday: 4 PM–4 AM",
+      "Thursday: 4 PM–4 AM",
+      "Friday: 2 PM–4 AM",
+      "Saturday: 12 PM–4 AM",
+      "Sunday: 12 PM–4 AM"
+    ],
+    "price": "$$",
+    "duration": 2
+  },
+  {
+    "name": "Brooklyn Billiards",
+    "vibe": "Pool Hall, Sports, Late Night, Competitive",
+    "lat": 40.721591,
+    "lon": -73.957999,
+    "link": "https://www.instagram.com/bkbilliards/",
+    "openNow": true,
+    "hours": [
+      "Monday: 4 PM–1 AM",
+      "Tuesday: 4 PM–1 AM",
+      "Wednesday: 4 PM–1 AM",
+      "Thursday: 4 PM–1 AM",
+      "Friday: 4 PM–3 AM",
+      "Saturday: 4 PM–3 AM",
+      "Sunday: 4 PM–1 AM"
+    ],
+    "price": "$",
+    "duration": 2
+  },
+  {
+    "name": "Bathhouse Williamsburg",
+    "vibe": "Spa, Date Night, Wellness, Upscale Relaxation",
+    "lat": 40.720582,
+    "lon": -73.957492,
+    "link": "https://www.instagram.com/bathhouse/",
+    "openNow": true,
+    "hours": [
+      "Monday: 9 AM–12 AM",
+      "Tuesday: 9 AM–12 AM",
+      "Wednesday: 9 AM–12 AM",
+      "Thursday: 9 AM–12 AM",
+      "Friday: 9 AM–12 AM",
+      "Saturday: 9 AM–12 AM",
+      "Sunday: 9 AM–12 AM"
+    ],
+    "price": "$$$",
+    "duration": 2.25
+  },
+  {
+    "name": "Juicery Kitchen",
+    "vibe": "Juice Bar, Health Food, Breakfast, Clean Eating",
+    "lat": 40.71778365,
+    "lon": -73.95182439,
+    "link": "https://www.instagram.com/juicerykitchen/",
+    "openNow": true,
+    "hours": [
+      "Monday: 9 AM–8 PM",
+      "Tuesday: 9 AM–8 PM",
+      "Wednesday: 9 AM–8 PM",
+      "Thursday: 9 AM–8 PM",
+      "Friday: 9 AM–8 PM",
+      "Saturday: 9 AM–8 PM",
+      "Sunday: 9 AM–8 PM"
+    ],
+    "price": "$",
+    "duration": 0.25
+  },
+  {
+    "name": "Bar Americano",
+    "vibe": "Cocktail Bar, Date Night, Intimate, Stylish",
+    "lat": 40.7313991,
+    "lon": -73.9577041,
+    "link": "https://www.instagram.com/baramericanonyc/",
+    "openNow": true,
+    "hours": [
+      "Monday: 1–11 PM",
+      "Tuesday: 5 PM–12 AM",
+      "Wednesday: 5 PM–12 AM",
+      "Thursday: 3 PM–12 AM",
+      "Friday: 3 PM–1 AM",
+      "Saturday: 1 PM–2 AM",
+      "Sunday: 1–11 PM"
+    ],
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "Little Rascal Bar",
+    "vibe": "Cocktail Bar, Trendy, Date Spot, Chill",
+    "lat": 40.729358,
+    "lon": -73.9573671,
+    "link": "https://www.instagram.com/littlerascalgreenpoint/",
+    "openNow": true,
+    "hours": [
+      "Monday: 11 AM–1 AM",
+      "Tuesday: 4 PM–1 AM",
+      "Wednesday: 4 PM–2 AM",
+      "Thursday: 4 PM–2 AM",
+      "Friday: 4 PM–4 AM",
+      "Saturday: 11 AM–4 AM",
+      "Sunday: 11 AM–1 AM"
+    ],
+    "price": "$$",
+    "duration": 1.5
+  },
+  {
+    "name": "Paulie Gee's Slice Shop",
+    "vibe": "Pizza, Quick Bite, NYC Classic, Late Night",
+    "lat": 40.7283593,
+    "lon": -73.9571898,
+    "link": "https://www.instagram.com/pauliegees_sliceshop/",
+    "openNow": true,
+    "hours": [
+      "Monday: 11:30 AM–10 PM",
+      "Tuesday: 11:30 AM–10 PM",
+      "Wednesday: 11:30 AM–10 PM",
+      "Thursday: 11:30 AM–10 PM",
+      "Friday: 11:30 AM–1 AM",
+      "Saturday: 11:30 AM–1 AM",
+      "Sunday: 11:30 AM–10 PM"
+    ],
+    "price": "$",
+    "duration": 0.5
+  },
+  {
+    "name": "Bk Backyard Bar",
+    "vibe": "Outdoor Bar, Casual, Group Hang, Music",
+    "lat": 40.72407826,
+    "lon": -73.95487861,
+    "link": "https://www.instagram.com/bkbackyardbar/",
+    "openNow": true,
+    "hours": [
+      "Monday: 12 PM–12 AM",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: 5 PM–12 AM",
+      "Friday: 5 PM–12 AM",
+      "Saturday: 12 PM–12 AM",
+      "Sunday: 12 PM–12 AM"
+    ],
+    "price": "$$",
+    "duration": 1.75
+  },
+  {
+    "name": "Beco",
+    "vibe": "Brazilian, Happy Hour, Local Gem, Chill Vibe",
+    "lat": 40.718569,
+    "lon": -73.946201,
+    "link": "https://www.instagram.com/becobar/",
+    "openNow": true,
+    "hours": [
+      "Monday: 11 AM–11 PM",
+      "Tuesday: 12–11 PM",
+      "Wednesday: 12–11 PM",
+      "Thursday: 12–11 PM",
+      "Friday: 12–11 PM",
+      "Saturday: 11 AM–11 PM",
+      "Sunday: 11 AM–11 PM"
+    ],
+    "price": "$$",
+    "duration": 1.5
+  },
+  {
+    "name": "Cafe MSMN",
+    "vibe": "Minimalist Cafe, Remote Work, Coffee, Chill",
+    "lat": 40.71997973,
+    "lon": -73.94616318,
+    "link": "https://www.instagram.com/cafemsmn/",
+    "openNow": true,
+    "hours": [
+      "Monday: 9 AM–5 PM",
+      "Tuesday: 8 AM–5 PM",
+      "Wednesday: 8 AM–5 PM",
+      "Thursday: 8 AM–5 PM",
+      "Friday: 8 AM–5 PM",
+      "Saturday: 8 AM–5 PM",
+      "Sunday: 9 AM–5 PM"
+    ],
+    "price": "$",
+    "duration": 0.5
+  },
+  {
+    "name": "Hide & Seek",
+    "vibe": "Coffee + Bar Hybrid, Creative Crowd, Low-key Drinks",
+    "lat": 40.7229766,
+    "lon": -73.950475,
+    "link": "https://www.instagram.com/hideandseekbk/",
+    "openNow": true,
+    "hours": [
+      "Monday: 8 AM–12 AM",
+      "Tuesday: 8 AM–12 AM",
+      "Wednesday: 8 AM–12 AM",
+      "Thursday: 8 AM–12 AM",
+      "Friday: 8 AM–12 AM",
+      "Saturday: 8 AM–2 AM",
+      "Sunday: 8 AM–12 AM"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "Birdee",
+    "vibe": "Coffee Shop, Trendy, Dog-Friendly, Good Lighting",
+    "lat": 40.71364545,
+    "lon": -73.9671479,
+    "link": "https://www.instagram.com/birdeenyc/",
+    "openNow": true,
+    "hours": [
+      "Monday: 8 AM–6 PM",
+      "Tuesday: 8 AM–4 PM",
+      "Wednesday: 8 AM–4 PM",
+      "Thursday: 8 AM–4 PM",
+      "Friday: 8 AM–6 PM",
+      "Saturday: 8 AM–6 PM",
+      "Sunday: 8 AM–6 PM"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "The Charleston",
+    "vibe": "Dive Bar, Pizza with Beer, Music, Grungy",
+    "lat": 40.7181636,
+    "lon": -73.9576733,
+    "link": "https://www.instagram.com/charlestonbar/?hl=en",
+    "openNow": true,
+    "hours": [
+      "Monday: 12 PM–3 AM",
+      "Tuesday: 3 PM–3 AM",
+      "Wednesday: 3 PM–3 AM",
+      "Thursday: 3 PM–3 AM",
+      "Friday: 3 PM–4 AM",
+      "Saturday: 12 PM–4 AM",
+      "Sunday: 12 PM–3 AM"
+    ],
+    "price": "$",
+    "duration": 1.25
+  },
+  {
+    "name": "SESSION TRAINING",
+    "vibe": "Boutique Gym, Functional Fitness, Group Workouts, Strength & Conditioning, Coach-Led Sessions",
+    "lat": 40.69819144,
+    "lon": -73.96290394,
+    "link": "https://www.instagram.com/sessiontraining_/",
+    "openNow": true,
+    "hours": [
+      "Monday: 8:30 AM–3 PM",
+      "Tuesday: 5:30 AM–8:30 PM",
+      "Wednesday: 5:30 AM–8:30 PM",
+      "Thursday: 5:30 AM–8:30 PM",
+      "Friday: 5:30 AM–6:30 PM",
+      "Saturday: 7:30 AM–2:30 PM",
+      "Sunday: 8:30 AM–3 PM"
+    ],
+    "price": "$$",
+    "duration": 1.5
+  },
+  {
+    "name": "Barcade",
+    "vibe": "Arcade Bar, Nostalgia, Craft Beer, Group Hang, Geek Chic",
+    "lat": 40.7120257,
+    "lon": -73.951117,
+    "link": "https://www.instagram.com/barcade/",
+    "openNow": true,
+    "hours": [
+      "Monday: 12 PM–2 AM",
+      "Tuesday: 4 PM–2 AM",
+      "Wednesday: 4 PM–2 AM",
+      "Thursday: 4 PM–2 AM",
+      "Friday: 4 PM–4 AM",
+      "Saturday: 12 PM–4 AM",
+      "Sunday: 12 PM–2 AM"
+    ],
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "Last Place On Earth",
+    "vibe": "Board-Game Café, Community Hub, Date Night, Indie Vibe, All-Ages Friendly",
+    "lat": 40.721326,
+    "lon": -73.947,
+    "link": "https://www.instagram.com/lastplacebk/",
+    "openNow": true,
+    "hours": [
+      "Monday: 12 PM–11 PM",
+      "Tuesday: 12 PM–11 PM",
+      "Wednesday: 12 PM–11 PM",
+      "Thursday: 12 PM–11 PM",
+      "Friday: 12 PM–11 PM",
+      "Saturday: 12 PM–11 PM",
+      "Sunday: 12 PM–8 PM"
+    ],
+    "price": "$",
+    "duration": 1.5
+  },
+  {
+    "name": "Union Square Greenmarket",
+    "vibe": "Farmers Market, Local Produce, Seasonal, Downtown",
+    "lat": 40.66337083,
+    "lon": -73.99072543,
+    "link": "https://www.instagram.com/unionsqmarket/",
+    "openNow": true,
+    "hours": [
+      "Monday: Closed",
+      "Tuesday: 8 AM–6 PM",
+      "Wednesday: Closed",
+      "Thursday: 8 AM–6 PM",
+      "Friday: Closed",
+      "Saturday: 8 AM–6 PM",
+      "Sunday: 8 AM–6 PM"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "Brooklyn Borough Hall Greenmarket",
+    "vibe": "Farmers Market, Community Market, Local Producers",
+    "lat": 40.6938768,
+    "lon": -73.9906235,
+    "link": "https://www.instagram.com/grownyc_brooklyn/?g=5",
+    "openNow": true,
+    "hours": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 8 AM–3 PM",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: 8 AM–3 PM",
+      "Sunday: Closed"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "Tompkins Square Park Greenmarket",
+    "vibe": "Community Farmers Market, East Village, Local Produce",
+    "lat": 40.777048,
+    "lon": -73.967596,
+    "link": "https://www.instagram.com/grownyc_brooklyn/?g=5",
+    "openNow": true,
+    "hours": [
+      "Monday: 9 AM–4 PM",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "Fort Greene Park Greenmarket",
+    "vibe": "Family-Friendly Market, Community, Local Produce",
+    "lat": 40.63103515,
+    "lon": -73.95200818,
+    "link": "https://www.instagram.com/grownyc_brooklyn/?g=5",
+    "openNow": true,
+    "hours": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: 8 AM–3 PM",
+      "Sunday: Closed"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "McCarren Park Greenmarket",
+    "vibe": "Farmers Market, Williamsburg, Seasonal Produce",
+    "lat": 40.70880713,
+    "lon": -73.95076069,
+    "link": "https://www.instagram.com/grownyc_brooklyn/?g=5",
+    "openNow": true,
+    "hours": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: 8 AM–2 PM",
+      "Sunday: Closed"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "Stuyvesant Town Greenmarket",
+    "vibe": "Neighborhood Farmers Market, Local, Casual",
+    "lat": 40.78425,
+    "lon": -73.91411,
+    "link": "https://www.instagram.com/grownyc_brooklyn/?g=5",
+    "openNow": true,
+    "hours": [
+      "Monday: 9:30 AM–4 PM",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "Tribeca Greenmarket",
+    "vibe": "Upscale Farmers Market, Downtown, Organic Produce",
+    "lat": 40.708299,
+    "lon": -74.013569,
+    "link": "https://www.instagram.com/grownyc_brooklyn/?g=5",
+    "openNow": true,
+    "hours": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: 8 AM–2 PM",
+      "Sunday: Closed"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "Carroll Gardens Greenmarket",
+    "vibe": "Cozy Farmers Market, Family Locale, Local Produce",
+    "lat": 40.652256,
+    "lon": -73.956582,
+    "link": "https://www.instagram.com/grownyc_brooklyn/?g=5",
+    "openNow": true,
+    "hours": [
+      "Monday: 8 AM–2 PM",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "Staten Island Ferry Whitehall Terminal Greenmarket",
+    "vibe": "Transit Farmers Market, Grab‑n‑Go Produce",
+    "lat": 40.7011331,
+    "lon": -74.0133908,
+    "link": "https://www.instagram.com/grownyc_brooklyn/?g=5",
+    "openNow": true,
+    "hours": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: 8 AM–1 PM",
+      "Sunday: Closed"
+    ],
+    "price": "$",
+    "duration": 0.75
+  },
+  {
+    "name": "Smorgasburg Williamsburg",
+    "vibe": "Food Festival, Trendy, Outdoor Market, Instagrammable",
+    "lat": 40.7209531,
+    "lon": -73.9622447,
+    "link": "https://www.instagram.com/smorgasburg/",
+    "openNow": true,
+    "hours": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: 11 AM–6 PM",
+      "Sunday: Closed"
+    ],
+    "price": "$",
+    "duration": 1.25
+  },
+  {
+    "name": "Smorgasburg WTC",
+    "vibe": "Food Festival, Tourist Spot, Lunch Crowd, Outdoor Market",
+    "lat": 40.71155485,
+    "lon": -74.01141991,
+    "link": "https://www.instagram.com/smorgasburg/",
+    "openNow": true,
+    "hours": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: 11 AM–6 PM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ],
+    "price": "$",
+    "duration": 1.25
+  },
+  {
+    "name": "Smorgasburg Prospect Park",
+    "vibe": "Food Festival, Family Friendly, Outdoor Picnic",
+    "lat": 40.917519,
+    "lon": -73.305269,
+    "link": "https://www.instagram.com/smorgasburg/",
+    "openNow": true,
+    "hours": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: Closed",
+      "Sunday: 11 AM–6 PM"
+    ],
+    "price": "$",
+    "duration": 1.25
+  },
+  {
+    "name": "Grand Banks",
+    "vibe": "Oyster Bar, Waterfront, Date Night, Summer Vibes",
+    "lat": 40.7215197,
+    "lon": -74.0123696,
+    "link": "https://www.instagram.com/grandbanksnyc/",
+    "openNow": true,
+    "hours": [
+      "Monday: 9 AM–12:30 AM",
+      "Tuesday: 11 AM–12:30 AM",
+      "Wednesday: 11 AM–12:30 AM",
+      "Thursday: 11 AM–12:30 AM",
+      "Friday: 11 AM–12:30 AM",
+      "Saturday: 9 AM–12:30 AM",
+      "Sunday: 9 AM–12:30 AM"
+    ],
+    "price": "$$$",
+    "duration": 1.5
+  },
+  {
+    "name": "The Water Tower Bar",
+    "vibe": "Rooftop, Fancy Cocktails, Views, Hotel Bar",
+    "lat": 40.7215151,
+    "lon": -73.9588044,
+    "link": "https://www.instagram.com/thewatertowerbar/",
+    "openNow": true,
+    "hours": [
+      "Monday: 6 PM–12 AM",
+      "Tuesday: Closed",
+      "Wednesday: 6 PM–12 AM",
+      "Thursday: 6 PM–12 AM",
+      "Friday: 6 PM–12 AM",
+      "Saturday: 6 PM–12 AM",
+      "Sunday: 6 PM–12 AM"
+    ],
+    "price": "$$",
+    "duration": 1.75
+  },
+  {
+    "name": "elNico",
+    "vibe": "Rooftop, Modern Mexican, Upscale, Scenic",
+    "lat": 40.71575715,
+    "lon": -73.95307469,
+    "link": "https://www.instagram.com/elnicony/",
+    "openNow": true,
+    "hours": [
+      "Monday: 9 AM–10 PM",
+      "Tuesday: 2–10 PM",
+      "Wednesday: 2–10 PM",
+      "Thursday: 2–10 PM",
+      "Friday: 2 PM–1 AM",
+      "Saturday: 9 AM–1 AM",
+      "Sunday: 9 AM–10 PM"
+    ],
+    "price": "$$$",
+    "duration": 1.5
+  }
+]
+
 ]
