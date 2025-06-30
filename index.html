@@ -180,8 +180,8 @@
 
 <script>
 const map = L.map('map').setView([40.72, -73.98], 12);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; contributors & Carto'
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  attribution: '&copy; Esri & OpenStreetMap contributors',
 }).addTo(map);
 
  function findMarkerByLatLng(latlng) {
