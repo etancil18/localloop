@@ -311,6 +311,8 @@ fetch('events.json')
       marker.price = ev.price;
       marker.duration = ev.duration || 0;
       marker.options.link = ev.link;
+      marker.options.hours = ev.hours || [];
+
 
       marker.on('click', () => {
         resetAllEnlargedMarkers();
@@ -384,6 +386,27 @@ function getTodayHours(hoursArray) {
   const todayEntry = hoursArray.find(entry => entry.startsWith(today));
   return todayEntry || "Hours not available";
 }
+  function isOpenNow(hoursArray) {
+  const now = new Date();
+  const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const today = dayNames[now.getDay()];
+  
+  const todayHours = hoursArray.find(h => h.startsWith(today));
+  if (!todayHours) return false;
+
+  const match = todayHours.match(/(\d{1,2}:\d{2} (AM|PM))\s*–\s*(\d{1,2}:\d{2} (AM|PM))/i);
+  if (!match) return false;
+
+  const [_, openStr, , closeStr] = match;
+  const open = new Date(now.toDateString() + " " + openStr);
+  const close = new Date(now.toDateString() + " " + closeStr);
+
+  // Handle venues that close after midnight
+  if (close < open) close.setDate(close.getDate() + 1);
+
+  return now >= open && now <= close;
+}
+
   
 function showOnlySelectedMarkers() {
   markerCluster.clearLayers();
@@ -404,10 +427,14 @@ function showDetails(ev, latlng) {
 
   const todayHours = ev.hours ? getTodayHours(ev.hours) : "No hours available";
 
+  const isOpen = isOpenNow(ev.hours || []);
+  const statusText = isOpen ? "🟢 Open Now" : "🔴 Closed Now";
+
   details.innerHTML = `
     <strong>${ev.name}</strong><br>
     Vibe: ${ev.vibe}<br>
     Price: ${ev.price || "N/A"}<br>
+    Status: ${statusText}<br>
     Today's Hours: ${todayHours}<br>
     <a href="${ev.link}" target="_blank">View More</a><br>
     <button id="addToRoute">Add to Route</button>
@@ -513,9 +540,10 @@ if (crawlType === 'quick') {
   minDuration = 3;
 }
 
-  const candidates = allMarkers.filter(marker =>
-    center.distanceTo(marker.getLatLng()) < 1500 // 1.5 km neighborhood radius
-  );
+const candidates = allMarkers.filter(marker =>
+  center.distanceTo(marker.getLatLng()) < 1500 &&
+  isOpenNow(marker.options.hours || [])
+);
 
   if (candidates.length < 1) {
     alert('No places found in this neighborhood.');
